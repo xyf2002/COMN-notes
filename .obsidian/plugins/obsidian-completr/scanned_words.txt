@@ -471,6 +471,8 @@ sk
 sH
 sZ
 sdmR
+security
+system
 multiple
 matter
 many
@@ -870,6 +872,9 @@ attempts
 argument
 appropriate
 aD
+accessed
+authorised
+access
 no
 number
 not
@@ -1076,6 +1081,7 @@ Diophantine
 DJ
 Dd
 DVc
+Data
 Can
 CPU
 Create
@@ -1138,6 +1144,7 @@ CR
 CIz
 CC
 CMV
+Confidentiality
 consider
 compare
 cost
@@ -1453,6 +1460,9 @@ unsolvable
 um
 ug
 ul
+users
+untampered
+uncorrupted
 for
 focus
 from
@@ -1732,6 +1742,7 @@ pM
 pS
 pv
 pi
+provides
 various
 values
 value
@@ -2275,6 +2286,7 @@ AD
 AXW
 AK
 AG
+Availability
 InsertSort
 Is
 In
@@ -2339,6 +2351,8 @@ IGB
 IRq
 IB
 IvL
+Information
+Integrity
 Yes
 YY
 YYY
@@ -2513,6 +2527,7 @@ BH
 BXI
 Bq
 BGh
+Both
 quantitative
 queues
 queue
