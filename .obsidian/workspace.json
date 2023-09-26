@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "94701e45f10f668b",
+        "id": "422003e3f49e4051",
         "type": "tabs",
         "children": [
           {
-            "id": "17056579dcce8d71",
+            "id": "919acd08b1d70bc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_security/Week 1/W1N1 - Intro.md",
+                "file": "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_security/Week 1/W1N1 - Intro.md",
+                "file": "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_security/Week 1/W1N1 - Intro.md",
+                "file": "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_security/Week 1/W1N1 - Intro.md"
+                "file": "elements_of_programming_languages/Week 1/W1N1 - Intro.md"
               }
             }
           },
@@ -163,8 +163,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "17056579dcce8d71",
+  "active": "919acd08b1d70bc8",
   "lastOpenFiles": [
+    "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
+    "elements_of_programming_languages/Week 1",
+    "elements_of_programming_languages/images",
+    "computer_security/Week 1/W1N2 - Network Security.md",
+    "elements_of_programming_languages",
     "computer_security/Week 1/W1N1 - Intro.md",
     "Week 12 - Dynamic programming applications/W12N2 - Edit distance.md",
     "Week 10 - Depth-first search and topological sort/W10N2 - Topological sorting.md",
@@ -205,11 +210,6 @@
     "Week 12 - Dynamic programming applications",
     "Week 11 - Dijkstra and dynamic programming/W11N2 - Dynamic programming.md",
     "Week 11 - Dijkstra and dynamic programming/W11N3 - Coin changing problem.md",
-    "Week 11 - Dijkstra and dynamic programming/W11N1 - Dijkstra's Algorithm.md",
-    "Week 2 - Asymptotic notation/W2N2 - Summary of asymptotic notation.md",
-    "Week 2 - Asymptotic notation/W2N1 - Asymptotic analysis - o and ω.md",
-    "Week 11 - Dijkstra and dynamic programming",
-    "Week 10 - Depth-first search and topological sort",
-    "Week 9 - Graphs and breadth-first search"
+    "Week 11 - Dijkstra and dynamic programming/W11N1 - Dijkstra's Algorithm.md"
   ]
 }
