@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "422003e3f49e4051",
+        "id": "8535dab1abc6a2eb",
         "type": "tabs",
         "children": [
           {
-            "id": "919acd08b1d70bc8",
+            "id": "4bf58d0363e1c2cb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "elements_of_programming_languages/Week 1/W1N1 - Intro.md"
-              }
+              "state": {}
             }
           },
           {
@@ -163,14 +155,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "919acd08b1d70bc8",
+  "active": "4bf58d0363e1c2cb",
   "lastOpenFiles": [
+    "computer_security/Week 1/W1N2 - Network Security.md",
+    "computer_security/images/w1n2RoutingExample.png",
+    "computer_security/images/w1n2IpHeader.png",
+    "computer_security/Week 1/W1N1 - Intro.md",
+    "computer_security/Week 2/W2N1 - ARP, TCP, IP, and it's vulnerabilities.md",
+    "computer_security/Week 2",
+    "informatics_large_practical/Week 1/W1N1 - Intro.md",
+    "informatics_large_practical/Week 1",
+    "informatics_large_practical/images",
+    "professional_issues/images",
     "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
     "elements_of_programming_languages/Week 1",
     "elements_of_programming_languages/images",
-    "computer_security/Week 1/W1N2 - Network Security.md",
     "elements_of_programming_languages",
-    "computer_security/Week 1/W1N1 - Intro.md",
     "Week 12 - Dynamic programming applications/W12N2 - Edit distance.md",
     "Week 10 - Depth-first search and topological sort/W10N2 - Topological sorting.md",
     "Week 19 - Unsolvable problems/W19N1 - The halting problem.md",
@@ -200,16 +200,7 @@
     "Week 14 - Parsing context-free languages/W14N1 - Parsing context-free languages.md",
     "Week 14 - Parsing context-free languages/W14N3 - LL(1) Parsing.md",
     "Week 1 - Efficiency of algorithms/W1N2 - Inefficient vs efficient algorithms.md",
-    "Week 16 - P and NP",
-    "backing/Images/w14n3JavaProcessing.png",
-    "backing/Images/w14n3EnglishProcessing.png",
-    "Week 14 - Parsing context-free languages",
-    "Week 13 - Probabilistic FSMs and context-free languages",
     "W12N2 - Edit distance.md",
-    "Week 12 - Dynamic programming applications/W12N1 - Seam carving.md",
-    "Week 12 - Dynamic programming applications",
-    "Week 11 - Dijkstra and dynamic programming/W11N2 - Dynamic programming.md",
-    "Week 11 - Dijkstra and dynamic programming/W11N3 - Coin changing problem.md",
-    "Week 11 - Dijkstra and dynamic programming/W11N1 - Dijkstra's Algorithm.md"
+    "Week 12 - Dynamic programming applications/W12N1 - Seam carving.md"
   ]
 }

@@ -6,12 +6,17 @@ A channel is open between 2 devices on every layer, though every layer but the b
 # Encapsulation
 As a packet is sent and travels down the layers each layer adds its own header and footer.
 ![[w1n2packetencapsulation.png]]
-Each level layer only needs to use information in its own header/footer
+Each layer only needs to use information in its own header/footer
 
+# Network interfaces
+A network interface is a device which connects a computer to a network. e.g. Ethernet card/WiFi adaptor/DSL modem
+A computer can have many network interfaces, and each could be doing different things. E.g. a WiFi adaptor for internet access
 # Media Access Control (MAC) Addresses
 Most network interfaces come with a predefined MAC address. (Some let you change it)
 
-TODO - copy later
+A MAC address is a 48 bit number typically represented in hex. E.g. 00-1A-92-D4-BF-86.
+The first 3 octets are IEEE assigned Organisationally Unique Identifiers, e.g. all Cisco MAC addresses start 00-1A-A1, all D-Link 00-1B-11, ASUSTek 00-1A-92.
+The next 3 octets can be assigned by organisations as they wish, but must be unique to each device.
 
 # Switch
 A switch performs routing in a local area network
@@ -51,11 +56,17 @@ Includes:
 - IP protocol version
 - Fragmentation information
 
-TODO get rest
+![[w1n2IpHeader.png]]
 
 ## IP Routing
-TODO
+- A router bridges 2 or more networks
+	- Operates at the network layer
+	- Maintains tables to forward packets to the appropriate network
+	- Forwarding decisions are based solely on the destination address
+- A routing table maps ranges of addresses to LANs or other routers
 
+![[w1n2RoutingExample.png]]
+Here, a request to server A is directly connected (probably via a switch). As server B is not in the network, the request is passed to the gateway router which then redirects it to whichever router in it's routing table is associated with server B's address, and so on until it reaches server B's gateway, at which point it is sent to server B (again probably via a switch).
 ## Exploring internet routes
 - Internet Control Message Protocol
 	- Used for network testing and debugging
@@ -71,6 +82,3 @@ A Denial of Service (DOS) blocks packets from reaching their destination.
 Wiretapping/sniffing 
 
 ![[w1n2networkingattacks.png]]
-
-# Wireshark
-TODO
