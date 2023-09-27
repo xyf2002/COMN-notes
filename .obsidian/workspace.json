@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8535dab1abc6a2eb",
+        "id": "4ccada40c8ddcacc",
         "type": "tabs",
         "children": [
           {
-            "id": "4bf58d0363e1c2cb",
+            "id": "4281cfc5afaec988",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "computer_security/images/w2n2TcpHandshake2.png"
+              }
             }
           }
         ]
@@ -89,6 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "computer_security/images/w2n2TcpHandshake2.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "computer_security/images/w2n2TcpHandshake2.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "computer_security/images/w2n2TcpHandshake2.png"
+              }
             }
           },
           {
@@ -155,13 +161,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4bf58d0363e1c2cb",
+  "active": "245016979c3189b3",
   "lastOpenFiles": [
+    "computer_security/Week 2/W2N2 - IP, UDP, and TCP.md",
     "computer_security/Week 1/W1N2 - Network Security.md",
+    "computer_security/images/w2n2TcpHandshake2.png",
+    "computer_security/images/w2n2TcpHandshake1.png",
+    "computer_security/images/w2n2TcpFormat.png",
+    "computer_security/Week 2/W2N1 - ARP.md",
+    "computer_security/images/w2n1ArpTable.png",
+    "computer_security/images/w2n1ArpPoisoning.png",
+    "computer_security/images/w2n1ArpNormalOperation.png",
     "computer_security/images/w1n2RoutingExample.png",
     "computer_security/images/w1n2IpHeader.png",
     "computer_security/Week 1/W1N1 - Intro.md",
-    "computer_security/Week 2/W2N1 - ARP, TCP, IP, and it's vulnerabilities.md",
     "computer_security/Week 2",
     "informatics_large_practical/Week 1/W1N1 - Intro.md",
     "informatics_large_practical/Week 1",
@@ -180,15 +193,9 @@
     "backing/Images/w19n1HaltingTester.png",
     "Week 18 - Computability/W18N1 - Computability.md",
     "Week 19 - Unsolvable problems",
-    "backing/Images/w18n1UniversalMachine.png",
-    "backing/Images/w18n1RegisterMachineComponents.png",
-    "backing/Images/w17n23CNFIndependentSet.png",
     "Week 18 - Computability",
     "Week 17 - Satisfiability and NP-completeness/W17N2 - Independent sets.md",
-    "backing/Images/w17n2IndependentSetGraph.png",
-    "backing/Images/w17n23CNFGraph.png",
     "Week 16 - P and NP/W16N1 - P and NP.md",
-    "w.png",
     "Week 17 - Satisfiability and NP-completeness/W17N1 - Statisfiability.md",
     "README.md",
     "Week 17 - Satisfiability and NP-completeness",
@@ -200,7 +207,6 @@
     "Week 14 - Parsing context-free languages/W14N1 - Parsing context-free languages.md",
     "Week 14 - Parsing context-free languages/W14N3 - LL(1) Parsing.md",
     "Week 1 - Efficiency of algorithms/W1N2 - Inefficient vs efficient algorithms.md",
-    "W12N2 - Edit distance.md",
-    "Week 12 - Dynamic programming applications/W12N1 - Seam carving.md"
+    "W12N2 - Edit distance.md"
   ]
 }

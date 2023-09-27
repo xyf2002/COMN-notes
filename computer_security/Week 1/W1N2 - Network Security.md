@@ -12,6 +12,7 @@ Each layer only needs to use information in its own header/footer
 A network interface is a device which connects a computer to a network. e.g. Ethernet card/WiFi adaptor/DSL modem
 A computer can have many network interfaces, and each could be doing different things. E.g. a WiFi adaptor for internet access
 # Media Access Control (MAC) Addresses
+A MAC address controls routing within a LAN.
 Most network interfaces come with a predefined MAC address. (Some let you change it)
 
 A MAC address is a 48 bit number typically represented in hex. E.g. 00-1A-92-D4-BF-86.
@@ -78,7 +79,10 @@ Here, a request to server A is directly connected (probably via a switch). As se
 		- This shows what route the packets are taking
 
 # Network attacks
-A Denial of Service (DOS) blocks packets from reaching their destination.
-Wiretapping/sniffing 
+![[w1n2networkingattacks.png]]A Denial of Service (DOS) blocks packets from reaching their destination.
+Wiretapping/sniffing takes a copy of each packet which is sent.
+Passive wiretapping receives then retransmits each packet unmodified.
+Tampering actively alters a packet in flight.
+Spoofing results in the destination receiving packets that appear to be from the source but were created by a third party.
 
-![[w1n2networkingattacks.png]]
+
