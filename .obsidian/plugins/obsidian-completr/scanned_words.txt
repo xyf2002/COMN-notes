@@ -617,6 +617,8 @@ subscripts
 specify
 sensible
 similarly
+showing
+structural
 multiple
 matter
 many
@@ -1155,6 +1157,7 @@ assumptions
 applies
 available
 arguments
+axioms
 no
 number
 not
@@ -1707,6 +1710,7 @@ conversion
 convenient
 conditional
 conditionals
+conclusion
 larger
 lower
 likely
@@ -2067,6 +2071,7 @@ Typed
 Traverse
 Types
 Type
+Totality
 possible
 purposes
 performed
@@ -2552,6 +2557,7 @@ datatypes
 derivations
 differentiate
 dynamically
+derive
 how
 have
 halves
@@ -3979,6 +3985,7 @@ jA
 jw
 jEc
 judgement
+judgements
 Using
 UEGGG
 UF

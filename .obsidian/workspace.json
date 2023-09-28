@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "438735d83f155c13",
+        "id": "34d12a800c882e60",
         "type": "tabs",
         "children": [
           {
-            "id": "96eab679d6949fdd",
+            "id": "cf25c9953471ab1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
+                "file": "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
+                "file": "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
+                "file": "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md"
+                "file": "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md"
               }
             }
           },
@@ -164,11 +164,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "96eab679d6949fdd",
+  "active": "245016979c3189b3",
   "lastOpenFiles": [
     "elements_of_programming_languages/Week 2/W2N3 - Types.md",
-    "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
     "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
+    "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
+    "elements_of_programming_languages/images/w2n1DerivedJudgement.png",
     "elements_of_programming_languages/Week 1/W1N2 - Abstract syntax.md",
     "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
     "elements_of_programming_languages/Week 2",
@@ -198,7 +199,6 @@
     "Week 19 - Unsolvable problems/W19N1 - The halting problem.md",
     "Week 19 - Unsolvable problems/W19N2 - Other unsolvable problems.md",
     "Week 19 - Unsolvable problems/W19N3 - Unknowable truths.md",
-    "backing/Images/w19n1HaltingUndecidableMachine.png",
     "Week 18 - Computability/W18N1 - Computability.md",
     "Week 19 - Unsolvable problems",
     "Week 18 - Computability",
@@ -210,7 +210,6 @@
     "Week 13 - Probabilistic FSMs and context-free languages/W13N3 - Viterbi's Algorithm.md",
     "Week 13 - Probabilistic FSMs and context-free languages/W13N2 - Hidden Markov Models.md",
     "Week 13 - Probabilistic FSMs and context-free languages/W13N1 - Probabilistic Finite State Machines.md",
-    "Week 13 - Probabilistic FSMs and context-free languages/W13N4 - Context-free languages and grammars.md",
-    "Week 14 - Parsing context-free languages/W14N1 - Parsing context-free languages.md"
+    "Week 13 - Probabilistic FSMs and context-free languages/W13N4 - Context-free languages and grammars.md"
   ]
 }

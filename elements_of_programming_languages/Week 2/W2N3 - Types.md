@@ -3,7 +3,7 @@ $$ e_1 = 1+(2==3)$$
 or
 $$e_2=if1then2else3$$
 What should these expressions evaluate to?
-There are no value $v$ such that $e_1\Downarrow v$ or $e_2\Downarrow v$, therefore the totality of $L_{Arith}$ no longer holds.
+There are no value $v$ such that $e_1\Downarrow v$ or $e_2\Downarrow v$, therefore the [[W2N1 - Evaluation#Totality and structural induction|totality]] of $L_{Arith}$ no longer holds.
 
 In some languages, e.g. C/Java/JS, there are built in conversion rules.
 E.g. if an integer is needed and a boolean is available, convert true to 1 and false to 0.
