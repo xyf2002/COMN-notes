@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4ccada40c8ddcacc",
+        "id": "6cf8b09664b6eab9",
         "type": "tabs",
         "children": [
           {
-            "id": "4281cfc5afaec988",
+            "id": "f1b645a6d229129e",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "computer_security/images/w2n2TcpHandshake2.png"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -91,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_security/images/w2n2TcpHandshake2.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_security/images/w2n2TcpHandshake2.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "computer_security/images/w2n2TcpHandshake2.png"
-              }
+              "state": {}
             }
           },
           {
@@ -163,9 +157,13 @@
   },
   "active": "245016979c3189b3",
   "lastOpenFiles": [
+    "elements_of_programming_languages/Week 2",
+    "elements_of_programming_languages/Week 1/W1N2 - Abstract syntax.md",
+    "elements_of_programming_languages/images/w1n2AbstractSyntaxTrees.png",
+    "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
+    "computer_security/images/w2n2TcpHandshake2.png",
     "computer_security/Week 2/W2N2 - IP, UDP, and TCP.md",
     "computer_security/Week 1/W1N2 - Network Security.md",
-    "computer_security/images/w2n2TcpHandshake2.png",
     "computer_security/images/w2n2TcpHandshake1.png",
     "computer_security/images/w2n2TcpFormat.png",
     "computer_security/Week 2/W2N1 - ARP.md",
@@ -180,7 +178,6 @@
     "informatics_large_practical/Week 1",
     "informatics_large_practical/images",
     "professional_issues/images",
-    "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
     "elements_of_programming_languages/Week 1",
     "elements_of_programming_languages/images",
     "elements_of_programming_languages",
@@ -190,7 +187,6 @@
     "Week 19 - Unsolvable problems/W19N2 - Other unsolvable problems.md",
     "Week 19 - Unsolvable problems/W19N3 - Unknowable truths.md",
     "backing/Images/w19n1HaltingUndecidableMachine.png",
-    "backing/Images/w19n1HaltingTester.png",
     "Week 18 - Computability/W18N1 - Computability.md",
     "Week 19 - Unsolvable problems",
     "Week 18 - Computability",
@@ -206,7 +202,6 @@
     "Week 13 - Probabilistic FSMs and context-free languages/W13N4 - Context-free languages and grammars.md",
     "Week 14 - Parsing context-free languages/W14N1 - Parsing context-free languages.md",
     "Week 14 - Parsing context-free languages/W14N3 - LL(1) Parsing.md",
-    "Week 1 - Efficiency of algorithms/W1N2 - Inefficient vs efficient algorithms.md",
-    "W12N2 - Edit distance.md"
+    "Week 1 - Efficiency of algorithms/W1N2 - Inefficient vs efficient algorithms.md"
   ]
 }
