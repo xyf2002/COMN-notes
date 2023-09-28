@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6cf8b09664b6eab9",
+        "id": "438735d83f155c13",
         "type": "tabs",
         "children": [
           {
-            "id": "f1b645a6d229129e",
+            "id": "96eab679d6949fdd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md"
+              }
             }
           },
           {
@@ -137,7 +145,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -155,12 +164,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "245016979c3189b3",
+  "active": "96eab679d6949fdd",
   "lastOpenFiles": [
-    "elements_of_programming_languages/Week 2",
+    "elements_of_programming_languages/Week 2/W2N3 - Types.md",
+    "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
+    "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
     "elements_of_programming_languages/Week 1/W1N2 - Abstract syntax.md",
-    "elements_of_programming_languages/images/w1n2AbstractSyntaxTrees.png",
     "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
+    "elements_of_programming_languages/Week 2",
+    "elements_of_programming_languages/images/w1n2AbstractSyntaxTrees.png",
     "computer_security/images/w2n2TcpHandshake2.png",
     "computer_security/Week 2/W2N2 - IP, UDP, and TCP.md",
     "computer_security/Week 1/W1N2 - Network Security.md",
@@ -194,14 +206,11 @@
     "Week 16 - P and NP/W16N1 - P and NP.md",
     "Week 17 - Satisfiability and NP-completeness/W17N1 - Statisfiability.md",
     "README.md",
-    "Week 17 - Satisfiability and NP-completeness",
     "Week 14 - Parsing context-free languages/W14N2 - Chomsky normal form.md",
     "Week 13 - Probabilistic FSMs and context-free languages/W13N3 - Viterbi's Algorithm.md",
     "Week 13 - Probabilistic FSMs and context-free languages/W13N2 - Hidden Markov Models.md",
     "Week 13 - Probabilistic FSMs and context-free languages/W13N1 - Probabilistic Finite State Machines.md",
     "Week 13 - Probabilistic FSMs and context-free languages/W13N4 - Context-free languages and grammars.md",
-    "Week 14 - Parsing context-free languages/W14N1 - Parsing context-free languages.md",
-    "Week 14 - Parsing context-free languages/W14N3 - LL(1) Parsing.md",
-    "Week 1 - Efficiency of algorithms/W1N2 - Inefficient vs efficient algorithms.md"
+    "Week 14 - Parsing context-free languages/W14N1 - Parsing context-free languages.md"
   ]
 }

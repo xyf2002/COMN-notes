@@ -137,6 +137,8 @@ implementations
 issues
 induction
 implies
+informally
+int
 or
 of
 operations
@@ -389,6 +391,11 @@ translator
 translates
 terms
 techniques
+totality
+typing
+thought
+tau
+term
 some
 smaller
 so
@@ -607,6 +614,9 @@ statically
 specifications
 says
 subscripts
+specify
+sensible
+similarly
 multiple
 matter
 many
@@ -720,6 +730,7 @@ maintains
 me
 motivations
 method
+multiply
 eventually
 execute
 each
@@ -849,6 +860,18 @@ explain
 execution
 essential
 etc
+essentially
+evaluate
+extend
+equality
+evaluated
+evaluation
+extension
+evaluating
+express
+errors
+extremes
+equal
 bounded
 by
 below
@@ -953,6 +976,10 @@ bY
 bz
 bqe
 bi
+broken
+boolean
+behaviours
+bool
 above
 asymptotically
 as
@@ -1125,6 +1152,9 @@ approaches
 accessible
 abstract
 assumptions
+applies
+available
+arguments
 no
 number
 not
@@ -1201,6 +1231,7 @@ nnnHH
 ni
 nW
 notation
+numeric
 what
 ways
 we
@@ -1367,6 +1398,7 @@ DMM
 Datagram
 Dm
 Denotational
+Definition
 Can
 CPU
 Create
@@ -1671,6 +1703,10 @@ constructs
 concrete
 conventions
 classes
+conversion
+convenient
+conditional
+conditionals
 larger
 lower
 likely
@@ -1842,6 +1878,7 @@ uP
 un
 uni
 understand
+unpredictable
 for
 focus
 from
@@ -1951,6 +1988,7 @@ features
 frequent
 feature
 freely
+formally
 There
 Typically
 The
@@ -2027,6 +2065,8 @@ TCP
 Tnd
 Typed
 Traverse
+Types
+Type
 possible
 purposes
 performed
@@ -2202,6 +2242,7 @@ principles
 parentheses
 programmatically
 property
+preconditions
 various
 values
 value
@@ -2361,6 +2402,7 @@ Wireshark
 WiFi
 Windows
 WO
+With
 definition
 different
 disk
@@ -2508,6 +2550,8 @@ defines
 disambiguate
 datatypes
 derivations
+differentiate
+dynamically
 how
 have
 halves
@@ -2593,6 +2637,8 @@ hwo
 hN
 handled
 here
+higher
+handle
 runtime
 runtimes
 run
@@ -2763,6 +2809,7 @@ reply
 rvv
 research
 reasoning
+regardless
 Even
 Example
 Extensible
@@ -2827,6 +2874,7 @@ Enables
 ER
 ERl
 Elements
+Evaluation
 An
 Asymptotic
 Any
@@ -2911,6 +2959,7 @@ Abstraction
 Abstract
 Additions
 ASTs
+AST
 InsertSort
 Is
 In
@@ -3579,6 +3628,7 @@ LUt
 Languages
 LISP
 Logic
+LIf
 Stacks
 Sometimes
 So
@@ -3653,6 +3703,8 @@ Specified
 Specify
 Scala
 Since
+Soundness
+Subexpressions
 Notes
 NG
 NK
@@ -3926,6 +3978,7 @@ jnn
 jA
 jw
 jEc
+judgement
 Using
 UEGGG
 UF
@@ -4165,6 +4218,7 @@ VoIP
 VG
 VY
 Variables
+Values
 ZR
 Zx
 ZD
@@ -4247,6 +4301,7 @@ Jn
 JnX
 JavaScript
 JVM
+JS
 XO
 XYYI
 XIh
