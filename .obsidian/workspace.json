@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "34d12a800c882e60",
+        "id": "21268c59691885a5",
         "type": "tabs",
         "children": [
           {
-            "id": "cf25c9953471ab1b",
+            "id": "561fc0fe0f54d7e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
+                "file": "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
+                "file": "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
+                "file": "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md"
+                "file": "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md"
               }
             }
           },
@@ -166,9 +166,15 @@
   },
   "active": "245016979c3189b3",
   "lastOpenFiles": [
+    "computer_security/images/w2n3SubdomainDnsCachePoisoning.png",
+    "computer_security/images/w2n3IterativeResolution.png",
+    "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md",
+    "computer_security/images/w2n3RecursiveResolution.png",
+    "computer_security/images/w2n3DnsTree.png",
+    "computer_security/images/w2n3SubdomainQuestions.png",
+    "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
     "elements_of_programming_languages/Week 2/W2N3 - Types.md",
     "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
-    "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
     "elements_of_programming_languages/images/w2n1DerivedJudgement.png",
     "elements_of_programming_languages/Week 1/W1N2 - Abstract syntax.md",
     "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
@@ -181,10 +187,6 @@
     "computer_security/images/w2n2TcpFormat.png",
     "computer_security/Week 2/W2N1 - ARP.md",
     "computer_security/images/w2n1ArpTable.png",
-    "computer_security/images/w2n1ArpPoisoning.png",
-    "computer_security/images/w2n1ArpNormalOperation.png",
-    "computer_security/images/w1n2RoutingExample.png",
-    "computer_security/images/w1n2IpHeader.png",
     "computer_security/Week 1/W1N1 - Intro.md",
     "computer_security/Week 2",
     "informatics_large_practical/Week 1/W1N1 - Intro.md",
@@ -209,7 +211,6 @@
     "Week 14 - Parsing context-free languages/W14N2 - Chomsky normal form.md",
     "Week 13 - Probabilistic FSMs and context-free languages/W13N3 - Viterbi's Algorithm.md",
     "Week 13 - Probabilistic FSMs and context-free languages/W13N2 - Hidden Markov Models.md",
-    "Week 13 - Probabilistic FSMs and context-free languages/W13N1 - Probabilistic Finite State Machines.md",
-    "Week 13 - Probabilistic FSMs and context-free languages/W13N4 - Context-free languages and grammars.md"
+    "Week 13 - Probabilistic FSMs and context-free languages/W13N1 - Probabilistic Finite State Machines.md"
   ]
 }
