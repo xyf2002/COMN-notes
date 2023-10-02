@@ -148,6 +148,9 @@ iiV
 including
 identifying
 inf
+incognito
+issued
+identifier
 or
 of
 operations
@@ -420,6 +423,8 @@ tU
 tW
 thJP
 tirol
+traffic
+thing
 some
 smaller
 so
@@ -663,6 +668,10 @@ scot
 servers
 supervised
 specified
+spoofed
+signing
+supported
+scope
 multiple
 matter
 many
@@ -788,6 +797,8 @@ map
 mapping
 mail
 managed
+monitor
+millions
 eventually
 execute
 each
@@ -936,6 +947,7 @@ ep
 eV
 exchange
 ensures
+extreme
 bounded
 by
 below
@@ -1051,6 +1063,10 @@ bbbL
 bu
 bought
 bad
+browsing
+billion
+binding
+bound
 above
 asymptotically
 as
@@ -1236,6 +1252,11 @@ anywhere
 ac
 ask
 authoritative
+amounts
+activity
+avoiding
+alright
+alpha
 no
 number
 not
@@ -1322,6 +1343,10 @@ nc
 nhh
 nK
 nesting
+necessary
+nonexistent
+names
+nothing
 what
 ways
 we
@@ -1505,6 +1530,7 @@ De
 Domain
 DNS
 Domains
+DNSSEC
 Can
 CPU
 Create
@@ -1834,6 +1860,11 @@ configured
 ccTLD
 country
 converts
+caching
+clear
+coming
+consistently
+clashes
 larger
 lower
 likely
@@ -1942,6 +1973,8 @@ lk
 lK
 lox
 labels
+legitimate
+locations
 upper
 use
 useful
@@ -2139,6 +2172,7 @@ frM
 fng
 fm
 fair
+field
 There
 Typically
 The
@@ -2745,6 +2779,7 @@ domains
 database
 dots
 default
+deployment
 how
 have
 halves
@@ -2836,6 +2871,7 @@ hD
 hi
 hj
 hV
+hopes
 runtime
 runtimes
 run
@@ -3023,6 +3059,14 @@ resolvers
 refers
 repeats
 resolved
+recent
+randomisation
+randomising
+reuse
+refer
+renaming
+rename
+renamings
 Even
 Example
 Extensible
@@ -3092,6 +3136,7 @@ EPb
 EEEYYY
 EQX
 Essentially
+Equivalence
 An
 Asymptotic
 Any
@@ -3182,6 +3227,8 @@ AAA
 Ak
 Address
 Assigned
+Authenticate
+Alpha
 InsertSort
 Is
 In
@@ -3271,6 +3318,8 @@ Ir
 IPs
 ICANN
 Iterative
+ID
+Intuition
 Yes
 YY
 YYY
@@ -3395,6 +3444,8 @@ gives
 google
 gTLD
 gTLDs
+going
+guessing
 Best
 Basically
 BP
@@ -3477,6 +3528,7 @@ BNF
 Base
 BPBbTT
 Bvy
+Binding
 quantitative
 queues
 queue
@@ -3527,6 +3579,7 @@ qgB
 qK
 qg
 queries
+query
 MergeSort
 Method
 Merge
@@ -3749,6 +3802,7 @@ Resolver
 Resolvers
 Resolution
 Recursive
+Renaming
 First
 Fixed
 Fast
@@ -3825,6 +3879,7 @@ Form
 FK
 Fcj
 Fj
+Free
 Lists
 Linked
 Likewise
@@ -3896,6 +3951,8 @@ LLOZ
 Ltz
 Lh
 Locators
+Local
+Let
 Stacks
 Sometimes
 So
@@ -3975,6 +4032,8 @@ Subexpressions
 Similarly
 Sf
 System
+Subdomain
+Suppose
 Notes
 NG
 NK
