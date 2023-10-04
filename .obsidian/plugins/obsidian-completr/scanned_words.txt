@@ -672,6 +672,9 @@ spoofed
 signing
 supported
 scope
+stand
+schematic
+shorthand
 multiple
 matter
 many
@@ -1067,6 +1070,7 @@ browsing
 billion
 binding
 bound
+bind
 above
 asymptotically
 as
@@ -1865,6 +1869,7 @@ clear
 coming
 consistently
 clashes
+changes
 larger
 lower
 likely
@@ -3320,6 +3325,7 @@ ICANN
 Iterative
 ID
 Intuition
+Interpreter
 Yes
 YY
 YYY
@@ -4034,6 +4040,8 @@ Sf
 System
 Subdomain
 Suppose
+Schematic
+Substitution
 Notes
 NG
 NK
@@ -4162,6 +4170,7 @@ Operational
 Opw
 OdJ
 Ow
+One
 Probing
 Peek
 Partition

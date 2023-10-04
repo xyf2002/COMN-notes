@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "641a308b29d482c2",
+        "id": "7277e76de7ed7792",
         "type": "tabs",
         "children": [
           {
-            "id": "389b03dde919c1b4",
+            "id": "af614bebf4a830e4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md"
+              }
             }
           },
           {
@@ -156,11 +164,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "389b03dde919c1b4",
+  "active": "af614bebf4a830e4",
   "lastOpenFiles": [
     "elements_of_programming_languages/Week 3/W3N2 - Scope.md",
-    "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
     "elements_of_programming_languages/Week 3/W3N1 - Variables and substitution.md",
+    "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
+    "elements_of_programming_languages/Week 2/W2N3 - Types.md",
+    "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
+    "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
     "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md",
     "elements_of_programming_languages/Week 3",
     "computer_security/images/w2n3SubdomainDnsCachePoisoning.png",
@@ -168,9 +179,6 @@
     "computer_security/images/w2n3RecursiveResolution.png",
     "computer_security/images/w2n3DnsTree.png",
     "computer_security/images/w2n3SubdomainQuestions.png",
-    "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
-    "elements_of_programming_languages/Week 2/W2N3 - Types.md",
-    "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
     "elements_of_programming_languages/images/w2n1DerivedJudgement.png",
     "elements_of_programming_languages/Week 1/W1N2 - Abstract syntax.md",
     "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
