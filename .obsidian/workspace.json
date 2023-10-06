@@ -4,22 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "7277e76de7ed7792",
+        "id": "f856ad2ae161567c",
         "type": "tabs",
         "children": [
           {
-            "id": "af614bebf4a830e4",
+            "id": "23f63416b7ac5ce6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "a45d8f5075ebc2cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
+                "file": "computer_security/Week 2/W2N5 - Network Address Translation (NAT).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ba70594e6093473",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "W2N6 - Intrusion Detection Systems (IDS).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
+                "file": "W2N6 - Intrusion Detection Systems (IDS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
+                "file": "W2N6 - Intrusion Detection Systems (IDS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md"
+                "file": "W2N6 - Intrusion Detection Systems (IDS).md"
               }
             }
           },
@@ -164,15 +185,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "af614bebf4a830e4",
+  "active": "7ba70594e6093473",
   "lastOpenFiles": [
+    "computer_security/Week 2/W2N5 - Network Address Translation (NAT).md",
+    "W2N6 - Intrusion Detection Systems (IDS).md",
+    "computer_security/images/w2n5NetworkAddressTranslation.png",
+    "computer_security/Week 2/W2N4 - Firewalls.md",
+    "computer_security/images/w2n4firewallSections.png",
+    "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
+    "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md",
+    "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
     "elements_of_programming_languages/Week 3/W3N2 - Scope.md",
     "elements_of_programming_languages/Week 3/W3N1 - Variables and substitution.md",
-    "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
     "elements_of_programming_languages/Week 2/W2N3 - Types.md",
     "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
     "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
-    "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md",
     "elements_of_programming_languages/Week 3",
     "computer_security/images/w2n3SubdomainDnsCachePoisoning.png",
     "computer_security/images/w2n3IterativeResolution.png",
@@ -187,8 +214,6 @@
     "computer_security/images/w2n2TcpHandshake2.png",
     "computer_security/Week 2/W2N2 - IP, UDP, and TCP.md",
     "computer_security/Week 1/W1N2 - Network Security.md",
-    "computer_security/images/w2n2TcpHandshake1.png",
-    "computer_security/images/w2n2TcpFormat.png",
     "computer_security/Week 2/W2N1 - ARP.md",
     "computer_security/Week 1/W1N1 - Intro.md",
     "computer_security/Week 2",
@@ -207,10 +232,6 @@
     "Week 18 - Computability/W18N1 - Computability.md",
     "Week 19 - Unsolvable problems",
     "Week 17 - Satisfiability and NP-completeness/W17N2 - Independent sets.md",
-    "Week 16 - P and NP/W16N1 - P and NP.md",
-    "Week 17 - Satisfiability and NP-completeness/W17N1 - Statisfiability.md",
-    "README.md",
-    "Week 14 - Parsing context-free languages/W14N2 - Chomsky normal form.md",
-    "Week 13 - Probabilistic FSMs and context-free languages/W13N3 - Viterbi's Algorithm.md"
+    "Week 16 - P and NP/W16N1 - P and NP.md"
   ]
 }

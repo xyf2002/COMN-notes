@@ -151,6 +151,7 @@ inf
 incognito
 issued
 identifier
+introduces
 or
 of
 operations
@@ -425,6 +426,9 @@ thJP
 tirol
 traffic
 thing
+typecheck
+typechecking
+typechecks
 some
 smaller
 so
@@ -675,6 +679,7 @@ scope
 stand
 schematic
 shorthand
+soundness
 multiple
 matter
 many
@@ -951,6 +956,8 @@ eV
 exchange
 ensures
 extreme
+eager
+explicitly
 bounded
 by
 below
@@ -1071,6 +1078,8 @@ billion
 binding
 bound
 bind
+behaves
+breaks
 above
 asymptotically
 as
@@ -1261,6 +1270,10 @@ activity
 avoiding
 alright
 alpha
+abs
+arguably
+anonymous
+anymore
 no
 number
 not
@@ -1351,6 +1364,7 @@ necessary
 nonexistent
 names
 nothing
+named
 what
 ways
 we
@@ -1870,6 +1884,8 @@ coming
 consistently
 clashes
 changes
+constructor
+comprehend
 larger
 lower
 likely
@@ -1980,6 +1996,7 @@ lox
 labels
 legitimate
 locations
+lambdas
 upper
 use
 useful
@@ -2057,6 +2074,7 @@ uR
 uK
 uD
 uM
+untyped
 for
 focus
 from
@@ -2266,6 +2284,7 @@ TF
 Tf
 TLD
 Trees
+Typing
 possible
 purposes
 performed
@@ -2449,6 +2468,7 @@ prefers
 profit
 play
 partial
+pretty
 various
 values
 value
@@ -2523,6 +2543,7 @@ vY
 virtual
 vacuous
 vPt
+vary
 kinds
 know
 keys
@@ -2785,6 +2806,9 @@ database
 dots
 default
 deployment
+determined
+differently
+definitions
 how
 have
 halves
@@ -3072,6 +3096,7 @@ refer
 renaming
 rename
 renamings
+returning
 Even
 Example
 Extensible
@@ -3234,6 +3259,7 @@ Address
 Assigned
 Authenticate
 Alpha
+Anonymous
 InsertSort
 Is
 In
@@ -3663,6 +3689,7 @@ MKr
 More
 Mail
 MX
+Mutual
 However
 How
 Heapify
@@ -3886,6 +3913,7 @@ FK
 Fcj
 Fj
 Free
+Functions
 Lists
 Linked
 Likewise
@@ -4104,6 +4132,7 @@ Ny
 Name
 NS
 Names
+Named
 Obsidian
 OOO
 OO
@@ -4171,6 +4200,8 @@ Opw
 OdJ
 Ow
 One
+Only
+Others
 Probing
 Peek
 Partition
