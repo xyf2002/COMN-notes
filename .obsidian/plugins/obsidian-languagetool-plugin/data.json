@@ -3,6 +3,7 @@
   "urlMode": "standard",
   "glassBg": false,
   "shouldAutoCheck": false,
+  "autoCheckDelay": 3000,
   "pickyMode": false,
   "staticLanguage": "auto",
   "englishVeriety": "en-GB"

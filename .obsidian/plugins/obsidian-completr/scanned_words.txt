@@ -152,6 +152,7 @@ incognito
 issued
 identifier
 introduces
+identity
 or
 of
 operations
@@ -261,6 +262,8 @@ ox
 oC
 owner
 org
+outbound
+organisation
 there
 that
 than
@@ -429,6 +432,9 @@ thing
 typecheck
 typechecking
 typechecks
+translation
+thieves
+trade
 some
 smaller
 so
@@ -680,6 +686,11 @@ stand
 schematic
 shorthand
 soundness
+study
+securing
+securely
+secrets
+stolen
 multiple
 matter
 many
@@ -807,6 +818,7 @@ mail
 managed
 monitor
 millions
+mechanisms
 eventually
 execute
 each
@@ -958,6 +970,8 @@ ensures
 extreme
 eager
 explicitly
+exhaustion
+enforce
 bounded
 by
 below
@@ -1080,6 +1094,7 @@ bound
 bind
 behaves
 breaks
+border
 above
 asymptotically
 as
@@ -1274,6 +1289,7 @@ abs
 arguably
 anonymous
 anymore
+attest
 no
 number
 not
@@ -1452,6 +1468,7 @@ whitespace
 wlx
 wiw
 wE
+web
 Defined
 Different
 Datastructures
@@ -1635,6 +1652,7 @@ Ck
 CpP
 Country
 Corporation
+Cryptographic
 consider
 compare
 cost
@@ -1886,6 +1904,10 @@ clashes
 changes
 constructor
 comprehend
+conflict
+core
+confidentially
+copying
 larger
 lower
 likely
@@ -1997,6 +2019,7 @@ labels
 legitimate
 locations
 lambdas
+laptops
 upper
 use
 useful
@@ -2469,6 +2492,9 @@ profit
 play
 partial
 pretty
+planet
+powerful
+phone
 various
 values
 value
@@ -2809,6 +2835,7 @@ deployment
 determined
 differently
 definitions
+digital
 how
 have
 halves
@@ -3352,6 +3379,7 @@ Iterative
 ID
 Intuition
 Interpreter
+IPv
 Yes
 YY
 YYY
