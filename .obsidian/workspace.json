@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d3ef43de54d5e7df",
+        "id": "d7b0bf8ae1b0c07e",
         "type": "tabs",
         "children": [
           {
-            "id": "51e952231dd85e02",
+            "id": "1e09b18c38f56f56",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "computer_security/Week 3/W3N2 - Symmetric encryption.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "computer_security/Week 3/W3N2 - Symmetric encryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "computer_security/Week 3/W3N2 - Symmetric encryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "computer_security/Week 3/W3N2 - Symmetric encryption.md"
+              }
             }
           },
           {
@@ -156,20 +164,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "51e952231dd85e02",
+  "active": "1e09b18c38f56f56",
   "lastOpenFiles": [
+    "Untitled.md",
     "computer_security/Week 3/W3N2 - Symmetric encryption.md",
     "computer_security/Week 3/W3N1 - Intro to cryptography.md",
+    "computer_security/images/w3n2TwoTimePadAttack.png",
+    "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md",
+    "computer_security/Week 2/W2N4 - Firewalls.md",
     "computer_security/Week 2/W2N5 - Network Address Translation (NAT).md",
+    "computer_security/Week 1/W1N2 - Network Security.md",
+    "computer_security/Week 2/W2N1 - ARP.md",
+    "computer_security/Week 1/W1N1 - Intro.md",
+    "elements_of_programming_languages/Week 4/W4N1 - Pairs.md",
+    "elements_of_programming_languages/Week 3/W3N2 - Scope.md",
+    "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
+    "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
+    "elements_of_programming_languages/Week 4/W4N2 - Variant types.md",
+    "elements_of_programming_languages/Week 4/W4N1 - Variant types.md",
+    "elements_of_programming_languages/Week 4",
     "computer_security/Week 3",
     "W2N6 - Intrusion Detection Systems (IDS).md",
     "computer_security/images/w2n5NetworkAddressTranslation.png",
-    "computer_security/Week 2/W2N4 - Firewalls.md",
     "computer_security/images/w2n4firewallSections.png",
-    "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
-    "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md",
-    "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
-    "elements_of_programming_languages/Week 3/W3N2 - Scope.md",
     "elements_of_programming_languages/Week 3/W3N1 - Variables and substitution.md",
     "elements_of_programming_languages/Week 2/W2N3 - Types.md",
     "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
@@ -185,11 +202,7 @@
     "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
     "elements_of_programming_languages/Week 2",
     "elements_of_programming_languages/images/w1n2AbstractSyntaxTrees.png",
-    "computer_security/images/w2n2TcpHandshake2.png",
     "computer_security/Week 2/W2N2 - IP, UDP, and TCP.md",
-    "computer_security/Week 1/W1N2 - Network Security.md",
-    "computer_security/Week 2/W2N1 - ARP.md",
-    "computer_security/Week 1/W1N1 - Intro.md",
     "computer_security/Week 2",
     "informatics_large_practical/Week 1/W1N1 - Intro.md",
     "informatics_large_practical/Week 1",
@@ -197,12 +210,7 @@
     "professional_issues/images",
     "elements_of_programming_languages/Week 1",
     "elements_of_programming_languages/images",
-    "elements_of_programming_languages",
     "Week 12 - Dynamic programming applications/W12N2 - Edit distance.md",
-    "Week 10 - Depth-first search and topological sort/W10N2 - Topological sorting.md",
-    "Week 19 - Unsolvable problems/W19N1 - The halting problem.md",
-    "Week 19 - Unsolvable problems/W19N2 - Other unsolvable problems.md",
-    "Week 19 - Unsolvable problems/W19N3 - Unknowable truths.md",
-    "Week 18 - Computability/W18N1 - Computability.md"
+    "Week 10 - Depth-first search and topological sort/W10N2 - Topological sorting.md"
   ]
 }
