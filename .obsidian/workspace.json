@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d7b0bf8ae1b0c07e",
+        "id": "a91e1f94f3d458a8",
         "type": "tabs",
         "children": [
           {
-            "id": "1e09b18c38f56f56",
+            "id": "273c07bd61ce8210",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_security/Week 3/W3N2 - Symmetric encryption.md",
+                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_security/Week 3/W3N2 - Symmetric encryption.md",
+                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_security/Week 3/W3N2 - Symmetric encryption.md",
+                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_security/Week 3/W3N2 - Symmetric encryption.md"
+                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md"
               }
             }
           },
@@ -164,10 +164,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1e09b18c38f56f56",
+  "active": "273c07bd61ce8210",
   "lastOpenFiles": [
-    "Untitled.md",
+    "elements_of_programming_languages/Week 3/W3N2 - Scope.md",
+    "elements_of_programming_languages/Week 3/W3N1 - Variables and substitution.md",
+    "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
     "computer_security/Week 3/W3N2 - Symmetric encryption.md",
+    "Untitled.md",
     "computer_security/Week 3/W3N1 - Intro to cryptography.md",
     "computer_security/images/w3n2TwoTimePadAttack.png",
     "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md",
@@ -177,8 +180,6 @@
     "computer_security/Week 2/W2N1 - ARP.md",
     "computer_security/Week 1/W1N1 - Intro.md",
     "elements_of_programming_languages/Week 4/W4N1 - Pairs.md",
-    "elements_of_programming_languages/Week 3/W3N2 - Scope.md",
-    "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
     "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
     "elements_of_programming_languages/Week 4/W4N2 - Variant types.md",
     "elements_of_programming_languages/Week 4/W4N1 - Variant types.md",
@@ -187,7 +188,6 @@
     "W2N6 - Intrusion Detection Systems (IDS).md",
     "computer_security/images/w2n5NetworkAddressTranslation.png",
     "computer_security/images/w2n4firewallSections.png",
-    "elements_of_programming_languages/Week 3/W3N1 - Variables and substitution.md",
     "elements_of_programming_languages/Week 2/W2N3 - Types.md",
     "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
     "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",

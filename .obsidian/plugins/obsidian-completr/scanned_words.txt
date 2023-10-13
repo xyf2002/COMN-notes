@@ -1028,6 +1028,9 @@ en
 encrypting
 enabling
 early
+environments
+environment
+extending
 bounded
 by
 below
@@ -1158,6 +1161,7 @@ brute
 billions
 bitstrings
 book
+beyond
 above
 asymptotically
 as
@@ -2343,6 +2347,7 @@ flaws
 force
 fairly
 frequency
+formedness
 There
 Typically
 The
@@ -2635,6 +2640,7 @@ power
 pad
 practical
 pseudorandom
+persist
 various
 values
 value
@@ -2818,6 +2824,7 @@ Wgj
 While
 Where
 Word
+Well
 definition
 different
 disk
@@ -2995,6 +3002,7 @@ decrypted
 decrypting
 discovery
 decrypt
+denote
 how
 have
 halves
@@ -4571,6 +4579,7 @@ Gf
 Gj
 GDl
 Generic
+Gamma
 just
 jgc
 jkk

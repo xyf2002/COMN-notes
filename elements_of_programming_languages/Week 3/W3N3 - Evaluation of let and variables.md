@@ -26,4 +26,24 @@ def eval(e: Expr): Value = e match {
 ```
 We don't need a case for `Var(x)` as all variables must be bound at some point.
 # Types and variables
-TODO
+We have to keep track of the types of variables (probably with a table or map). This means that for typechecking, whenever we see a variable $x$ we look up its type in the map. When we see a $\text{let }x=e_1\text{ in }e_2$, we find out the type of $e_1$, which is $\tau_1$. We can then add that to the map, and check $e_2$ using the new map. It is important that the information about the type of $x$ does not persist beyond its scope in $e_2$.
+
+## Type environments
+We write $\Gamma$ to denote a **type environment**, or a finite map from variable names to types, often written as follows:
+$$
+\Gamma::=x_1:\tau_1,...,x_n:\tau_n
+$$
+Also, we write $\Gamma(x)$ to mean the type of $x$ according to $\Gamma$, and $\Gamma,x:\tau$ to indicate extending $\Gamma$ with the mapping $x$ to $\tau$.
+
+## Well-formedness in a context
+We write $\Gamma\vdash e:\tau$ to indicate that $e$ is well-formed at type $\tau$ (or just "has type $\tau$") in context $\Gamma$.
+
+We also need to generalise the $L_{If}$ rules to allow contexts:
+$$
+\begin{matrix}
+\frac{}{\Gamma\vdash n:\text{ int}} &
+\frac{\Gamma\vdash e_1:\tau_1\;\;\;\;\Gamma\vdash e_2:\tau_2\;\;\;\;\oplus:\tau_1\times\tau_2\rightarrow\tau}{\Gamma\vdash e_1\oplus e_2:\tau}\\
+\frac{}{\Gamma\vdash b:\text{ bool}}&
+\frac{\Gamma\vdash e:\text{ bool}\;\;\;\;\Gamma\vdash e_1:\tau\;\;\;\;\Gamma\vdash e_2:\tau}{\Gamma\vdash\text{ if }e\text{ then }e_2\text{ else }e_2:\tau}
+\end{matrix}
+$$
