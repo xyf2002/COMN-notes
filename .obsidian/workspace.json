@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
+                "file": "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
+                "file": "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
+                "file": "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md"
+                "file": "elements_of_programming_languages/Week 3/W3N4 - Functions.md"
               }
             }
           },
@@ -166,9 +166,9 @@
   },
   "active": "273c07bd61ce8210",
   "lastOpenFiles": [
+    "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
     "elements_of_programming_languages/Week 3/W3N2 - Scope.md",
     "elements_of_programming_languages/Week 3/W3N1 - Variables and substitution.md",
-    "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
     "computer_security/Week 3/W3N2 - Symmetric encryption.md",
     "Untitled.md",
     "computer_security/Week 3/W3N1 - Intro to cryptography.md",
