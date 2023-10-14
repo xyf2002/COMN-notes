@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fb325823cba5ab06",
+        "id": "6ca10a3028625b18",
         "type": "tabs",
         "children": [
           {
-            "id": "4342f884b68026c4",
+            "id": "25bcab7f97a359d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "elements_of_programming_languages/Week 4/W4N2 - Variant types.md",
+                "file": "computer_security/Week 4/W4N2 - Public key encryption.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "elements_of_programming_languages/Week 4/W4N2 - Variant types.md",
+                "file": "computer_security/Week 4/W4N2 - Public key encryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "elements_of_programming_languages/Week 4/W4N2 - Variant types.md",
+                "file": "computer_security/Week 4/W4N2 - Public key encryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "elements_of_programming_languages/Week 4/W4N2 - Variant types.md"
+                "file": "computer_security/Week 4/W4N2 - Public key encryption.md"
               }
             }
           },
@@ -164,10 +164,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4342f884b68026c4",
+  "active": "25bcab7f97a359d4",
   "lastOpenFiles": [
-    "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
+    "w4n2DhMitmAttack.png",
+    "computer_security/Week 4/W4N1 - Sharing keys.md",
+    "computer_security/Week 4/W4N2 - Public key encryption.md",
+    "w4n2DhProtocol.png",
+    "Untitled.md",
+    "Pasted image 20231014173607.png",
+    "computer_security/Week 4",
     "elements_of_programming_languages/Week 4/W4N2 - Variant types.md",
+    "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
     "elements_of_programming_languages/Week 4/W4N1 - Pairs.md",
     "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
     "computer_security/Week 3/W3N6 - Authenticated Encryption.md",
@@ -198,19 +205,12 @@
     "elements_of_programming_languages/Week 4",
     "computer_security/Week 3",
     "W2N6 - Intrusion Detection Systems (IDS).md",
-    "computer_security/images/w2n5NetworkAddressTranslation.png",
-    "computer_security/images/w2n4firewallSections.png",
-    "elements_of_programming_languages/Week 2/W2N3 - Types.md",
-    "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
     "elements_of_programming_languages/Week 3",
-    "elements_of_programming_languages/Week 1/W1N2 - Abstract syntax.md",
-    "elements_of_programming_languages/Week 1/W1N1 - Intro.md",
     "elements_of_programming_languages/Week 2",
     "computer_security/Week 2",
     "informatics_large_practical/Week 1",
     "informatics_large_practical/images",
     "professional_issues/images",
-    "elements_of_programming_languages/Week 1",
-    "elements_of_programming_languages/images"
+    "elements_of_programming_languages/Week 1"
   ]
 }

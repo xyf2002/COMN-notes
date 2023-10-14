@@ -172,6 +172,10 @@ iTq
 iO
 iR
 index
+ibh
+iC
+inversion
+inverse
 or
 of
 operations
@@ -299,6 +303,12 @@ oVa
 ot
 optionals
 older
+online
+osl
+oBt
+oTB
+oo
+oHM
 there
 that
 than
@@ -488,6 +498,10 @@ tWW
 tKB
 tells
 treated
+trusted
+tnDD
+tPz
+tXM
 some
 smaller
 so
@@ -785,6 +799,8 @@ ss
 slq
 suyu
 situations
+sMYi
+sTZjZH
 multiple
 matter
 many
@@ -936,6 +952,9 @@ mf
 mvaZ
 mi
 multithreading
+mPz
+mnv
+mz
 eventually
 execute
 each
@@ -1126,6 +1145,9 @@ el
 ePv
 ev
 evaluates
+entity
+ehP
+everyone
 bounded
 by
 below
@@ -1268,6 +1290,8 @@ breached
 bK
 bip
 bf
+bGTj
+bO
 above
 asymptotically
 as
@@ -1492,6 +1516,8 @@ aHP
 among
 affected
 absence
+ayv
+ajNeR
 no
 number
 not
@@ -1691,6 +1717,11 @@ wkV
 wS
 wyI
 wrap
+wsSoc
+wv
+wD
+wK
+wrJ
 Defined
 Different
 Datastructures
@@ -1802,6 +1833,10 @@ DbV
 Ddf
 Di
 DC
+DDDD
+Discrete
+DHP
+Diffie
 Can
 CPU
 Create
@@ -1911,6 +1946,7 @@ Ccgse
 CB
 CA
 Cw
+Ca
 consider
 compare
 cost
@@ -2216,6 +2252,11 @@ cQ
 cM
 cs
 cRv
+contact
+civ
+cZ
+cOx
+cyclic
 larger
 lower
 likely
@@ -2343,6 +2384,7 @@ lu
 lJ
 lp
 loan
+lukG
 upper
 use
 useful
@@ -2573,6 +2615,8 @@ fgO
 fZs
 fEh
 familiar
+fy
+ff
 There
 Typically
 The
@@ -2669,6 +2713,11 @@ TA
 TUT
 Tb
 Tl
+Trusted
+Third
+TTP
+TTT
+Tt
 possible
 purposes
 performed
@@ -2977,6 +3026,7 @@ vj
 vr
 variants
 variant
+vxt
 kinds
 know
 keys
@@ -3100,6 +3150,11 @@ WTT
 Wo
 WWWSS
 Wf
+WHK
+Wn
+Wp
+WOv
+WZb
 definition
 different
 disk
@@ -3289,6 +3344,13 @@ dZ
 dVfU
 dCKk
 dc
+desirable
+disadvantages
+dQ
+dgc
+dX
+duS
+de
 how
 have
 halves
@@ -3392,6 +3454,7 @@ hJ
 hjbRUWWV
 hg
 handling
+hn
 runtime
 runtimes
 run
@@ -3609,6 +3672,10 @@ revert
 resistant
 reveal
 replacing
+rH
+rf
+rO
+rC
 Even
 Example
 Extensible
@@ -3691,6 +3758,10 @@ EhF
 EA
 EV
 EO
+EDDD
+EW
+ENk
+Euler
 An
 Asymptotic
 Any
@@ -3899,6 +3970,9 @@ IV
 Instead
 IDATI
 IPSec
+IK
+Intractable
+Input
 Yes
 YY
 YYY
@@ -3952,6 +4026,7 @@ Yl
 YU
 YCO
 Ydj
+Ycv
 given
 graph
 general
@@ -4043,6 +4118,8 @@ gDF
 gj
 global
 generalised
+generation
+group
 Best
 Basically
 BP
@@ -4138,6 +4215,14 @@ Bo
 Bb
 BY
 BGD
+BB
+BCc
+Bs
+Bha
+Bf
+BO
+BI
+Bob
 quantitative
 queues
 queue
@@ -4368,6 +4453,8 @@ HX
 Hap
 Ht
 HMAC
+HdD
+Hellman
 Rigorous
 Rigorously
 Recursion
@@ -4455,6 +4542,10 @@ RJ
 Rp
 RhB
 RFn
+Rm
+RNN
+Rss
+RSAP
 First
 Fixed
 Fast
@@ -4540,6 +4631,7 @@ Fy
 FzQc
 Fz
 FC
+Factoring
 Lists
 Linked
 Likewise
@@ -4621,6 +4713,7 @@ LCC
 LMLL
 LDT
 LW
+LIIIJ
 Stacks
 Sometimes
 So
@@ -4717,6 +4810,8 @@ SHA
 SgQM
 Shj
 SSL
+Sd
+SN
 Notes
 NG
 NK
@@ -4865,6 +4960,10 @@ OWFs
 OWF
 Ovtt
 Optionals
+OUw
+OATj
+ONg
+Output
 Probing
 Peek
 Partition
@@ -4962,6 +5061,8 @@ PF
 PgT
 PNNI
 Plain
+Party
+PM
 Given
 Gp
 GGG
@@ -5028,6 +5129,7 @@ GmL
 GcQ
 Gst
 Generalised
+GQDDDd
 just
 jgc
 jkk
@@ -5081,6 +5183,7 @@ jjj
 jxO
 jN
 jq
+jO
 Using
 UEGGG
 UF
@@ -5140,6 +5243,8 @@ Unforgeability
 Uw
 Ug
 UaTY
+Umcc
+UK
 QuickSort
 QeD
 Qq
@@ -5261,6 +5366,8 @@ yDC
 yl
 yse
 yY
+yN
+yW
 KKKt
 KO
 Kw
@@ -5322,6 +5429,8 @@ Kn
 Kr
 KuH
 KM
+KK
+KcO
 VVVl
 VN
 VSS
@@ -5385,6 +5494,8 @@ Vjkkg
 Vf
 VVj
 Variants
+Vqw
+Vzy
 ZR
 Zx
 ZD
@@ -5437,6 +5548,10 @@ ZFs
 Zf
 Zk
 ZEK
+ZDDDd
+ZQQ
+Zzw
+ZiE
 Ji
 JLL
 Jw
@@ -5497,6 +5612,7 @@ JirCU
 JAf
 JPLD
 Jy
+JrvvV
 XO
 XYYI
 XIh
@@ -5549,6 +5665,9 @@ XRD
 Xv
 XS
 Xc
+XZ
+XRXR
+XT
 zo
 zjR
 zx
@@ -5596,6 +5715,7 @@ zuK
 zyh
 zZf
 za
+zA
 xxx
 xe
 xfs
@@ -5637,4 +5757,6 @@ xCCC
 xwww
 xw
 xpz
+xFB
+xf
 ÖQ
