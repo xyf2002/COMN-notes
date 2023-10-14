@@ -297,6 +297,8 @@ ol
 oU
 oVa
 ot
+optionals
+older
 there
 that
 than
@@ -484,6 +486,8 @@ tz
 twj
 tWW
 tKB
+tells
+treated
 some
 smaller
 so
@@ -780,6 +784,7 @@ sqC
 ss
 slq
 suyu
+situations
 multiple
 matter
 many
@@ -1120,6 +1125,7 @@ eLA
 el
 ePv
 ev
+evaluates
 bounded
 by
 below
@@ -1485,6 +1491,7 @@ aqD
 aHP
 among
 affected
+absence
 no
 number
 not
@@ -1585,6 +1592,7 @@ nln
 nN
 ngn
 ny
+notion
 what
 ways
 we
@@ -1682,6 +1690,7 @@ weak
 wkV
 wS
 wyI
+wrap
 Defined
 Different
 Datastructures
@@ -2419,6 +2428,7 @@ unlikely
 uQM
 uq
 ue
+union
 for
 focus
 from
@@ -2562,6 +2572,7 @@ fb
 fgO
 fZs
 fEh
+familiar
 There
 Typically
 The
@@ -2964,6 +2975,8 @@ vx
 vF
 vj
 vr
+variants
+variant
 kinds
 know
 keys
@@ -3378,6 +3391,7 @@ hashed
 hJ
 hjbRUWWV
 hg
+handling
 runtime
 runtimes
 run
@@ -3594,6 +3608,7 @@ revoked
 revert
 resistant
 reveal
+replacing
 Even
 Example
 Extensible
@@ -4026,6 +4041,8 @@ gL
 gf
 gDF
 gj
+global
+generalised
 Best
 Basically
 BP
@@ -4847,6 +4864,7 @@ OML
 OWFs
 OWF
 Ovtt
+Optionals
 Probing
 Peek
 Partition
@@ -5009,6 +5027,7 @@ Gk
 GmL
 GcQ
 Gst
+Generalised
 just
 jgc
 jkk
@@ -5365,6 +5384,7 @@ Vgg
 Vjkkg
 Vf
 VVj
+Variants
 ZR
 Zx
 ZD
