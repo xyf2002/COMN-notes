@@ -18,7 +18,7 @@ Generally, you can then obtain both original messages from this as there are pat
 - Requires true randomness
 	- If the key is not truly random then frequency analysis may be possible.
 - Perfect secrecy does not guarantee security against all possible attacks
-- Malleability
+- Malleability ^b682f9
 	- If we know, or strongly suspect, that a specific part of the message is a specific string, e.g. a header, then by XORing that string with the message we can recover the key for that part of the message. Therefore it is possible to modify known sections of the ciphertext without being able to decrypt the entire ciphertext.
 # Stream ciphers
 Stream ciphers aim to make OPT practical.
@@ -88,16 +88,16 @@ Neither of these get to the [[W3N2 - Symmetric encryption#Adversary capabilities
 - **PKCS#7** - byte padding, the value of each padding byte is the total number of padding bytes. Here the padding would be `01`, or `02 02`, or `03 03 03`, and so on.
 
 ## The message is longer than the block
-- **Electronic Code Book (ECB)** - to encrypt a message using ECB:
+- **Electronic Code Book (ECB)** - to encrypt a message using ECB: ^5c41ba
 	- The message is padded to be an exact multiple of the block length
 	- Then it is broken into blocks of length $l$
 	- Each block is then encrypted and the final ciphertext is concatenated together
 	- This has a major **weakness**:
 		- If two blocks have the same content, then the resulting ciphertext for those two blocks will be the same. This makes it both malleable (we can duplicate blocks within the message) and weak to frequency analysis ![[w3n3EcbWeakness.png]] 
 		  Here we can see that the most of the image is preserved despite being encrypted, as every pure black or white block encrypts to the same value.
-- **Cipher-block chaining (CBC)** - you use a random **initialisation vector (IV)** of length $l$ that is XORed with the first block before it is encrypted, then the ciphertext of the first block is XORed with the second message, and so on. The message also includes the initialisation vector as its first block. To decrypt, the first block of the ciphertext is decrypted, then XORed with the IV, then the second block is decrypted and XORed with the first cipher block, and so on.
+- **Cipher-block chaining (CBC)** - you use a random **initialisation vector (IV)** of length $l$ that is XORed with the first block before it is encrypted, then the ciphertext of the first block is XORed with the second message, and so on. The message also includes the initialisation vector as its first block. To decrypt, the first block of the ciphertext is decrypted, then XORed with the IV, then the second block is decrypted and XORed with the first cipher block, and so on. ^d670c6
 	- This has the disadvantage that if a block is lost in transit then you cannot decrypt the message at all.
-- **Counter (CTR)** - uses an IV, and encrypts each block using $E(k, IV + n)$ where $n$ is the number of the block. This means that each block can be decrypted separately, but still ensures that identical message blocks do not lead to identical cipher blocks.
+- **Counter (CTR)** - uses an IV, and encrypts each block using $E(k, IV + n)$ where $n$ is the number of the block. This means that each block can be decrypted separately, but still ensures that identical message blocks do not lead to identical cipher blocks. ^3a80c6
 
 # Key management problem
 Symmetric encryption requires a lot of keys to be distributed

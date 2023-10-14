@@ -33,4 +33,6 @@ We can exploit this by generating $l$ messages where $l$ is the number of possib
 
 # Merkle-Damgard construction
 ![[w3n4MerkleDamgardConstruction.png]]
-By using a compression function $h:T\times X\rightarrow T$ which compresses an IV and a block into a hash equal in size to the IV then chaining these together we can then use the final output as the hash. This has been proven to only produce a collision if $h$ produces a collision.
+By using a compression function $h:T\times X\rightarrow T$ which compresses an IV and a block into a hash equal in size to the IV then chaining these together we can then use the final output as the hash. This has been proven to only produce a collision if $h$ produces a collision. The initialisation vector is defined by the hash function, so e.g. all MD5 hashes use the same IV.
+
+Many common hash functions use the MD construction such as MD5, SHA-1, and SHA-2.
