@@ -43,6 +43,7 @@ $$
 $$
 
 # Intractable problems
+All of these have no known efficient (better than brute force) algorithm to find an input corresponding to a given problem.
 - **Factoring**
 	- Input: $n\in\mathbb{N}$
 	- Output: $p_1,...,p_m$ primes such that $n=\prod^m_{i=0}p_i$
@@ -64,3 +65,46 @@ We fix a very large prime $p$, and $g$ generator of $\mathbb{Z}^*_p$.
 ## MitM attack on DH
 ![[w4n2DhMitmAttack.png]]
 Here, the attacker is able to eavesdrop on messages between Alice and Bob, and can change or block messages as both Alice and Bob assume that the values they received from the attacker actually came from their counterpart.
+
+# RSA trapdoor permutation
+RSA consists of:
+- A key generator $G_{RSA}()=(pk,sk)$
+	- where $pk=(N,e)$ and $sk=(N,d)$
+	  and $N=p\cdot q$ with $p,q$ random primes
+	  and $e,d\in\mathbb{Z}$ such that $e\cdot d\equiv1\mod\phi(N)$
+- $M=C=\mathbb{Z}_N$
+- Encryption algorithm $RSA(pk,m)=m^e\mod N$
+- Decryption algorithm $RSA^{-1}(pk,m)=m^e\mod N$
+	- Both where $m\in M$
+
+$(G_{RSA},RSA,RSA^{-1})$ is called raw RSA. Raw RSA is deterministic, so it is not secure against [[W3N2 - Symmetric encryption#^366bb4|chosen plaintext attacks]].
+
+## Removing the CPA vulnerability
+We can use raw RSA and make a few small changes to get a CPA resistant encryption scheme:
+- Key generation stays the same $G_{RSA}()$
+- $E_{RSA}(pk,m)$
+	- random $x\in\mathbb{Z}^*_N$
+	- $y\leftarrow RSA(pk,x)$
+	- $k\leftarrow H(x)$
+	- $E_{RSA}(pk,m)=y||E_S(k,m)$
+	- $H$ is a secure hash function
+	- $E_S(k,m)$ is a secure symmetric encryption function
+- $D_{RSA}(sk,y||c)=D_S(H(RSA^{-1}(sk,y)),c)$
+
+Essentially, we encrypt a symmetric encryption key using RSA and the destination public key, then use the hash of that symmetric key to encrypt the message. The encrypted key and the encrypted message are concatenated and transmitted.
+
+To decrypt, the receiver uses their private key to decrypt the asymmetric key, then uses the hash of that to decrypt the message.
+
+# ElGamal (EG)
+Consists of:
+- A fixed prime $p$, and generator $g\in Z^*_p$
+- $M=\{0,...,p-1\}$ and $C=M\times M$
+- $G_{EG}()=(pk,sk)$
+	- where $pk=g^d\mod p$
+	  and $sk=d$
+	  and $d\xleftarrow{r}\{1,...,p-2\}$ 
+- $E_{EG}(pk,x)=(g^r\mod p,m\cdot(g^d)^r\mod p)$
+	- where $pk=g^d\mod p$
+	  and $r\xleftarrow{r}\mathbb{Z}$
+- $D_{EG}(sk,x)=e^{-d}\cdot c\mod p$
+

@@ -27,7 +27,7 @@ A cryptographic scheme may be vulnerable to certain types of attacks but not oth
 The attacker knows the encryption/decryption algorithm, but may also have access to:
 - **ciphertext only attack** - some cyphertexts $c_1,...,c_n$
 - **known plaintext attack** - some plaintext/cyphertext pairs $(m_1,c_1),...,(m_n,c_n)$ such that $c_i=E(k,m_i)$
-- **chosen plaintext attack** - the attacker has access to an encryption oracle - can perhaps trick a user into encrypting messages $m_1,...,m_n$ of his choice
+- **chosen plaintext attack** - the attacker has access to an encryption oracle - can perhaps trick a user into encrypting messages $m_1,...,m_n$ of his choice ^366bb4
 - **chosen ciphertext attack** - he has access to a decryption oracle - can perhaps trick a user into decrypting ciphertexts $c_1,...,c_n$ of his choice
 - either unlimited, polynomial, or realistic ($\leq 2^{80}$) **computational power**
 

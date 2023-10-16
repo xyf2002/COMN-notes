@@ -502,6 +502,8 @@ trusted
 tnDD
 tPz
 tXM
+trapdoor
+transmitted
 some
 smaller
 so
@@ -801,6 +803,8 @@ suyu
 situations
 sMYi
 sTZjZH
+stays
+signature
 multiple
 matter
 many
@@ -1292,6 +1296,7 @@ bip
 bf
 bGTj
 bO
+beforehand
 above
 asymptotically
 as
@@ -1518,6 +1523,7 @@ affected
 absence
 ayv
 ajNeR
+acting
 no
 number
 not
@@ -1947,6 +1953,8 @@ CB
 CA
 Cw
 Ca
+CPA
+Consists
 consider
 compare
 cost
@@ -2257,6 +2265,8 @@ civ
 cZ
 cOx
 cyclic
+came
+counterpart
 larger
 lower
 likely
@@ -2617,6 +2627,7 @@ fEh
 familiar
 fy
 ff
+few
 There
 Typically
 The
@@ -2936,6 +2947,8 @@ posted
 pE
 pzq
 parallel
+permutation
+private
 various
 values
 value
@@ -3676,6 +3689,7 @@ rH
 rf
 rO
 rC
+raw
 Even
 Example
 Extensible
@@ -3762,6 +3776,7 @@ EDDD
 EW
 ENk
 Euler
+ElGamal
 An
 Asymptotic
 Any
@@ -3871,6 +3886,7 @@ Aocrq
 AwN
 AB
 AU
+Alice
 InsertSort
 Is
 In
@@ -4372,6 +4388,7 @@ Mn
 MH
 MF
 Ma
+MitM
 However
 How
 Heapify
@@ -4546,6 +4563,9 @@ Rm
 RNN
 Rss
 RSAP
+RSA
+Raw
+Removing
 First
 Fixed
 Fast
