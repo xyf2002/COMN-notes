@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "db79f7146ca72647",
+        "id": "94be99379e61569d",
         "type": "tabs",
         "children": [
           {
-            "id": "8f90aded28e38f4a",
+            "id": "eb8e06333b30ea29",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "computer_security/Week 5/W5N1 - Public Key Infrastructure.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "computer_security/Week 5/W5N1 - Public Key Infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "computer_security/Week 5/W5N1 - Public Key Infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "computer_security/Week 5/W5N1 - Public Key Infrastructure.md"
+              }
             }
           },
           {
@@ -156,13 +164,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8f90aded28e38f4a",
+  "active": "245016979c3189b3",
   "lastOpenFiles": [
+    "computer_security/images/w5n1BrowserSecure.png",
+    "computer_security/Week 5/W5N1 - Public Key Infrastructure.md",
+    "computer_security/images/w5n1x509cert.png",
+    "computer_security/images/w5n1x509cert.png",
+    "computer_security/Week 4/W4N1 - Sharing keys.md",
+    "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md",
+    "computer_security/Week 5",
+    "computer_security/Week 3/W3N4 - Hash functions.md",
     "computer_security/Week 4/W4N3 - Digital signatures.md",
     "computer_security/Week 3/W3N3 - Symmetric encryption systems.md",
     "computer_security/Week 3/W3N2 - Symmetric encryption.md",
     "computer_security/Week 4/W4N2 - Public key encryption.md",
-    "computer_security/Week 4/W4N1 - Sharing keys.md",
     "computer_security/Week 3/W3N1 - Intro to cryptography.md",
     "w4n2DhMitmAttack.png",
     "w4n2DhProtocol.png",
@@ -175,16 +190,12 @@
     "computer_security/Week 3/W3N6 - Authenticated Encryption.md",
     "computer_security/Week 3/W3N5 - Message Authentication Codes (MACs).md",
     "computer_security/images/w3n5Hmac.png",
-    "computer_security/Week 3/W3N4 - Hash functions.md",
     "computer_security/images/w3n5Pmac.png",
     "computer_security/images/w3n5EcbcMac.png",
     "computer_security/images/w3n5Mac.png",
     "computer_security/images/w3n4MerkleDamgardConstruction.png",
-    "computer_security/images/w3n3SharedSymmetricKeys.png",
-    "computer_security/images/w3n3EcbWeakness.png",
     "computer_security/Week 2/W2N1 - ARP.md",
     "computer_security/Week 2/W2N2 - IP, UDP, and TCP.md",
-    "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md",
     "computer_security/Week 2/W2N4 - Firewalls.md",
     "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
     "elements_of_programming_languages/Week 3/W3N2 - Scope.md",
@@ -195,13 +206,11 @@
     "elements_of_programming_languages/Week 4/W4N1 - Variant types.md",
     "elements_of_programming_languages/Week 4",
     "computer_security/Week 3",
-    "W2N6 - Intrusion Detection Systems (IDS).md",
     "elements_of_programming_languages/Week 3",
     "elements_of_programming_languages/Week 2",
     "computer_security/Week 2",
     "informatics_large_practical/Week 1",
     "informatics_large_practical/images",
-    "professional_issues/images",
-    "elements_of_programming_languages/Week 1"
+    "professional_issues/images"
   ]
 }

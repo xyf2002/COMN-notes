@@ -805,6 +805,7 @@ sMYi
 sTZjZH
 stays
 signature
+subject
 multiple
 matter
 many
@@ -1297,6 +1298,7 @@ bf
 bGTj
 bO
 beforehand
+bottleneck
 above
 asymptotically
 as
@@ -1524,6 +1526,9 @@ absence
 ayv
 ajNeR
 acting
+assured
+authority
+authorities
 no
 number
 not
@@ -1955,6 +1960,7 @@ Cw
 Ca
 CPA
 Consists
+CAs
 consider
 compare
 cost
@@ -2267,6 +2273,9 @@ cOx
 cyclic
 came
 counterpart
+conversations
+certificates
+certificate
 larger
 lower
 likely
@@ -2628,6 +2637,7 @@ familiar
 fy
 ff
 few
+forgeries
 There
 Typically
 The
@@ -2949,6 +2959,8 @@ pzq
 parallel
 permutation
 private
+participants
+publish
 various
 values
 value
@@ -3168,6 +3180,7 @@ Wn
 Wp
 WOv
 WZb
+Ways
 definition
 different
 disk
@@ -3364,6 +3377,10 @@ dgc
 dX
 duS
 de
+distribute
+defend
+directories
+directory
 how
 have
 halves
@@ -5083,6 +5100,8 @@ PNNI
 Plain
 Party
 PM
+Public
+Publicly
 Given
 Gp
 GGG
