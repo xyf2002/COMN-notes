@@ -177,6 +177,7 @@ iC
 inversion
 inverse
 installation
+instantiates
 or
 of
 operations
@@ -311,6 +312,8 @@ oTB
 oo
 oHM
 objects
+operate
+obviously
 there
 that
 than
@@ -1321,6 +1324,7 @@ bO
 beforehand
 bottleneck
 browser
+binds
 above
 asymptotically
 as
@@ -2307,6 +2311,9 @@ conversations
 certificates
 certificate
 certify
+componentwise
+covariant
+contravariant
 larger
 lower
 likely
@@ -2523,6 +2530,7 @@ uQM
 uq
 ue
 union
+usual
 for
 focus
 from
@@ -2673,6 +2681,7 @@ few
 forgeries
 framework
 fields
+flipped
 There
 Typically
 The
@@ -2775,6 +2784,8 @@ TTP
 TTT
 Tt
 TLS
+Top
+Typechecking
 possible
 purposes
 performed
@@ -3004,6 +3015,7 @@ painful
 proceed
 pretending
 pointwise
+polymorphic
 various
 values
 value
@@ -3426,6 +3438,8 @@ defend
 directories
 directory
 definable
+direction
+describes
 how
 have
 halves
@@ -3757,6 +3771,7 @@ revocation
 regularly
 relationship
 reordering
+rare
 Even
 Example
 Extensible
@@ -3844,6 +3859,7 @@ EW
 ENk
 Euler
 ElGamal
+Extending
 An
 Asymptotic
 Any
@@ -4309,6 +4325,7 @@ BI
 Bob
 Browser
 Booleans
+Bottom
 quantitative
 queues
 queue
@@ -4807,6 +4824,7 @@ LDT
 LW
 LIIIJ
 Liskov
+LData
 Stacks
 Sometimes
 So
@@ -4906,6 +4924,8 @@ SSL
 Sd
 SN
 Self
+Subtypes
+Subtyping
 Notes
 NG
 NK
@@ -5163,6 +5183,7 @@ Public
 Publicly
 Point
 Principle
+Polymorphism
 Given
 Gp
 GGG
@@ -5345,6 +5366,7 @@ Ug
 UaTY
 Umcc
 UK
+Usually
 QuickSort
 QeD
 Qq
