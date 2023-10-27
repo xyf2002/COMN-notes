@@ -191,6 +191,8 @@ invariants
 implicit
 invariant
 implements
+inject
+intercept
 or
 of
 operations
@@ -530,6 +532,7 @@ typechecked
 typechecker
 tl
 trait
+triggered
 some
 smaller
 so
@@ -1010,6 +1013,8 @@ modules
 mostly
 ml
 module
+multitude
+manner
 eventually
 execute
 each
@@ -1210,6 +1215,8 @@ examinable
 exponential
 extensions
 es
+entities
+exploitable
 bounded
 by
 below
@@ -1360,6 +1367,8 @@ browser
 binds
 bureaucracy
 brings
+behind
+buggy
 above
 asymptotically
 as
@@ -1598,6 +1607,9 @@ annotations
 annotation
 abstracts
 away
+alter
+anyone
+author
 no
 number
 not
@@ -1701,6 +1713,7 @@ ny
 notion
 namespace
 nQ
+never
 what
 ways
 we
@@ -1921,6 +1934,7 @@ Discrete
 DHP
 Diffie
 Declarations
+Desired
 Can
 CPU
 Create
@@ -2365,6 +2379,8 @@ crashes
 compartmentalised
 chO
 clients
+communicating
+certainty
 larger
 lower
 likely
@@ -3087,6 +3103,8 @@ place
 particular
 pYW
 pq
+past
+primitives
 various
 values
 value
@@ -3520,6 +3538,11 @@ describes
 deliberately
 declarations
 dB
+dishonest
+desired
+deduce
+delivered
+due
 how
 have
 halves
@@ -3862,6 +3885,11 @@ rCq
 rp
 related
 relations
+redirect
+replay
+revealed
+repudiation
+rather
 Even
 Example
 Extensible
@@ -4067,6 +4095,8 @@ AU
 Alice
 ADT
 ADTs
+Authenticity
+Anonymity
 InsertSort
 Is
 In
@@ -4430,6 +4460,7 @@ Browser
 Booleans
 Bottom
 BYN
+Be
 quantitative
 queues
 queue
@@ -5492,6 +5523,7 @@ UaTY
 Umcc
 UK
 Usually
+Unlinkability
 QuickSort
 QeD
 Qq

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9b0ae635bb13ab07",
+        "id": "63e3f6939091e525",
         "type": "tabs",
         "children": [
           {
-            "id": "19110eb2dfe05476",
+            "id": "d7a49ff5722e33a8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "alpha",
+                "query": "stream",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,9 +136,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "136856e649aadec1",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -153,11 +161,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "19110eb2dfe05476",
+  "active": "d7a49ff5722e33a8",
   "lastOpenFiles": [
+    "computer_security/Week 5/W5N2 - Cryptographic protocols for secure communication.md",
+    "computer_security/Week 5/W5N1 - Public Key Infrastructure.md",
     "elements_of_programming_languages/Week 6/W6N2 - Type inference.md",
     "elements_of_programming_languages/Week 6/W6N1 - Parametric polymorphism.md",
     "elements_of_programming_languages/Week 6/W6N4 - Modules and interfaces.md",
@@ -172,7 +183,6 @@
     "elements_of_programming_languages/Week 6",
     "elements_of_programming_languages/Week 4/W4N2 - Variant types.md",
     "elements_of_programming_languages/Week 5",
-    "computer_security/Week 5/W5N1 - Public Key Infrastructure.md",
     "computer_security/images/w5n1BrowserSecure.png",
     "computer_security/images/w5n1x509cert.png",
     "computer_security/images/w5n1x509cert.png",
