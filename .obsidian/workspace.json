@@ -11,8 +11,12 @@
             "id": "d7a49ff5722e33a8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "elements_of_programming_languages/Week 6/W6N4 - Modules and interfaces.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "elements_of_programming_languages/Week 6/W6N4 - Modules and interfaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "elements_of_programming_languages/Week 6/W6N4 - Modules and interfaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "elements_of_programming_languages/Week 6/W6N4 - Modules and interfaces.md"
+              }
             }
           },
           {
@@ -167,12 +175,12 @@
   },
   "active": "d7a49ff5722e33a8",
   "lastOpenFiles": [
+    "elements_of_programming_languages/Week 6/W6N3 - Programs and namespaces.md",
     "computer_security/Week 5/W5N2 - Cryptographic protocols for secure communication.md",
     "computer_security/Week 5/W5N1 - Public Key Infrastructure.md",
     "elements_of_programming_languages/Week 6/W6N2 - Type inference.md",
     "elements_of_programming_languages/Week 6/W6N1 - Parametric polymorphism.md",
     "elements_of_programming_languages/Week 6/W6N4 - Modules and interfaces.md",
-    "elements_of_programming_languages/Week 6/W6N3 - Programs and namespaces.md",
     "Pasted image 20231026133257.png",
     "Pasted image 20231026133300.png",
     "elements_of_programming_languages/Week 5/W5N3 - Subtyping.md",
