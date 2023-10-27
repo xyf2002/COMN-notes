@@ -68,4 +68,21 @@ $$
 $$
 \frac{}{\Lambda A.e\Downarrow\Lambda A.e}
 $$
-In $L_{Poly}$ type information is irrelevant at runtime, but other languages (including Scala) retain some run time type information
+In $L_{Poly}$ type information is irrelevant at runtime, but other languages (including Scala) retain some run time type information.
+
+## Syntactic sugar
+We can add syntactic sugar for function definitions to allow for type parameters:
+$$
+\text{let fun }f[A](x:\tau)=e\text{ in }...
+$$
+which is equivalent to:
+$$
+\text{let }f=\Lambda A.\lambda x:\tau.e\text{ in }...
+$$
+In either case, a function call can be written as $f[\tau](x)$
+
+# Other forms of polymorphism
+Polymorphism refers to several related techniques of "code reuse":
+- [[W5N3 - Subtyping|Subtyping]] is a form of polymorphism based on relations between types
+- Parametric polymorphism is abstraction over type parameters
+- Ad hoc polymorphism is function *overloading*: the reuse of the same name for multiple implementations, e.g. $+$ is often both numeric addition and string concatenation

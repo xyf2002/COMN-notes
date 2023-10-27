@@ -178,6 +178,19 @@ inversion
 inverse
 installation
 instantiates
+irrelevant
+involved
+inference
+infer
+import
+il
+integers
+importing
+inside
+invariants
+implicit
+invariant
+implements
 or
 of
 operations
@@ -314,6 +327,7 @@ oHM
 objects
 operate
 obviously
+overloading
 there
 that
 than
@@ -512,6 +526,10 @@ transmitted
 trusting
 trustworthiness
 tuples
+typechecked
+typechecker
+tl
+trait
 some
 smaller
 so
@@ -825,6 +843,13 @@ subtype
 subsumption
 supertype
 subtypes
+substituting
+specifying
+symbolically
+starts
+specification
+stacks
+scopes
 multiple
 matter
 many
@@ -981,6 +1006,10 @@ mnv
 mz
 mechanism
 matched
+modules
+mostly
+ml
+module
 eventually
 execute
 each
@@ -1177,6 +1206,10 @@ everyone
 extracted
 expansion
 explicit
+examinable
+exponential
+extensions
+es
 bounded
 by
 below
@@ -1325,6 +1358,8 @@ beforehand
 bottleneck
 browser
 binds
+bureaucracy
+brings
 above
 asymptotically
 as
@@ -1559,6 +1594,10 @@ attaches
 abbreviates
 abbreviations
 altering
+annotations
+annotation
+abstracts
+away
 no
 number
 not
@@ -1660,6 +1699,8 @@ nN
 ngn
 ny
 notion
+namespace
+nQ
 what
 ways
 we
@@ -1763,6 +1804,7 @@ wv
 wD
 wK
 wrJ
+worse
 Defined
 Different
 Datastructures
@@ -1878,6 +1920,7 @@ DDDD
 Discrete
 DHP
 Diffie
+Declarations
 Can
 CPU
 Create
@@ -1995,6 +2038,9 @@ Chain
 Certificate
 CRLs
 ColoredPoint
+Constraints
+Content
+Checking
 consider
 compare
 cost
@@ -2314,6 +2360,11 @@ certify
 componentwise
 covariant
 contravariant
+currently
+crashes
+compartmentalised
+chO
+clients
 larger
 lower
 likely
@@ -2444,6 +2495,10 @@ loan
 lukG
 lock
 lever
+lambda
+lZ
+lonL
+lC
 upper
 use
 useful
@@ -2531,6 +2586,10 @@ uq
 ue
 union
 usual
+unimportant
+uMST
+unlike
+unsorted
 for
 focus
 from
@@ -2682,6 +2741,9 @@ forgeries
 framework
 fields
 flipped
+formalising
+fX
+fPf
 There
 Typically
 The
@@ -2786,6 +2848,8 @@ Tt
 TLS
 Top
 Typechecking
+Theoretically
+Traits
 possible
 purposes
 performed
@@ -3016,6 +3080,13 @@ proceed
 pretending
 pointwise
 polymorphic
+parameter
+parameters
+polymorphism
+place
+particular
+pYW
+pq
 various
 values
 value
@@ -3107,6 +3178,8 @@ vr
 variants
 variant
 vxt
+visible
+violates
 kinds
 know
 keys
@@ -3169,6 +3242,9 @@ kNk
 klh
 kwV
 kZ
+kr
+kEV
+keyword
 We
 Worst
 When
@@ -3237,6 +3313,7 @@ WOv
 WZb
 Ways
 Width
+Weaknesses
 definition
 different
 disk
@@ -3440,6 +3517,9 @@ directory
 definable
 direction
 describes
+deliberately
+declarations
+dB
 how
 have
 halves
@@ -3545,6 +3625,11 @@ hg
 handling
 hn
 holding
+hence
+hwg
+hides
+hide
+hoc
 runtime
 runtimes
 run
@@ -3772,6 +3857,11 @@ regularly
 relationship
 reordering
 rare
+retain
+rCq
+rp
+related
+relations
 Even
 Example
 Extensible
@@ -3860,6 +3950,11 @@ ENk
 Euler
 ElGamal
 Extending
+Evaluating
+Elegant
+Effective
+Entry
+Executables
 An
 Asymptotic
 Any
@@ -3970,6 +4065,8 @@ AwN
 AB
 AU
 Alice
+ADT
+ADTs
 InsertSort
 Is
 In
@@ -4073,6 +4170,10 @@ IK
 Intractable
 Input
 Installing
+Importing
+Iv
+IdF
+Interfaces
 Yes
 YY
 YYY
@@ -4127,6 +4228,8 @@ YU
 YCO
 Ydj
 Ycv
+YJ
+YDX
 given
 graph
 general
@@ -4326,6 +4429,7 @@ Bob
 Browser
 Booleans
 Bottom
+BYN
 quantitative
 queues
 queue
@@ -4386,6 +4490,7 @@ qVV
 qHX
 qTt
 quuss
+qS
 MergeSort
 Method
 Merge
@@ -4476,6 +4581,8 @@ MH
 MF
 Ma
 MitM
+Milner
+Maintaining
 However
 How
 Heapify
@@ -4559,6 +4666,7 @@ Ht
 HMAC
 HdD
 Hellman
+Hindley
 Rigorous
 Rigorously
 Recursion
@@ -4741,6 +4849,7 @@ FzQc
 Fz
 FC
 Factoring
+FB
 Lists
 Linked
 Likewise
@@ -4825,6 +4934,7 @@ LW
 LIIIJ
 Liskov
 LData
+LOvV
 Stacks
 Sometimes
 So
@@ -4926,6 +5036,10 @@ SN
 Self
 Subtypes
 Subtyping
+Strengths
+Sr
+Specification
+Syntactic
 Notes
 NG
 NK
@@ -4996,6 +5110,10 @@ Npu
 NfVe
 NfUED
 Nem
+Namespaces
+NsM
+NYR
+NM
 Obsidian
 OOO
 OO
@@ -5080,6 +5198,8 @@ ONg
 Output
 Online
 OSCP
+Og
+Omzb
 Probing
 Peek
 Partition
@@ -5184,6 +5304,10 @@ Publicly
 Point
 Principle
 Polymorphism
+Programs
+Pk
+PU
+Parametric
 Given
 Gp
 GGG
@@ -5251,6 +5375,7 @@ GcQ
 Gst
 Generalised
 GQDDDd
+GCSGw
 just
 jgc
 jkk
@@ -5618,6 +5743,7 @@ VVj
 Variants
 Vqw
 Vzy
+Very
 ZR
 Zx
 ZD
@@ -5735,6 +5861,8 @@ JAf
 JPLD
 Jy
 JrvvV
+Ju
+JRgF
 XO
 XYYI
 XIh
@@ -5790,6 +5918,7 @@ Xc
 XZ
 XRXR
 XT
+XyR
 zo
 zjR
 zx
@@ -5838,6 +5967,7 @@ zyh
 zZf
 za
 zA
+zfW
 xxx
 xe
 xfs
@@ -5881,4 +6011,6 @@ xw
 xpz
 xFB
 xf
+xW
+xxzcm
 ÖQ
