@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "63e3f6939091e525",
+        "id": "676f902217eda628",
         "type": "tabs",
         "children": [
           {
-            "id": "ab5a170813976556",
+            "id": "ebb15e2108015a2d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "computer_security/images/w6n1tls.png"
+                "file": "computer_security/Week 6/W6N2 - Anonymous communications.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_security/images/w6n1tls.png",
+                "file": "computer_security/Week 6/W6N2 - Anonymous communications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_security/images/w6n1tls.png",
+                "file": "computer_security/Week 6/W6N2 - Anonymous communications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_security/images/w6n1tls.png"
+                "file": "computer_security/Week 6/W6N2 - Anonymous communications.md"
               }
             }
           },
@@ -171,17 +173,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "245016979c3189b3",
+  "active": "ebb15e2108015a2d",
   "lastOpenFiles": [
+    "computer_security/Week 6/W6N3 - Onion routing.md",
+    "computer_security/images/w6n2Crowd.png",
+    "computer_security/Week 6/W6N2 - Anonymous communications.md",
+    "computer_security/images/w6n2ChaumsMix.png",
     "computer_security/Week 6/W6N1 - TLS.md",
+    "elements_of_programming_languages/Week 7/W7N2 - Advanced OOP constructs.md",
+    "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
+    "elements_of_programming_languages/Week 6/W6N4 - Modules and interfaces.md",
+    "computer_security/images/w6n1tls.png",
+    "elements_of_programming_languages/Week 7",
     "computer_security/images/w6n1TlsLogjam.png",
     "computer_security/images/w6n1TlsLogjam.png",
     "computer_security/images/w6n1TlsDhKeyExchange.png",
-    "computer_security/images/w6n1tls.png",
     "computer_security/Week 4/W4N2 - Public key encryption.md",
     "computer_security/Week 5/W5N1 - Public Key Infrastructure.md",
     "computer_security/Week 1/W1N1 - Intro.md",
-    "elements_of_programming_languages/Week 6/W6N4 - Modules and interfaces.md",
     "computer_security/Week 6",
     "elements_of_programming_languages/Week 6/W6N3 - Programs and namespaces.md",
     "computer_security/Week 5/W5N2 - Cryptographic protocols for secure communication.md",
@@ -199,7 +208,6 @@
     "elements_of_programming_languages/Week 5",
     "computer_security/images/w5n1BrowserSecure.png",
     "computer_security/images/w5n1x509cert.png",
-    "computer_security/images/w5n1x509cert.png",
     "computer_security/Week 4/W4N1 - Sharing keys.md",
     "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md",
     "computer_security/Week 5",
@@ -207,16 +215,10 @@
     "computer_security/Week 4/W4N3 - Digital signatures.md",
     "computer_security/Week 3/W3N3 - Symmetric encryption systems.md",
     "computer_security/Week 3/W3N2 - Symmetric encryption.md",
-    "computer_security/Week 3/W3N1 - Intro to cryptography.md",
-    "w4n2DhMitmAttack.png",
     "computer_security/Week 4",
-    "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
-    "elements_of_programming_languages/Week 4/W4N1 - Pairs.md",
-    "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
     "elements_of_programming_languages/Week 4",
     "computer_security/Week 3",
     "elements_of_programming_languages/Week 3",
-    "elements_of_programming_languages/Week 2",
-    "computer_security/Week 2"
+    "elements_of_programming_languages/Week 2"
   ]
 }
