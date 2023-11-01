@@ -212,6 +212,9 @@ imU
 informed
 incorrectly
 initiator
+inefficient
+intelligently
+impossible
 or
 of
 operations
@@ -371,6 +374,8 @@ okk
 oYYYcc
 observed
 observes
+outer
+opens
 there
 that
 than
@@ -610,6 +615,9 @@ tME
 tp
 tails
 transmit
+threshold
+timer
+timings
 some
 smaller
 so
@@ -958,6 +966,9 @@ story
 sees
 service
 selecting
+shuffles
+strategies
+semi
 multiple
 matter
 many
@@ -1148,6 +1159,8 @@ mix
 mF
 msD
 mhh
+mixes
+mixing
 eventually
 execute
 each
@@ -1385,6 +1398,8 @@ ekQ
 eN
 eccs
 esss
+elapses
+exit
 bounded
 by
 below
@@ -1554,6 +1569,7 @@ bfj
 bT
 bv
 bDQt
+buffering
 above
 asymptotically
 as
@@ -1816,6 +1832,13 @@ abQ
 auwKH
 aoY
 announces
+attach
+arriving
+anonymised
+anonymity
+arrival
+asks
+accessing
 no
 number
 not
@@ -1937,6 +1960,7 @@ nPY
 nute
 negation
 nDC
+neither
 what
 ways
 we
@@ -2063,6 +2087,9 @@ waaa
 whereas
 wants
 webpage
+waits
+wait
+wider
 Defined
 Different
 Datastructures
@@ -2199,6 +2226,7 @@ DT
 Dining
 DSS
 DSj
+Dummy
 Can
 CPU
 Create
@@ -2351,6 +2379,7 @@ Cjm
 Crowds
 Chaum
 Cf
+Continuous
 consider
 compare
 cost
@@ -2703,6 +2732,8 @@ cUW
 cwvvv
 cryptographer
 crowd
+controlling
+correlation
 larger
 lower
 likely
@@ -2854,6 +2885,7 @@ lUl
 lQx
 lkkkmm
 lq
+layered
 upper
 use
 useful
@@ -2969,6 +3001,7 @@ uWooo
 uZJN
 uwV
 uKSS
+unless
 for
 focus
 from
@@ -3143,6 +3176,9 @@ fB
 flip
 flips
 forwarder
+fraction
+fingerprinting
+fingerprint
 There
 Typically
 The
@@ -3278,6 +3314,9 @@ TNr
 Tqqq
 TVAt
 Three
+Timed
+Threshold
+Tor
 possible
 purposes
 performed
@@ -3544,6 +3583,10 @@ paying
 privately
 pay
 pairwise
+pending
+providing
+pool
+potentially
 various
 values
 value
@@ -3753,6 +3796,7 @@ kN
 ksu
 keywords
 kqM
+kill
 We
 Worst
 When
@@ -3843,6 +3887,7 @@ WYN
 WeF
 Wttt
 WXXXUU
+Website
 definition
 different
 disk
@@ -4080,6 +4125,15 @@ dining
 dinner
 denial
 delivers
+decrypts
+dummy
+delays
+delay
+delayed
+deciding
+determines
+defends
+downloaded
 how
 have
 halves
@@ -4214,6 +4268,8 @@ hA
 hS
 heads
 him
+honest
+heuristics
 runtime
 runtimes
 run
@@ -4480,6 +4536,9 @@ rRtO
 rVE
 rQQ
 revealing
+recipient
+retrieve
+reconnect
 Even
 Example
 Extensible
@@ -4597,6 +4656,8 @@ EEEu
 EMLLz
 Ett
 EEEee
+Every
+End
 An
 Asymptotic
 Any
@@ -4735,6 +4796,7 @@ Ay
 ARMCQ
 Along
 AGE
+Asymmetric
 InsertSort
 Is
 In
@@ -4937,6 +4999,7 @@ YyBV
 Yp
 YVV
 Yizy
+You
 given
 graph
 general
@@ -5185,6 +5248,7 @@ BL
 Baa
 BVVV
 BCCe
+Buffering
 quantitative
 queues
 queue
@@ -5378,6 +5442,8 @@ MW
 MEEv
 MQJ
 MQeE
+Messages
+Mixing
 However
 How
 Heapify
@@ -5959,6 +6025,7 @@ SAY
 SOutt
 SBz
 Similar
+Selective
 Notes
 NG
 NK
@@ -6295,6 +6362,7 @@ Ptm
 Pa
 Ppm
 PZq
+Pool
 Given
 Gp
 GGG
@@ -6386,6 +6454,7 @@ GDQ
 GBF
 GUT
 GFF
+Guarantees
 just
 jgc
 jkk
@@ -6711,6 +6780,7 @@ yQJ
 yfs
 yL
 yUQ
+your
 KKKt
 KO
 Kw

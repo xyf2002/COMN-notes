@@ -5,7 +5,7 @@ There are 4 main methods:
 1. Dining cryptographers
 2. Crowds
 3. Chaum's mix
-4. [[W6N3 - Onion routing|Onion routing]]
+4. Onion routing
 
 # 3 party dining cryptographers (3DC)
 The story goes:
@@ -73,3 +73,37 @@ To guard against a mix being corrupted, a message is sent through a sequence of 
 - Asymmetric encryption is inefficient
 - Dummy messages are inefficient
 - Buffering can introduce high delays, depending on how active the network is
+
+## Mixing strategies
+- **Timed mixing:** the mix receives packets for a fixed time period, then mixes and sends everything it has received
+	- Number of messages sent is not fixed, time delay is fixed
+	- This means you know any message that is sent will be delayed for no longer than that set amount of time
+- **Threshold mixing:** the mix receives packets until it hits a fixed threshold, then sends them
+	- Number of messages is fixed, time delay is not
+	- You do not know how long your message may wait, but you do know that a specific amount of mixing has occurred
+- **Pool mixing:** the mix has both a timer and a threshold. The mix waits until it hits that threshold, then it sends a set fraction of the pool every time the time elapses.
+	- Guarantees there are always some messages in the queue, so there is always a threshold level of mixing, and generally there is not a long wait either.
+- **Continuous mixing:** instead of the mix deciding the delay, the client does. If a delay is selected intelligently i.e. from a probability distribution such as an exponential distribution, and with a long enough mean so that enough other messages arrive at the mix between your message's arrival and transmission, then it is impossible to tell who's message is leaving the mix.
+
+# Onion routing
+Tor is a low latency, source routed (the sender determines the full path of the packet), which uses layered encryption and constant sized packets to hide the contents of messages. It defends against a local adversary, but not a global one (who can monitor the whole network).
+
+![[w6n2OnionRouting.png]]
+
+Onion routing works by:
+1. The client opens a secure channel with an entry ("guard") node
+2. The client asks the guard node to open a secure channel between the client and another node on the network
+3. The client asks that node to open a secure channel between the client and an exit node
+4. The client sends its traffic to the wider internet through that final secure channel
+
+This means that the guard node knows who is connecting to it, the exit node knows where the traffic is going, but neither know both.
+
+## Attacks
+- **End to end correlation:** accessing any website will give a fairly unique series of packet timings based off of what needs to be downloaded. An adversary who controls both the entry and exit node is able to monitor this, and potentially determine what traffic is travelling between them
+	- As Tor uses [[W3N3 - Symmetric encryption systems#Advanced Encryption Standard (AES)|AES in counter mode]], which is [[W3N3 - Symmetric encryption systems#^b682f9|malleable]], so an attacker can XOR a bit or pattern into a packet at one end, and retrieve it at the other
+- **Selective DOS:** if a malicious guard is used, and there exists a malicious exit node, the guard can kill the connection every time it is established unless the exit node is finding some correlation. The client will reconnect on a new route, and this can repeat thousands or millions of times until the client gets a connection with the compromised exit node
+- **Website fingerprinting:** heuristics such as time between packets, number of packets send, and more can be used to create a semi-unique fingerprint for each website. This doesn't attack the Tor network at all, instead can just monitor local traffic before it reaches the guard node.
+	- The modern state of the art deep neural networks are able to reach high 90s% accuracy, however this falls off as the number of sites needing to be identified increases
+	- [Base rate fallacy](https://en.wikipedia.org/wiki/Base_rate_fallacy)
+	- Generally, the classifier is trained on a limited selection of websites. On the internet, there are enough sites that it is fairly likely that there will be overlaps in site fingerprints
+	- Defences tend to involve the server cooperating, which is often difficult to achieve
