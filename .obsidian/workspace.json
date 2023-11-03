@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_security/Week 7/W7N2 - OS security principles.md",
+                "file": "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_security/Week 7/W7N2 - OS security principles.md",
+                "file": "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_security/Week 7/W7N2 - OS security principles.md",
+                "file": "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_security/Week 7/W7N2 - OS security principles.md"
+                "file": "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md"
               }
             }
           },
@@ -178,7 +178,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "245016979c3189b3",
+  "active": "8d7befd2a584a6c8",
   "lastOpenFiles": [
     "computer_security/Week 7/W7N2 - OS security principles.md",
     "computer_security/Week 7/W7N1 - OS concepts.md",
