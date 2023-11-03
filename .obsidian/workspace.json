@@ -4,24 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "bd2f5f2c0fa382d3",
+        "id": "5d7d218f741450d6",
         "type": "tabs",
         "children": [
           {
-            "id": "65320c078ac23065",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "32b6d20ff6fc4a90",
+            "id": "13995b0b5278d3c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_security/Week 6/W6N3 - Internet censorship.md",
+                "file": "computer_security/Week 7/W7N1 - OS concepts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d7befd2a584a6c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_security/Week 7/W7N2 - OS security principles.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,21 +61,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "firewall",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "efbf25d0b9390ff8",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
             }
           },
           {
@@ -82,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -103,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_security/Week 6/W6N3 - Internet censorship.md",
+                "file": "computer_security/Week 7/W7N2 - OS security principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_security/Week 6/W6N3 - Internet censorship.md",
+                "file": "computer_security/Week 7/W7N2 - OS security principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_security/Week 6/W6N3 - Internet censorship.md"
+                "file": "computer_security/Week 7/W7N2 - OS security principles.md"
               }
             }
           },
@@ -183,8 +178,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "028fb1d5b7dc1823",
+  "active": "245016979c3189b3",
   "lastOpenFiles": [
+    "computer_security/Week 7/W7N2 - OS security principles.md",
+    "computer_security/Week 7/W7N1 - OS concepts.md",
+    "computer_security/images/w7n1VirtualMemory.png",
+    "computer_security/images/w7n1ProcessMemoryLayout.png",
+    "computer_security/images/w7n1UnixArchitecture.png",
+    "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
+    "computer_security/Week 7",
+    "elements_of_programming_languages/Week 7/W7N2 - Advanced OOP constructs.md",
     "computer_security/Week 6/W6N3 - Internet censorship.md",
     "computer_security/Week 6/W6N2 - Anonymous communications.md",
     "computer_security/Week 3/W3N3 - Symmetric encryption systems.md",
@@ -193,8 +196,6 @@
     "computer_security/images/w6n2Crowd.png",
     "computer_security/images/w6n2ChaumsMix.png",
     "computer_security/Week 6/W6N1 - TLS.md",
-    "elements_of_programming_languages/Week 7/W7N2 - Advanced OOP constructs.md",
-    "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
     "elements_of_programming_languages/Week 6/W6N4 - Modules and interfaces.md",
     "computer_security/images/w6n1tls.png",
     "elements_of_programming_languages/Week 7",
@@ -209,8 +210,6 @@
     "computer_security/Week 5/W5N2 - Cryptographic protocols for secure communication.md",
     "elements_of_programming_languages/Week 6/W6N2 - Type inference.md",
     "elements_of_programming_languages/Week 6/W6N1 - Parametric polymorphism.md",
-    "Pasted image 20231026133257.png",
-    "Pasted image 20231026133300.png",
     "elements_of_programming_languages/Week 5/W5N3 - Subtyping.md",
     "elements_of_programming_languages/Week 5/W5N1 - Records, named variants, and pattern matching.md",
     "elements_of_programming_languages/Week 5/W5N2 - Type abbreviations and definitions.md",
@@ -219,17 +218,13 @@
     "elements_of_programming_languages/Week 6",
     "elements_of_programming_languages/Week 4/W4N2 - Variant types.md",
     "elements_of_programming_languages/Week 5",
-    "computer_security/images/w5n1BrowserSecure.png",
     "computer_security/Week 4/W4N1 - Sharing keys.md",
     "computer_security/Week 2/W2N3 - HTTP, TLS and DNS.md",
     "computer_security/Week 5",
     "computer_security/Week 3/W3N4 - Hash functions.md",
-    "computer_security/Week 4/W4N3 - Digital signatures.md",
-    "computer_security/Week 3/W3N2 - Symmetric encryption.md",
     "computer_security/Week 4",
     "elements_of_programming_languages/Week 4",
     "computer_security/Week 3",
-    "elements_of_programming_languages/Week 3",
-    "elements_of_programming_languages/Week 2"
+    "elements_of_programming_languages/Week 3"
   ]
 }

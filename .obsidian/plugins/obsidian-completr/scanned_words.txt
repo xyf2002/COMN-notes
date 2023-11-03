@@ -215,6 +215,13 @@ initiator
 inefficient
 intelligently
 impossible
+isolate
+initialised
+inherit
+instantiate
+inherited
+incr
+isInstanceOf
 or
 of
 operations
@@ -376,6 +383,10 @@ observed
 observes
 outer
 opens
+optionally
+overridden
+override
+obstacles
 there
 that
 than
@@ -618,6 +629,8 @@ transmit
 threshold
 timer
 timings
+tunnel
+thisIsBad
 some
 smaller
 so
@@ -969,6 +982,18 @@ selecting
 shuffles
 strategies
 semi
+sites
+shut
+suspicious
+superclass
+sync
+subclass
+subclasses
+singleton
+scala
+super
+separation
+segment
 multiple
 matter
 many
@@ -1161,6 +1186,9 @@ msD
 mhh
 mixes
 mixing
+material
+manually
+measures
 eventually
 execute
 each
@@ -1400,6 +1428,9 @@ eccs
 esss
 elapses
 exit
+evade
+extends
+evals
 bounded
 by
 below
@@ -1570,6 +1601,9 @@ bT
 bv
 bDQt
 buffering
+bypassed
+become
+breach
 above
 asymptotically
 as
@@ -1839,6 +1873,10 @@ anonymity
 arrival
 asks
 accessing
+approved
+avoid
+abc
+asInstanceOf
 no
 number
 not
@@ -1961,6 +1999,7 @@ nute
 negation
 nDC
 neither
+none
 what
 ways
 we
@@ -2380,6 +2419,14 @@ Crowds
 Chaum
 Cf
 Continuous
+Censorship
+Censor
+Collateral
+Constructing
+Cross
+Companion
+Count
+ConstantVal
 consider
 compare
 cost
@@ -2734,6 +2781,16 @@ cryptographer
 crowd
 controlling
 correlation
+corporate
+censors
+cooperation
+censor
+caring
+constructors
+companion
+companions
+compiling
+coercion
 larger
 lower
 likely
@@ -2886,6 +2943,7 @@ lQx
 lkkkmm
 lq
 layered
+leave
 upper
 use
 useful
@@ -3002,6 +3060,8 @@ uZJN
 uwV
 uKSS
 unless
+undesired
+untraceable
 for
 focus
 from
@@ -3179,6 +3239,8 @@ forwarder
 fraction
 fingerprinting
 fingerprint
+friend
+fails
 There
 Typically
 The
@@ -3317,6 +3379,9 @@ Three
 Timed
 Threshold
 Tor
+Try
+TextWin
+TextGraphicsWin
 possible
 purposes
 performed
@@ -3587,6 +3652,13 @@ pending
 providing
 pool
 potentially
+proxies
+places
+prohibited
+prototypes
+prevents
+protected
+privilege
 various
 values
 value
@@ -3710,6 +3782,8 @@ vgS
 vCI
 vER
 vEA
+val
+var
 kinds
 know
 keys
@@ -3888,6 +3962,7 @@ WeF
 Wttt
 WXXXUU
 Website
+Win
 definition
 different
 disk
@@ -4134,6 +4209,12 @@ deciding
 determines
 defends
 downloaded
+disallowed
+defaulting
+distinct
+dispatch
+def
+depth
 how
 have
 halves
@@ -4270,6 +4351,7 @@ heads
 him
 honest
 heuristics
+hosted
 runtime
 runtimes
 run
@@ -4539,6 +4621,9 @@ revealing
 recipient
 retrieve
 reconnect
+regimes
+redundant
+reliant
 Even
 Example
 Extensible
@@ -4797,6 +4882,7 @@ ARMCQ
 Along
 AGE
 Asymmetric
+AnyVal
 InsertSort
 Is
 In
@@ -4923,6 +5009,9 @@ IDDD
 Inside
 IRG
 Iy
+Inheritance
+Instantiation
+Int
 Yes
 YY
 YYY
@@ -5888,6 +5977,7 @@ LBM
 LTB
 LRR
 LCdE
+Least
 Stacks
 Sometimes
 So
@@ -6026,6 +6116,9 @@ SOutt
 SBz
 Similar
 Selective
+Spread
+Such
+String
 Notes
 NG
 NK
@@ -6236,6 +6329,10 @@ Of
 Objects
 Onion
 OMM
+Overriding
+Obj
+Override
+Open
 Probing
 Peek
 Partition
@@ -6363,6 +6460,7 @@ Pa
 Ppm
 PZq
 Pool
+Privilege
 Given
 Gp
 GGG
@@ -6455,6 +6553,7 @@ GBF
 GUT
 GFF
 Guarantees
+GraphicsWin
 just
 jgc
 jkk
@@ -6523,6 +6622,7 @@ jJ
 jJwS
 jQF
 jJO
+jurisdictions
 Using
 UEGGG
 UF
@@ -6610,6 +6710,7 @@ Ur
 UWd
 ULu
 UL
+Use
 QuickSort
 QeD
 Qq
@@ -6947,6 +7048,7 @@ Vmmm
 Vu
 VQ
 VO
+Value
 ZR
 Zx
 ZD
@@ -7256,6 +7358,7 @@ ztQ
 zJ
 zxAh
 zGCCC
+zero
 xxx
 xe
 xfs

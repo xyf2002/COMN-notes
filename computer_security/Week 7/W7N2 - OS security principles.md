@@ -1,0 +1,7 @@
+- **Defence in depth:** by building security measures into every layer of the system, it means that if one mechanism fails then there are still many obstacles in the way of an attack
+- **Least privilege:** users and programs should only access the data and resources required to perform their functions
+- **Privilege separation:** segment the system into components and limit access to each of those by application. This means that a security breach of any individual component has a limited reach
+- **Open design:** the security of a mechanism should not depend on its secrecy. This is the same as [[W3N2 - Symmetric encryption#Kerckhoff's principle|Kerckhoff's principle]]
+- **Keep it simple:** a mechanism should be no more complex than is absolutely necessary. Complexity makes it harder to verify correctness, harder to maintain, and increases the chance that users make a mistake that creates a vulnerability
+- **Fail-safe defaults:** default configuration should be conservative, e.g. new users should have the least privileges by default
+- **Complete mediation:** every access to a resource must be checked for compliance with security policy
