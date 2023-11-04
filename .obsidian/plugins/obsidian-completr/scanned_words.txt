@@ -994,6 +994,8 @@ scala
 super
 separation
 segment
+section
+syscalls
 multiple
 matter
 many
@@ -1189,6 +1191,11 @@ mixing
 material
 manually
 measures
+mistake
+mediation
+misbehaving
+modes
+mode
 eventually
 execute
 each
@@ -1431,6 +1438,8 @@ exit
 evade
 extends
 evals
+executing
+executed
 bounded
 by
 below
@@ -1877,6 +1886,7 @@ approved
 avoid
 abc
 asInstanceOf
+absolutely
 no
 number
 not
@@ -2129,6 +2139,7 @@ webpage
 waits
 wait
 wider
+writes
 Defined
 Different
 Datastructures
@@ -2427,6 +2438,8 @@ Cross
 Companion
 Count
 ConstantVal
+Complexity
+Complete
 consider
 compare
 cost
@@ -2791,6 +2804,10 @@ companion
 companions
 compiling
 coercion
+correctness
+conservative
+checked
+compliance
 larger
 lower
 likely
@@ -2944,6 +2961,11 @@ lkkkmm
 lq
 layered
 leave
+limits
+levels
+library
+loaded
+layout
 upper
 use
 useful
@@ -3062,6 +3084,8 @@ uKSS
 unless
 undesired
 untraceable
+unix
+username
 for
 focus
 from
@@ -3241,6 +3265,8 @@ fingerprinting
 fingerprint
 friend
 fails
+focuses
+forking
 There
 Typically
 The
@@ -3659,6 +3685,9 @@ prototypes
 prevents
 protected
 privilege
+privileges
+processes
+present
 various
 values
 value
@@ -3871,6 +3900,7 @@ ksu
 keywords
 kqM
 kill
+kernel
 We
 Worst
 When
@@ -4215,6 +4245,9 @@ distinct
 dispatch
 def
 depth
+defaults
+duration
+drive
 how
 have
 halves
@@ -4352,6 +4385,7 @@ him
 honest
 heuristics
 hosted
+harming
 runtime
 runtimes
 run
@@ -4624,6 +4658,7 @@ reconnect
 regimes
 redundant
 reliant
+reads
 Even
 Example
 Extensible
@@ -4883,6 +4918,7 @@ Along
 AGE
 Asymmetric
 AnyVal
+Assumptions
 InsertSort
 Is
 In
@@ -5533,6 +5569,7 @@ MQJ
 MQeE
 Messages
 Mixing
+Multitasking
 However
 How
 Heapify
@@ -5752,6 +5789,7 @@ RMo
 RJxK
 Ri
 RniQK
+RAM
 First
 Fixed
 Fast
@@ -5864,6 +5902,7 @@ FPM
 Fi
 FruPn
 FNv
+Fail
 Lists
 Linked
 Likewise
@@ -6119,6 +6158,7 @@ Selective
 Spread
 Such
 String
+Syscalls
 Notes
 NG
 NK
@@ -6461,6 +6501,9 @@ Ppm
 PZq
 Pool
 Privilege
+Purpose
+Processes
+PID
 Given
 Gp
 GGG
@@ -6711,6 +6754,9 @@ UWd
 ULu
 UL
 Use
+Users
+Unix
+UID
 QuickSort
 QeD
 Qq
@@ -6967,6 +7013,8 @@ KEYN
 KS
 Khjj
 KLL
+Keep
+Kernel
 VVVl
 VN
 VSS
@@ -7049,6 +7097,7 @@ Vu
 VQ
 VO
 Value
+Virtual
 ZR
 Zx
 ZD
