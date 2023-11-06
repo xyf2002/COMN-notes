@@ -222,6 +222,11 @@ instantiate
 inherited
 incr
 isInstanceOf
+isolated
+installed
+implementing
+incidents
+impose
 or
 of
 operations
@@ -387,6 +392,8 @@ optionally
 overridden
 override
 obstacles
+owned
+organisational
 there
 that
 than
@@ -631,6 +638,7 @@ timer
 timings
 tunnel
 thisIsBad
+traversing
 some
 smaller
 so
@@ -996,6 +1004,11 @@ separation
 segment
 section
 syscalls
+spawned
+saved
+suid
+standard
+spoofing
 multiple
 matter
 many
@@ -1196,6 +1209,9 @@ mediation
 misbehaving
 modes
 mode
+manages
+malware
+mitigated
 eventually
 execute
 each
@@ -1440,6 +1456,13 @@ extends
 evals
 executing
 executed
+euid
+executables
+enter
+entering
+email
+effects
+encouraging
 bounded
 by
 below
@@ -1613,6 +1636,8 @@ buffering
 bypassed
 become
 breach
+background
+browsers
 above
 asymptotically
 as
@@ -1887,6 +1912,9 @@ avoid
 abc
 asInstanceOf
 absolutely
+account
+attackers
+anti
 no
 number
 not
@@ -2140,6 +2168,7 @@ waits
 wait
 wider
 writes
+warnings
 Defined
 Different
 Datastructures
@@ -2277,6 +2306,7 @@ Dining
 DSS
 DSj
 Dummy
+Directory
 Can
 CPU
 Create
@@ -2440,6 +2470,7 @@ Count
 ConstantVal
 Complexity
 Complete
+Captchas
 consider
 compare
 cost
@@ -2808,6 +2839,8 @@ correctness
 conservative
 checked
 compliance
+carefully
+coarse
 larger
 lower
 likely
@@ -2966,6 +2999,9 @@ levels
 library
 loaded
 layout
+logging
+login
+locked
 upper
 use
 useful
@@ -3086,6 +3122,9 @@ undesired
 untraceable
 unix
 username
+uid
+unprivileged
+undetected
 for
 focus
 from
@@ -3267,6 +3306,7 @@ friend
 fails
 focuses
 forking
+failed
 There
 Typically
 The
@@ -3688,6 +3728,13 @@ privilege
 privileges
 processes
 present
+permission
+phonecalls
+phishing
+proxy
+protecting
+planned
+plan
 various
 values
 value
@@ -3901,6 +3948,7 @@ keywords
 kqM
 kill
 kernel
+keylogger
 We
 Worst
 When
@@ -4248,6 +4296,7 @@ depth
 defaults
 duration
 drive
+date
 how
 have
 halves
@@ -4386,6 +4435,7 @@ honest
 heuristics
 hosted
 harming
+humans
 runtime
 runtimes
 run
@@ -4659,6 +4709,9 @@ regimes
 redundant
 reliant
 reads
+remember
+report
+rehearsed
 Even
 Example
 Extensible
@@ -4778,6 +4831,7 @@ Ett
 EEEee
 Every
 End
+Elevating
 An
 Asymptotic
 Any
@@ -5048,6 +5102,7 @@ Iy
 Inheritance
 Instantiation
 Int
+IDs
 Yes
 YY
 YYY
@@ -5241,6 +5296,8 @@ ga
 goes
 generalises
 got
+grained
+guess
 Best
 Basically
 BP
@@ -5570,6 +5627,8 @@ MQeE
 Messages
 Mixing
 Multitasking
+Making
+Malware
 However
 How
 Heapify
@@ -5666,6 +5725,7 @@ HN
 HS
 HNr
 HWww
+Helping
 Rigorous
 Rigorously
 Recursion
@@ -5790,6 +5850,9 @@ RJxK
 Ri
 RniQK
 RAM
+Root
+Responding
+Rate
 First
 Fixed
 Fast
@@ -6504,6 +6567,9 @@ Privilege
 Purpose
 Processes
 PID
+Permissions
+Phishing
+Protecting
 Given
 Gp
 GGG
@@ -6597,6 +6663,7 @@ GUT
 GFF
 Guarantees
 GraphicsWin
+Guessing
 just
 jgc
 jkk
