@@ -1,5 +1,6 @@
 {
   "accentColor": "",
   "interfaceFontFamily": "",
-  "monospaceFontFamily": "Fira Code"
+  "monospaceFontFamily": "Fira Code",
+  "baseFontSize": 16
 }

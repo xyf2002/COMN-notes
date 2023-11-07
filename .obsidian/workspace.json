@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1c157ed1332c7c25",
+        "id": "44f9943ad26b4ce2",
         "type": "tabs",
         "children": [
           {
-            "id": "5660e9e84561c822",
+            "id": "49aefc2cd4ea5e3f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_security/Week 8/W8N1 - Password authentication.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "covaria",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_security/Week 8/W8N1 - Password authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_security/Week 8/W8N1 - Password authentication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "computer_security/Week 8/W8N1 - Password authentication.md"
-              }
+              "state": {}
             }
           },
           {
@@ -165,15 +157,19 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5660e9e84561c822",
+  "active": "49aefc2cd4ea5e3f",
   "lastOpenFiles": [
-    "().md",
+    "elements_of_programming_languages/Week 7/W7N2 - Object-oriented functional programming.md",
+    "computer_security/Week 8/W8N2 - Memory management.md",
+    "elements_of_programming_languages/Week 7/W7N3 - Iterators and comprehensions.md",
+    "elements_of_programming_languages/Week 5/W5N3 - Subtyping.md",
+    "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
     "computer_security/Week 8/W8N1 - Password authentication.md",
+    "().md",
     "computer_security/Week 7/W7N3 - Privilege separation.md",
     "computer_security/Week 7/W7N1 - OS concepts.md",
     "computer_security/Week 7/W7N2 - OS security principles.md",
     "computer_security/Week 8",
-    "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
     "computer_security/images/w7n1VirtualMemory.png",
     "computer_security/images/w7n1ProcessMemoryLayout.png",
     "computer_security/images/w7n1UnixArchitecture.png",
@@ -201,13 +197,9 @@
     "computer_security/Week 5/W5N2 - Cryptographic protocols for secure communication.md",
     "elements_of_programming_languages/Week 6/W6N2 - Type inference.md",
     "elements_of_programming_languages/Week 6/W6N1 - Parametric polymorphism.md",
-    "elements_of_programming_languages/Week 5/W5N3 - Subtyping.md",
     "elements_of_programming_languages/Week 5/W5N1 - Records, named variants, and pattern matching.md",
     "elements_of_programming_languages/Week 5/W5N2 - Type abbreviations and definitions.md",
-    "elements_of_programming_languages/Week 3/W3N2 - Scope.md",
-    "elements_of_programming_languages/Week 3/W3N1 - Variables and substitution.md",
     "elements_of_programming_languages/Week 6",
-    "elements_of_programming_languages/Week 4/W4N2 - Variant types.md",
     "elements_of_programming_languages/Week 5",
     "computer_security/Week 5",
     "computer_security/Week 4",

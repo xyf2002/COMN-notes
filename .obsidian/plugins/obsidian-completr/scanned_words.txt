@@ -227,6 +227,11 @@ installed
 implementing
 incidents
 impose
+instruction
+incremented
+implicitly
+iterators
+indexed
 or
 of
 operations
@@ -394,6 +399,8 @@ override
 obstacles
 owned
 organisational
+onto
+old
 there
 that
 than
@@ -639,6 +646,8 @@ timings
 tunnel
 thisIsBad
 traversing
+traits
+translated
 some
 smaller
 so
@@ -1009,6 +1018,8 @@ saved
 suid
 standard
 spoofing
+shadowed
+somewhat
 multiple
 matter
 many
@@ -1212,6 +1223,9 @@ mode
 manages
 malware
 mitigated
+mixins
+mixin
+mysterious
 eventually
 execute
 each
@@ -1463,6 +1477,9 @@ entering
 email
 effects
 encouraging
+exception
+expose
+expands
 bounded
 by
 below
@@ -1638,6 +1655,7 @@ become
 breach
 background
 browsers
+bounds
 above
 asymptotically
 as
@@ -1915,6 +1933,9 @@ absolutely
 account
 attackers
 anti
+assembly
+assembler
+arbitrarily
 no
 number
 not
@@ -2169,6 +2190,7 @@ wait
 wider
 writes
 warnings
+wins
 Defined
 Different
 Datastructures
@@ -2471,6 +2493,9 @@ ConstantVal
 Complexity
 Complete
 Captchas
+Calling
+Called
+Comprehensions
 consider
 compare
 cost
@@ -2841,6 +2866,9 @@ checked
 compliance
 carefully
 coarse
+composition
+collections
+comprehension
 larger
 lower
 likely
@@ -3002,6 +3030,11 @@ layout
 logging
 login
 locked
+linker
+links
+libraries
+loader
+loads
 upper
 use
 useful
@@ -3307,6 +3340,7 @@ fails
 focuses
 forking
 failed
+functional
 There
 Typically
 The
@@ -3735,6 +3769,11 @@ proxy
 protecting
 planned
 plan
+pushes
+parameterised
+prefix
+prefixed
+pretended
 various
 values
 value
@@ -3860,6 +3899,7 @@ vER
 vEA
 val
 var
+variance
 kinds
 know
 keys
@@ -4297,6 +4337,8 @@ defaults
 duration
 drive
 date
+declared
+diamond
 how
 have
 halves
@@ -4436,6 +4478,7 @@ heuristics
 hosted
 harming
 humans
+handlers
 runtime
 runtimes
 run
@@ -4712,6 +4755,8 @@ reads
 remember
 report
 rehearsed
+resets
+rich
 Even
 Example
 Extensible
@@ -5853,6 +5898,8 @@ RAM
 Root
 Responding
 Rate
+Returning
+Resets
 First
 Fixed
 Fast
@@ -6222,6 +6269,8 @@ Spread
 Such
 String
 Syscalls
+Summary
+Sets
 Notes
 NG
 NK
@@ -6317,6 +6366,7 @@ Nd
 NL
 NVX
 NSA
+Nested
 Obsidian
 OOO
 OO
@@ -6570,6 +6620,8 @@ PID
 Permissions
 Phishing
 Protecting
+Pushes
+Parameterised
 Given
 Gp
 GGG
@@ -6733,6 +6785,7 @@ jJwS
 jQF
 jJO
 jurisdictions
+jumps
 Using
 UEGGG
 UF
@@ -6824,6 +6877,7 @@ Use
 Users
 Unix
 UID
+Upper
 QuickSort
 QeD
 Qq
@@ -7323,6 +7377,7 @@ JAA
 Jum
 JEMm
 JvvvO
+Jumps
 XO
 XYYI
 XIh
