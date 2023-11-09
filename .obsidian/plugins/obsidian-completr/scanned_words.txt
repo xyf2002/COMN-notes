@@ -232,6 +232,8 @@ incremented
 implicitly
 iterators
 indexed
+immutable
+immutability
 or
 of
 operations
@@ -401,6 +403,7 @@ owned
 organisational
 onto
 old
+optimise
 there
 that
 than
@@ -648,6 +651,9 @@ thisIsBad
 traversing
 traits
 translated
+treat
+translate
+ties
 some
 smaller
 so
@@ -1020,6 +1026,9 @@ standard
 spoofing
 shadowed
 somewhat
+strike
+stops
+statement
 multiple
 matter
 many
@@ -1226,6 +1235,8 @@ mitigated
 mixins
 mixin
 mysterious
+mutable
+mutability
 eventually
 execute
 each
@@ -1656,6 +1667,7 @@ breach
 background
 browsers
 bounds
+balance
 above
 asymptotically
 as
@@ -1936,6 +1948,8 @@ anti
 assembly
 assembler
 arbitrarily
+assigns
+aka
 no
 number
 not
@@ -2869,6 +2883,8 @@ coarse
 composition
 collections
 comprehension
+considers
+clearer
 larger
 lower
 likely
@@ -3035,6 +3051,7 @@ links
 libraries
 loader
 loads
+lacking
 upper
 use
 useful
@@ -3774,6 +3791,7 @@ parameterised
 prefix
 prefixed
 pretended
+performant
 various
 values
 value
@@ -4339,6 +4357,7 @@ drive
 date
 declared
 diamond
+declare
 how
 have
 halves
@@ -4877,6 +4896,7 @@ EEEee
 Every
 End
 Elevating
+Easier
 An
 Asymptotic
 Any
@@ -5018,6 +5038,7 @@ AGE
 Asymmetric
 AnyVal
 Assumptions
+Advantages
 InsertSort
 Is
 In
@@ -5674,6 +5695,7 @@ Mixing
 Multitasking
 Making
 Malware
+Mutable
 However
 How
 Heapify
@@ -6127,6 +6149,7 @@ LTB
 LRR
 LCdE
 Least
+LWhile
 Stacks
 Sometimes
 So
@@ -6367,6 +6390,7 @@ NL
 NVX
 NSA
 Nested
+Nicely
 Obsidian
 OOO
 OO
@@ -6486,6 +6510,7 @@ Overriding
 Obj
 Override
 Open
+OOP
 Probing
 Peek
 Partition
@@ -6622,6 +6647,7 @@ Phishing
 Protecting
 Pushes
 Parameterised
+Procedures
 Given
 Gp
 GGG
@@ -6716,6 +6742,7 @@ GFF
 Guarantees
 GraphicsWin
 Guessing
+Going
 just
 jgc
 jkk

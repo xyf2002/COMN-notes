@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "44f9943ad26b4ce2",
+        "id": "b2d15a18ac32f1b3",
         "type": "tabs",
         "children": [
           {
-            "id": "49aefc2cd4ea5e3f",
+            "id": "20ebd71463f94a62",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 236.5
   },
   "right": {
     "id": "b2f267aedf74c740",
@@ -157,12 +157,22 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "49aefc2cd4ea5e3f",
+  "active": "20ebd71463f94a62",
   "lastOpenFiles": [
+    "Untitled.md",
+    "elements_of_programming_languages/Week 8/W8N1 - Imperative programming.md",
+    "elements_of_programming_languages/Week 3/W3N1 - Variables and substitution.md",
+    "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
+    "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
+    "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
+    "elements_of_programming_languages/Week 1/W1N2 - Abstract syntax.md",
+    "elements_of_programming_languages/Week 5/W5N1 - Records, named variants, and pattern matching.md",
+    "elements_of_programming_languages/Week 5/W5N3 - Subtyping.md",
+    "elements_of_programming_languages/Week 5/W5N2 - Type abbreviations and definitions.md",
+    "elements_of_programming_languages/Week 8",
     "elements_of_programming_languages/Week 7/W7N2 - Object-oriented functional programming.md",
     "computer_security/Week 8/W8N2 - Memory management.md",
     "elements_of_programming_languages/Week 7/W7N3 - Iterators and comprehensions.md",
-    "elements_of_programming_languages/Week 5/W5N3 - Subtyping.md",
     "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
     "computer_security/Week 8/W8N1 - Password authentication.md",
     "().md",
@@ -189,21 +199,11 @@
     "computer_security/images/w6n1TlsLogjam.png",
     "computer_security/images/w6n1TlsLogjam.png",
     "computer_security/images/w6n1TlsDhKeyExchange.png",
-    "computer_security/Week 4/W4N2 - Public key encryption.md",
-    "computer_security/Week 5/W5N1 - Public Key Infrastructure.md",
-    "computer_security/Week 1/W1N1 - Intro.md",
     "computer_security/Week 6",
-    "elements_of_programming_languages/Week 6/W6N3 - Programs and namespaces.md",
-    "computer_security/Week 5/W5N2 - Cryptographic protocols for secure communication.md",
-    "elements_of_programming_languages/Week 6/W6N2 - Type inference.md",
-    "elements_of_programming_languages/Week 6/W6N1 - Parametric polymorphism.md",
-    "elements_of_programming_languages/Week 5/W5N1 - Records, named variants, and pattern matching.md",
-    "elements_of_programming_languages/Week 5/W5N2 - Type abbreviations and definitions.md",
     "elements_of_programming_languages/Week 6",
     "elements_of_programming_languages/Week 5",
     "computer_security/Week 5",
     "computer_security/Week 4",
-    "elements_of_programming_languages/Week 4",
-    "computer_security/Week 3"
+    "elements_of_programming_languages/Week 4"
   ]
 }
