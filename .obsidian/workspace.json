@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b2d15a18ac32f1b3",
+        "id": "8afdb6a519dffb8e",
         "type": "tabs",
         "children": [
           {
-            "id": "20ebd71463f94a62",
+            "id": "cbdf466fc7f34faa",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -157,9 +157,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "20ebd71463f94a62",
+  "active": "245016979c3189b3",
   "lastOpenFiles": [
-    "Untitled.md",
+    "computer_security/Week 8/W8N4 - TLS Heartbleed.md",
+    "computer_security/Week 8/W8N3 - Buffer overruns.md",
+    "computer_security/Week 8/W8N2 - Memory management.md",
+    "computer_security/images/w8n3ControlHijacking.png",
+    "elements_of_programming_languages/Week 7/W7N3 - Iterators and comprehensions.md",
+    "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
     "elements_of_programming_languages/Week 8/W8N1 - Imperative programming.md",
     "elements_of_programming_languages/Week 3/W3N1 - Variables and substitution.md",
     "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
@@ -171,9 +176,6 @@
     "elements_of_programming_languages/Week 5/W5N2 - Type abbreviations and definitions.md",
     "elements_of_programming_languages/Week 8",
     "elements_of_programming_languages/Week 7/W7N2 - Object-oriented functional programming.md",
-    "computer_security/Week 8/W8N2 - Memory management.md",
-    "elements_of_programming_languages/Week 7/W7N3 - Iterators and comprehensions.md",
-    "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
     "computer_security/Week 8/W8N1 - Password authentication.md",
     "().md",
     "computer_security/Week 7/W7N3 - Privilege separation.md",
@@ -193,12 +195,10 @@
     "computer_security/images/w6n2Crowd.png",
     "computer_security/images/w6n2ChaumsMix.png",
     "computer_security/Week 6/W6N1 - TLS.md",
-    "elements_of_programming_languages/Week 6/W6N4 - Modules and interfaces.md",
     "computer_security/images/w6n1tls.png",
     "elements_of_programming_languages/Week 7",
     "computer_security/images/w6n1TlsLogjam.png",
     "computer_security/images/w6n1TlsLogjam.png",
-    "computer_security/images/w6n1TlsDhKeyExchange.png",
     "computer_security/Week 6",
     "elements_of_programming_languages/Week 6",
     "elements_of_programming_languages/Week 5",

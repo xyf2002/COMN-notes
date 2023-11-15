@@ -12,7 +12,7 @@ The x86 architecture includes the general purpose registers `%eax`, `%ebx`, `%ec
 There is also the extended stack pointer `%esp`, which points to the top of the stack, and the extended base pointer `%ebp`, which points to the base of the stack frame for the current function call.
 ![[w7n1ProcessMemoryLayout.png]]
 
-Each function call pushes a stack frame to the stack in the form:
+Each function call pushes a stack frame to the stack in the form: ^facff0
 
 |                                                |
 | ---------------------------------------------- |

@@ -234,6 +234,8 @@ iterators
 indexed
 immutable
 immutability
+injection
+injected
 or
 of
 operations
@@ -404,6 +406,12 @@ organisational
 onto
 old
 optimise
+overflow
+overwrites
+overwrite
+overrun
+opportunities
+overruns
 there
 that
 than
@@ -654,6 +662,7 @@ translated
 treat
 translate
 ties
+terminate
 some
 smaller
 so
@@ -1029,6 +1038,10 @@ somewhat
 strike
 stops
 statement
+spawn
+shell
+shellcode
+sizes
 multiple
 matter
 many
@@ -1668,6 +1681,9 @@ background
 browsers
 bounds
 balance
+buffer
+begins
+buffers
 above
 asymptotically
 as
@@ -2885,6 +2901,8 @@ collections
 comprehension
 considers
 clearer
+craft
+compiled
 larger
 lower
 likely
@@ -3052,6 +3070,7 @@ libraries
 loader
 loads
 lacking
+libc
 upper
 use
 useful
@@ -3175,6 +3194,7 @@ username
 uid
 unprivileged
 undetected
+unsafe
 for
 focus
 from
@@ -3358,6 +3378,8 @@ focuses
 forking
 failed
 functional
+fits
+facff
 There
 Typically
 The
@@ -4054,7 +4076,6 @@ Wg
 Ws
 WY
 Wgj
-While
 Where
 Word
 Well
@@ -4498,6 +4519,7 @@ hosted
 harming
 humans
 handlers
+hijack
 runtime
 runtimes
 run
@@ -5364,6 +5386,7 @@ generalises
 got
 grained
 guess
+grows
 Best
 Basically
 BP
@@ -5497,6 +5520,7 @@ Baa
 BVVV
 BCCe
 Buffering
+Buffer
 quantitative
 queues
 queue
@@ -6294,6 +6318,7 @@ String
 Syscalls
 Summary
 Sets
+Shellcode
 Notes
 NG
 NK
@@ -6391,6 +6416,8 @@ NVX
 NSA
 Nested
 Nicely
+NOP
+NOPs
 Obsidian
 OOO
 OO
@@ -6813,6 +6840,7 @@ jQF
 jJO
 jurisdictions
 jumps
+jump
 Using
 UEGGG
 UF
