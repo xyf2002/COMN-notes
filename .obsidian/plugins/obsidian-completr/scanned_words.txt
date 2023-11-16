@@ -236,6 +236,8 @@ immutable
 immutability
 injection
 injected
+indefinitely
+illustrate
 or
 of
 operations
@@ -1042,6 +1044,9 @@ spawn
 shell
 shellcode
 sizes
+stuck
+subexpression
+stands
 multiple
 matter
 many
@@ -1250,6 +1255,8 @@ mixin
 mysterious
 mutable
 mutability
+mistakes
+matters
 eventually
 execute
 each
@@ -1504,6 +1511,9 @@ encouraging
 exception
 expose
 expands
+embed
+encountered
+evaluations
 bounded
 by
 below
@@ -1966,6 +1976,8 @@ assembler
 arbitrarily
 assigns
 aka
+accidentally
+axiom
 no
 number
 not
@@ -2089,6 +2101,7 @@ negation
 nDC
 neither
 none
+notably
 what
 ways
 we
@@ -2221,6 +2234,8 @@ wider
 writes
 warnings
 wins
+wrong
+wise
 Defined
 Different
 Datastructures
@@ -2359,6 +2374,7 @@ DSS
 DSj
 Dummy
 Directory
+Deallocation
 Can
 CPU
 Create
@@ -3071,6 +3087,8 @@ loader
 loads
 lacking
 libc
+looked
+leaking
 upper
 use
 useful
@@ -3195,6 +3213,8 @@ uid
 unprivileged
 undetected
 unsafe
+update
+unsound
 for
 focus
 from
@@ -3380,6 +3400,8 @@ failed
 functional
 fits
 facff
+forgetting
+factorial
 There
 Typically
 The
@@ -3814,6 +3836,9 @@ prefix
 prefixed
 pretended
 performant
+provable
+procedure
+predicate
 various
 values
 value
@@ -4379,6 +4404,10 @@ date
 declared
 diamond
 declare
+detail
+deallocation
+deallocate
+deallocating
 how
 have
 halves
@@ -4520,6 +4549,7 @@ harming
 humans
 handlers
 hijack
+helpful
 runtime
 runtimes
 run
@@ -4798,6 +4828,8 @@ report
 rehearsed
 resets
 rich
+references
+remains
 Even
 Example
 Extensible
@@ -4919,6 +4951,7 @@ Every
 End
 Elevating
 Easier
+Explicit
 An
 Asymptotic
 Any
@@ -5061,6 +5094,8 @@ Asymmetric
 AnyVal
 Assumptions
 Advantages
+Arrays
+Allocation
 InsertSort
 Is
 In
@@ -5191,6 +5226,7 @@ Inheritance
 Instantiation
 Int
 IDs
+Inductive
 Yes
 YY
 YYY
@@ -5387,6 +5423,8 @@ got
 grained
 guess
 grows
+grammarsw
+globapril
 Best
 Basically
 BP
@@ -5720,6 +5758,7 @@ Multitasking
 Making
 Malware
 Mutable
+Main
 However
 How
 Heapify
@@ -5946,6 +5985,7 @@ Responding
 Rate
 Returning
 Resets
+References
 First
 Fixed
 Fast
@@ -6319,6 +6359,8 @@ Syscalls
 Summary
 Sets
 Shellcode
+Small
+Symbols
 Notes
 NG
 NK
@@ -6770,6 +6812,7 @@ Guarantees
 GraphicsWin
 Guessing
 Going
+Garbage
 just
 jgc
 jkk

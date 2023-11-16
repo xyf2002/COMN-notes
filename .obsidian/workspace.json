@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8afdb6a519dffb8e",
+        "id": "f07e40be6c9fac99",
         "type": "tabs",
         "children": [
           {
-            "id": "cbdf466fc7f34faa",
+            "id": "5f5161d5d7db0135",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "covaria",
+                "query": "structural",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md"
+              }
             }
           },
           {
@@ -157,22 +165,28 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "245016979c3189b3",
+  "active": "5f5161d5d7db0135",
   "lastOpenFiles": [
+    "elements_of_programming_languages/Week 9/W9N2 - Judgments and rules.md",
+    "elements_of_programming_languages/Week 9/W9N3 - Type soundness.md",
+    "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md",
+    "elements_of_programming_languages/Week 9/W9N5 - Resources.md",
+    "elements_of_programming_languages/Week 9/W9N1 - Small-step semantics.md",
+    "elements_of_programming_languages/Week 5/W5N3 - Subtyping.md",
+    "elements_of_programming_languages/Week 3/W3N1 - Variables and substitution.md",
+    "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
+    "elements_of_programming_languages/Week 8/W8N1 - Imperative programming.md",
+    "elements_of_programming_languages/Week 1/W1N2 - Abstract syntax.md",
+    "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
+    "elements_of_programming_languages/Week 9",
     "computer_security/Week 8/W8N4 - TLS Heartbleed.md",
     "computer_security/Week 8/W8N3 - Buffer overruns.md",
     "computer_security/Week 8/W8N2 - Memory management.md",
     "computer_security/images/w8n3ControlHijacking.png",
     "elements_of_programming_languages/Week 7/W7N3 - Iterators and comprehensions.md",
     "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
-    "elements_of_programming_languages/Week 8/W8N1 - Imperative programming.md",
-    "elements_of_programming_languages/Week 3/W3N1 - Variables and substitution.md",
     "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
-    "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
-    "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
-    "elements_of_programming_languages/Week 1/W1N2 - Abstract syntax.md",
     "elements_of_programming_languages/Week 5/W5N1 - Records, named variants, and pattern matching.md",
-    "elements_of_programming_languages/Week 5/W5N3 - Subtyping.md",
     "elements_of_programming_languages/Week 5/W5N2 - Type abbreviations and definitions.md",
     "elements_of_programming_languages/Week 8",
     "elements_of_programming_languages/Week 7/W7N2 - Object-oriented functional programming.md",
@@ -187,14 +201,9 @@
     "computer_security/images/w7n1UnixArchitecture.png",
     "computer_security/Week 7",
     "elements_of_programming_languages/Week 7/W7N2 - Advanced OOP constructs.md",
-    "computer_security/Week 6/W6N3 - Internet censorship.md",
-    "computer_security/Week 6/W6N2 - Anonymous communications.md",
-    "computer_security/Week 3/W3N3 - Symmetric encryption systems.md",
     "computer_security/images/w6n2OnionRouting.png",
-    "computer_security/Week 6/W6N3 - Onion routing.md",
     "computer_security/images/w6n2Crowd.png",
     "computer_security/images/w6n2ChaumsMix.png",
-    "computer_security/Week 6/W6N1 - TLS.md",
     "computer_security/images/w6n1tls.png",
     "elements_of_programming_languages/Week 7",
     "computer_security/images/w6n1TlsLogjam.png",
@@ -203,7 +212,6 @@
     "elements_of_programming_languages/Week 6",
     "elements_of_programming_languages/Week 5",
     "computer_security/Week 5",
-    "computer_security/Week 4",
-    "elements_of_programming_languages/Week 4"
+    "computer_security/Week 4"
   ]
 }
