@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md",
+                "file": "elements_of_programming_languages/Week 9/W9N5 - Resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md",
+                "file": "elements_of_programming_languages/Week 9/W9N5 - Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md",
+                "file": "elements_of_programming_languages/Week 9/W9N5 - Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md"
+                "file": "elements_of_programming_languages/Week 9/W9N5 - Resources.md"
               }
             }
           },
@@ -167,10 +167,11 @@
   },
   "active": "5f5161d5d7db0135",
   "lastOpenFiles": [
+    "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md",
+    "computer_security/Week 8/W8N3 - Buffer overruns.md",
+    "elements_of_programming_languages/Week 9/W9N5 - Resources.md",
     "elements_of_programming_languages/Week 9/W9N2 - Judgments and rules.md",
     "elements_of_programming_languages/Week 9/W9N3 - Type soundness.md",
-    "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md",
-    "elements_of_programming_languages/Week 9/W9N5 - Resources.md",
     "elements_of_programming_languages/Week 9/W9N1 - Small-step semantics.md",
     "elements_of_programming_languages/Week 5/W5N3 - Subtyping.md",
     "elements_of_programming_languages/Week 3/W3N1 - Variables and substitution.md",
@@ -180,7 +181,6 @@
     "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
     "elements_of_programming_languages/Week 9",
     "computer_security/Week 8/W8N4 - TLS Heartbleed.md",
-    "computer_security/Week 8/W8N3 - Buffer overruns.md",
     "computer_security/Week 8/W8N2 - Memory management.md",
     "computer_security/images/w8n3ControlHijacking.png",
     "elements_of_programming_languages/Week 7/W7N3 - Iterators and comprehensions.md",

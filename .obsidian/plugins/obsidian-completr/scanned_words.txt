@@ -238,6 +238,8 @@ injection
 injected
 indefinitely
 illustrate
+imperative
+ignores
 or
 of
 operations
@@ -1047,6 +1049,8 @@ sizes
 stuck
 subexpression
 stands
+separate
+silent
 multiple
 matter
 many
@@ -1514,6 +1518,7 @@ expands
 embed
 encountered
 evaluations
+extent
 bounded
 by
 below
@@ -1978,6 +1983,10 @@ assigns
 aka
 accidentally
 axiom
+accesses
+allocate
+acquire
+appropriately
 no
 number
 not
@@ -2919,6 +2928,7 @@ considers
 clearer
 craft
 compiled
+centred
 larger
 lower
 likely
@@ -3089,6 +3099,7 @@ lacking
 libc
 looked
 leaking
+locks
 upper
 use
 useful
@@ -3215,6 +3226,8 @@ undetected
 unsafe
 update
 unsound
+updates
+uninitialised
 for
 focus
 from
@@ -3839,6 +3852,9 @@ performant
 provable
 procedure
 predicate
+properly
+printed
+print
 various
 values
 value
@@ -4408,6 +4424,9 @@ detail
 deallocation
 deallocate
 deallocating
+dereferences
+descriptors
+databases
 how
 have
 halves
@@ -4830,6 +4849,8 @@ resets
 rich
 references
 remains
+release
+reassigned
 Even
 Example
 Extensible
@@ -5096,6 +5117,8 @@ Assumptions
 Advantages
 Arrays
 Allocation
+Again
+Arithmetic
 InsertSort
 Is
 In
@@ -5986,6 +6009,7 @@ Rate
 Returning
 Resets
 References
+Right
 First
 Fixed
 Fast
@@ -6099,6 +6123,7 @@ Fi
 FruPn
 FNv
 Fail
+Format
 Lists
 Linked
 Likewise
@@ -6214,6 +6239,8 @@ LRR
 LCdE
 Least
 LWhile
+Left
+LHS
 Stacks
 Sometimes
 So
@@ -6361,6 +6388,7 @@ Sets
 Shellcode
 Small
 Symbols
+Simply
 Notes
 NG
 NK
