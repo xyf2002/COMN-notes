@@ -416,6 +416,9 @@ overwrite
 overrun
 opportunities
 overruns
+owns
+ownership
+opportunity
 there
 that
 than
@@ -667,6 +670,7 @@ treat
 translate
 ties
 terminate
+task
 some
 smaller
 so
@@ -1051,6 +1055,8 @@ subexpression
 stands
 separate
 silent
+safely
+systematically
 multiple
 matter
 many
@@ -1261,6 +1267,8 @@ mutable
 mutability
 mistakes
 matters
+mitigate
+managing
 eventually
 execute
 each
@@ -1519,6 +1527,7 @@ embed
 encountered
 evaluations
 extent
+event
 bounded
 by
 below
@@ -1699,6 +1708,7 @@ balance
 buffer
 begins
 buffers
+bugs
 above
 asymptotically
 as
@@ -1987,6 +1997,9 @@ accesses
 allocate
 acquire
 appropriately
+advanced
+affine
+asking
 no
 number
 not
@@ -2929,6 +2942,11 @@ clearer
 craft
 compiled
 centred
+counting
+cyberattack
+compile
+canaries
+canary
 larger
 lower
 likely
@@ -3100,6 +3118,7 @@ libc
 looked
 leaking
 locks
+leak
 upper
 use
 useful
@@ -3855,6 +3874,12 @@ predicate
 properly
 printed
 print
+propagate
+pointers
+prone
+projects
+practices
+placed
 various
 values
 value
@@ -3981,6 +4006,8 @@ vEA
 val
 var
 variance
+vectors
+validating
 kinds
 know
 keys
@@ -4161,6 +4188,7 @@ Wttt
 WXXXUU
 Website
 Win
+Whenever
 definition
 different
 disk
@@ -4427,6 +4455,9 @@ deallocating
 dereferences
 descriptors
 databases
+declares
+decides
+deallocates
 how
 have
 halves
@@ -4569,6 +4600,8 @@ humans
 handlers
 hijack
 helpful
+heartbeat
+hardening
 runtime
 runtimes
 run
@@ -4851,6 +4884,8 @@ references
 remains
 release
 reassigned
+remove
+rewritten
 Even
 Example
 Extensible
@@ -5448,6 +5483,7 @@ guess
 grows
 grammarsw
 globapril
+garbage
 Best
 Basically
 BP
@@ -5782,6 +5818,7 @@ Making
 Malware
 Mutable
 Main
+Memory
 However
 How
 Heapify
@@ -6010,6 +6047,7 @@ Returning
 Resets
 References
 Right
+Reference
 First
 Fixed
 Fast
@@ -6389,6 +6427,7 @@ Shellcode
 Small
 Symbols
 Simply
+Safe
 Notes
 NG
 NK
@@ -7004,6 +7043,7 @@ Users
 Unix
 UID
 Upper
+Unsafe
 QuickSort
 QeD
 Qq

@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f07e40be6c9fac99",
+        "id": "8dc69d494a0df01c",
         "type": "tabs",
         "children": [
           {
-            "id": "5f5161d5d7db0135",
+            "id": "c0e243d3b57bec5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "elements_of_programming_languages/Week 9/W9N5 - Resources.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "elements_of_programming_languages/Week 9/W9N5 - Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "elements_of_programming_languages/Week 9/W9N5 - Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "elements_of_programming_languages/Week 9/W9N5 - Resources.md"
-              }
+              "state": {}
             }
           },
           {
@@ -146,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -165,11 +157,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5f5161d5d7db0135",
+  "active": "c0e243d3b57bec5e",
   "lastOpenFiles": [
-    "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md",
     "computer_security/Week 8/W8N3 - Buffer overruns.md",
+    "computer_security/Week 8/W8N5 - Buffer overrun defences.md",
+    "computer_security/images/w8n5returnToLibc.png",
+    "computer_security/images/w8n5StackCanary.png",
+    "Untitled.canvas",
+    "2023-11-18.md",
+    "computer_security/Week 8/W8N4 - TLS Heartbleed.md",
     "elements_of_programming_languages/Week 9/W9N5 - Resources.md",
+    "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md",
     "elements_of_programming_languages/Week 9/W9N2 - Judgments and rules.md",
     "elements_of_programming_languages/Week 9/W9N3 - Type soundness.md",
     "elements_of_programming_languages/Week 9/W9N1 - Small-step semantics.md",
@@ -180,7 +178,6 @@
     "elements_of_programming_languages/Week 1/W1N2 - Abstract syntax.md",
     "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
     "elements_of_programming_languages/Week 9",
-    "computer_security/Week 8/W8N4 - TLS Heartbleed.md",
     "computer_security/Week 8/W8N2 - Memory management.md",
     "computer_security/images/w8n3ControlHijacking.png",
     "elements_of_programming_languages/Week 7/W7N3 - Iterators and comprehensions.md",
@@ -193,21 +190,16 @@
     "computer_security/Week 8/W8N1 - Password authentication.md",
     "().md",
     "computer_security/Week 7/W7N3 - Privilege separation.md",
-    "computer_security/Week 7/W7N1 - OS concepts.md",
-    "computer_security/Week 7/W7N2 - OS security principles.md",
     "computer_security/Week 8",
     "computer_security/images/w7n1VirtualMemory.png",
     "computer_security/images/w7n1ProcessMemoryLayout.png",
     "computer_security/images/w7n1UnixArchitecture.png",
     "computer_security/Week 7",
-    "elements_of_programming_languages/Week 7/W7N2 - Advanced OOP constructs.md",
     "computer_security/images/w6n2OnionRouting.png",
     "computer_security/images/w6n2Crowd.png",
     "computer_security/images/w6n2ChaumsMix.png",
     "computer_security/images/w6n1tls.png",
     "elements_of_programming_languages/Week 7",
-    "computer_security/images/w6n1TlsLogjam.png",
-    "computer_security/images/w6n1TlsLogjam.png",
     "computer_security/Week 6",
     "elements_of_programming_languages/Week 6",
     "elements_of_programming_languages/Week 5",
