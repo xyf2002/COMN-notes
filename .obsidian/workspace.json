@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c0e243d3b57bec5e",
+            "id": "937c30723c8b1a4a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "computer_security/Week 9/W9N2 - Web security goals.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "structural",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "computer_security/Week 9/W9N2 - Web security goals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "computer_security/Week 9/W9N2 - Web security goals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "computer_security/Week 9/W9N2 - Web security goals.md"
+              }
             }
           },
           {
@@ -157,8 +165,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c0e243d3b57bec5e",
+  "active": "937c30723c8b1a4a",
   "lastOpenFiles": [
+    "computer_security/Week 2/W2N3 - HTTP and DNS.md",
+    "computer_security/Week 9/W9N2 - Web security goals.md",
+    "computer_security/Week 9/W9N1 - Web basics.md",
+    "computer_security/images/w9n1HttpResponse.png",
+    "computer_security/images/w9n1HttpRequest.png",
+    "computer_security/Week 9",
     "computer_security/Week 8/W8N3 - Buffer overruns.md",
     "computer_security/Week 8/W8N5 - Buffer overrun defences.md",
     "computer_security/images/w8n5returnToLibc.png",
@@ -188,8 +202,6 @@
     "elements_of_programming_languages/Week 8",
     "elements_of_programming_languages/Week 7/W7N2 - Object-oriented functional programming.md",
     "computer_security/Week 8/W8N1 - Password authentication.md",
-    "().md",
-    "computer_security/Week 7/W7N3 - Privilege separation.md",
     "computer_security/Week 8",
     "computer_security/images/w7n1VirtualMemory.png",
     "computer_security/images/w7n1ProcessMemoryLayout.png",
@@ -197,13 +209,10 @@
     "computer_security/Week 7",
     "computer_security/images/w6n2OnionRouting.png",
     "computer_security/images/w6n2Crowd.png",
-    "computer_security/images/w6n2ChaumsMix.png",
-    "computer_security/images/w6n1tls.png",
     "elements_of_programming_languages/Week 7",
     "computer_security/Week 6",
     "elements_of_programming_languages/Week 6",
     "elements_of_programming_languages/Week 5",
-    "computer_security/Week 5",
-    "computer_security/Week 4"
+    "computer_security/Week 5"
   ]
 }

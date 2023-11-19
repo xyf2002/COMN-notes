@@ -240,6 +240,9 @@ indefinitely
 illustrate
 imperative
 ignores
+interaction
+infect
+issuing
 or
 of
 operations
@@ -419,6 +422,8 @@ overruns
 owns
 ownership
 opportunity
+oob
+owR
 there
 that
 than
@@ -671,6 +676,9 @@ translate
 ties
 terminate
 task
+tAP
+tZd
+tags
 some
 smaller
 so
@@ -1057,6 +1065,14 @@ separate
 silent
 safely
 systematically
+sQ
+sa
+submit
+scripting
+statefulness
+standalone
+sandboxed
+sessions
 multiple
 matter
 many
@@ -1269,6 +1285,12 @@ mistakes
 matters
 mitigate
 managing
+mld
+mfho
+mrqy
+mSK
+mU
+modifying
 eventually
 execute
 each
@@ -1528,6 +1550,7 @@ encountered
 evaluations
 extent
 event
+eYVq
 bounded
 by
 below
@@ -1709,6 +1732,7 @@ buffer
 begins
 buffers
 bugs
+bvQ
 above
 asymptotically
 as
@@ -2000,6 +2024,7 @@ appropriately
 advanced
 affine
 asking
+aE
 no
 number
 not
@@ -2258,6 +2283,8 @@ warnings
 wins
 wrong
 wise
+wXl
+wY
 Defined
 Different
 Datastructures
@@ -2397,6 +2424,12 @@ DSj
 Dummy
 Directory
 Deallocation
+DgK
+DbT
+DrV
+DXG
+DOM
+Defences
 Can
 CPU
 Create
@@ -2947,6 +2980,11 @@ cyberattack
 compile
 canaries
 canary
+czC
+coN
+cI
+csyYM
+compromise
 larger
 lower
 likely
@@ -3119,6 +3157,7 @@ looked
 leaking
 locks
 leak
+lW
 upper
 use
 useful
@@ -3247,6 +3286,8 @@ update
 unsound
 updates
 uninitialised
+uz
+uw
 for
 focus
 from
@@ -3434,6 +3475,7 @@ fits
 facff
 forgetting
 factorial
+fWWo
 There
 Typically
 The
@@ -3575,6 +3617,10 @@ Tor
 Try
 TextWin
 TextGraphicsWin
+TlQk
+TxQ
+TEV
+TY
 possible
 purposes
 performed
@@ -3880,6 +3926,8 @@ prone
 projects
 practices
 placed
+ps
+pages
 various
 values
 value
@@ -4097,6 +4145,7 @@ kqM
 kill
 kernel
 keylogger
+ka
 We
 Worst
 When
@@ -4189,6 +4238,8 @@ WXXXUU
 Website
 Win
 Whenever
+WEO
+Web
 definition
 different
 disk
@@ -4458,6 +4509,13 @@ databases
 declares
 decides
 deallocates
+du
+dpf
+dF
+dU
+dAe
+document
+description
 how
 have
 halves
@@ -4602,6 +4660,10 @@ hijack
 helpful
 heartbeat
 hardening
+hAe
+hUY
+hqen
+hs
 runtime
 runtimes
 run
@@ -4886,6 +4948,11 @@ release
 reassigned
 remove
 rewritten
+rFV
+rkG
+referring
+remote
+rendering
 Even
 Example
 Extensible
@@ -5008,6 +5075,10 @@ End
 Elevating
 Easier
 Explicit
+EDUU
+EHLEKW
+EUU
+EmjX
 An
 Asymptotic
 Any
@@ -5285,6 +5356,9 @@ Instantiation
 Int
 IDs
 Inductive
+IU
+Iwgw
+Iig
 Yes
 YY
 YYY
@@ -5362,6 +5436,9 @@ Yp
 YVV
 Yizy
 You
+YB
+Yt
+Ymo
 given
 graph
 general
@@ -5484,6 +5561,8 @@ grows
 grammarsw
 globapril
 garbage
+gr
+ghbv
 Best
 Basically
 BP
@@ -5618,6 +5697,10 @@ BVVV
 BCCe
 Buffering
 Buffer
+BIq
+BBF
+BoO
+BN
 quantitative
 queues
 queue
@@ -5698,6 +5781,7 @@ qualified
 qGz
 qE
 qx
+qAo
 MergeSort
 Method
 Merge
@@ -5819,6 +5903,7 @@ Malware
 Mutable
 Main
 Memory
+Markup
 However
 How
 Heapify
@@ -5916,6 +6001,9 @@ HS
 HNr
 HWww
 Helping
+HYxp
+HNs
+Hypertext
 Rigorous
 Rigorously
 Recursion
@@ -6048,6 +6136,9 @@ Resets
 References
 Right
 Reference
+RUv
+RxAA
+Resources
 First
 Fixed
 Fast
@@ -6162,6 +6253,10 @@ FruPn
 FNv
 Fail
 Format
+Fb
+FGC
+FM
+Forms
 Lists
 Linked
 Likewise
@@ -6279,6 +6374,9 @@ Least
 LWhile
 Left
 LHS
+LE
+LGV
+Language
 Stacks
 Sometimes
 So
@@ -6428,6 +6526,14 @@ Small
 Symbols
 Simply
 Safe
+SsDB
+SdC
+SVM
+Sh
+Ss
+St
+Scripts
+Specifically
 Notes
 NG
 NK
@@ -6527,6 +6633,8 @@ Nested
 Nicely
 NOP
 NOPs
+Nf
+Nn
 Obsidian
 OOO
 OO
@@ -6647,6 +6755,9 @@ Obj
 Override
 Open
 OOP
+Om
+ODb
+Ol
 Probing
 Peek
 Partition
@@ -6880,6 +6991,7 @@ GraphicsWin
 Guessing
 Going
 Garbage
+GWu
 just
 jgc
 jkk
@@ -6951,6 +7063,8 @@ jJO
 jurisdictions
 jumps
 jump
+jC
+jW
 Using
 UEGGG
 UF
@@ -7044,6 +7158,10 @@ Unix
 UID
 Upper
 Unsafe
+Uii
+UMI
+UyZ
+Uz
 QuickSort
 QeD
 Qq
@@ -7131,6 +7249,9 @@ QTd
 QVh
 QdY
 QIV
+Qf
+Qwkv
+Qwewz
 you
 ys
 yyy
@@ -7215,6 +7336,10 @@ yfs
 yL
 yUQ
 your
+yKo
+yjrt
+yFf
+yWf
 KKKt
 KO
 Kw
@@ -7302,6 +7427,8 @@ Khjj
 KLL
 Keep
 Kernel
+KZD
+KAWC
 VVVl
 VN
 VSS
@@ -7457,6 +7584,7 @@ ZZZb
 Zr
 ZXX
 ZCC
+ZU
 Ji
 JLL
 Jw
@@ -7617,6 +7745,8 @@ XwO
 XEQ
 Xis
 XN
+XRu
+XL
 zo
 zjR
 zx
@@ -7696,6 +7826,9 @@ zJ
 zxAh
 zGCCC
 zero
+zCj
+ze
+zF
 xxx
 xe
 xfs
@@ -7760,6 +7893,9 @@ xN
 xn
 xmG
 xT
+xA
+xWzu
+xAj
 ÖQ
 üh
 öh
