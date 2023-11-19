@@ -243,6 +243,10 @@ ignores
 interaction
 infect
 issuing
+included
+interact
+inspecting
+iframe
 or
 of
 operations
@@ -424,6 +428,7 @@ ownership
 opportunity
 oob
 owR
+origins
 there
 that
 than
@@ -679,6 +684,7 @@ task
 tAP
 tZd
 tags
+tabs
 some
 smaller
 so
@@ -1073,6 +1079,12 @@ statefulness
 standalone
 sandboxed
 sessions
+stronger
+subsequent
+submitted
+shopping
+subjects
+scripts
 multiple
 matter
 many
@@ -1551,6 +1563,8 @@ evaluations
 extent
 event
 eYVq
+effort
+expiration
 bounded
 by
 below
@@ -2025,6 +2039,8 @@ advanced
 affine
 asking
 aE
+advantage
+attributes
 no
 number
 not
@@ -2285,6 +2301,8 @@ wrong
 wise
 wXl
 wY
+webserver
+windows
 Defined
 Different
 Datastructures
@@ -2597,6 +2615,7 @@ Captchas
 Calling
 Called
 Comprehensions
+Cookies
 consider
 compare
 cost
@@ -2985,6 +3004,12 @@ coN
 cI
 csyYM
 compromise
+closed
+cookie
+comments
+cart
+cookies
+cross
 larger
 lower
 likely
@@ -3158,6 +3183,9 @@ leaking
 locks
 leak
 lW
+logged
+limitation
+load
 upper
 use
 useful
@@ -3476,6 +3504,7 @@ facff
 forgetting
 factorial
 fWWo
+forge
 There
 Typically
 The
@@ -3928,6 +3957,8 @@ practices
 placed
 ps
 pages
+piece
+personalised
 various
 values
 value
@@ -4146,6 +4177,7 @@ kill
 kernel
 keylogger
 ka
+kept
 We
 Worst
 When
@@ -4516,6 +4548,7 @@ dU
 dAe
 document
 description
+disable
 how
 have
 halves
@@ -4953,6 +4986,8 @@ rkG
 referring
 remote
 rendering
+restricts
+render
 Even
 Example
 Extensible
@@ -6257,6 +6292,7 @@ Fb
 FGC
 FM
 Forms
+Frames
 Lists
 Linked
 Likewise
@@ -6534,6 +6570,8 @@ Ss
 St
 Scripts
 Specifically
+Same
+SOP
 Notes
 NG
 NK
@@ -6895,6 +6933,7 @@ Protecting
 Pushes
 Parameterised
 Procedures
+PHP
 Given
 Gp
 GGG

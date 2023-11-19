@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8dc69d494a0df01c",
+        "id": "b78a8339b5b8880f",
         "type": "tabs",
         "children": [
           {
-            "id": "937c30723c8b1a4a",
+            "id": "0563584a338bb31d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_security/Week 9/W9N2 - Web security goals.md",
+                "file": "computer_security/Week 9/W9N4 - Cookie policies.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_security/Week 9/W9N2 - Web security goals.md",
+                "file": "computer_security/Week 9/W9N4 - Cookie policies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_security/Week 9/W9N2 - Web security goals.md",
+                "file": "computer_security/Week 9/W9N4 - Cookie policies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_security/Week 9/W9N2 - Web security goals.md"
+                "file": "computer_security/Week 9/W9N4 - Cookie policies.md"
               }
             }
           },
@@ -165,11 +165,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "937c30723c8b1a4a",
+  "active": "0563584a338bb31d",
   "lastOpenFiles": [
-    "computer_security/Week 2/W2N3 - HTTP and DNS.md",
+    "computer_security/Week 9/W9N4 - Cookie policies.md",
     "computer_security/Week 9/W9N2 - Web security goals.md",
     "computer_security/Week 9/W9N1 - Web basics.md",
+    "computer_security/Week 9/W9N3 - Same origin policy.md",
+    "computer_security/Week 7/W7N3 - Privilege separation.md",
+    "computer_security/Week 2/W2N3 - HTTP and DNS.md",
     "computer_security/images/w9n1HttpResponse.png",
     "computer_security/images/w9n1HttpRequest.png",
     "computer_security/Week 9",
@@ -198,10 +201,7 @@
     "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
     "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
     "elements_of_programming_languages/Week 5/W5N1 - Records, named variants, and pattern matching.md",
-    "elements_of_programming_languages/Week 5/W5N2 - Type abbreviations and definitions.md",
     "elements_of_programming_languages/Week 8",
-    "elements_of_programming_languages/Week 7/W7N2 - Object-oriented functional programming.md",
-    "computer_security/Week 8/W8N1 - Password authentication.md",
     "computer_security/Week 8",
     "computer_security/images/w7n1VirtualMemory.png",
     "computer_security/images/w7n1ProcessMemoryLayout.png",
