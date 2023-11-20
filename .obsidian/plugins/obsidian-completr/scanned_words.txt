@@ -247,6 +247,7 @@ included
 interact
 inspecting
 iframe
+immediately
 or
 of
 operations
@@ -685,6 +686,8 @@ tAP
 tZd
 tags
 tabs
+tricks
+termination
 some
 smaller
 so
@@ -1085,6 +1088,11 @@ submitted
 shopping
 subjects
 scripts
+suffix
+strategy
+save
+sill
+subexpressions
 multiple
 matter
 many
@@ -1303,6 +1311,7 @@ mrqy
 mSK
 mU
 modifying
+memo
 eventually
 execute
 each
@@ -1565,6 +1574,8 @@ event
 eYVq
 effort
 expiration
+enabled
+equational
 bounded
 by
 below
@@ -1747,6 +1758,7 @@ begins
 buffers
 bugs
 bvQ
+benefits
 above
 asymptotically
 as
@@ -2041,6 +2053,13 @@ asking
 aE
 advantage
 attributes
+analytics
+alternative
+administrative
+adjust
+abut
+adopt
+assumed
 no
 number
 not
@@ -2303,6 +2322,7 @@ wXl
 wY
 webserver
 windows
+writing
 Defined
 Different
 Datastructures
@@ -2616,6 +2636,9 @@ Calling
 Called
 Comprehensions
 Cookies
+Cookie
+Computational
+Call
 consider
 compare
 cost
@@ -3186,6 +3209,9 @@ lW
 logged
 limitation
 load
+leading
+laziness
+label
 upper
 use
 useful
@@ -3316,6 +3342,10 @@ updates
 uninitialised
 uz
 uw
+unsecured
+unnecessarily
+unify
+understanding
 for
 focus
 from
@@ -3505,6 +3535,8 @@ forgetting
 factorial
 fWWo
 forge
+flags
+forbid
 There
 Typically
 The
@@ -3959,6 +3991,9 @@ ps
 pages
 piece
 personalised
+previously
+predictable
+predictably
 various
 values
 value
@@ -4087,6 +4122,7 @@ var
 variance
 vectors
 validating
+viewed
 kinds
 know
 keys
@@ -4697,6 +4733,7 @@ hAe
 hUY
 hqen
 hs
+hostname
 runtime
 runtimes
 run
@@ -4988,6 +5025,7 @@ remote
 rendering
 restricts
 render
+rough
 Even
 Example
 Extensible
@@ -5114,6 +5152,7 @@ EDUU
 EHLEKW
 EUU
 EmjX
+Emulating
 An
 Asymptotic
 Any
@@ -5260,6 +5299,9 @@ Arrays
 Allocation
 Again
 Arithmetic
+According
+Administrative
+Alternatively
 InsertSort
 Is
 In
@@ -5394,6 +5436,7 @@ Inductive
 IU
 Iwgw
 Iig
+Interpreting
 Yes
 YY
 YYY
@@ -6174,6 +6217,8 @@ Reference
 RUv
 RxAA
 Resources
+Rules
+Reasoning
 First
 Fixed
 Fast
@@ -6413,6 +6458,8 @@ LHS
 LE
 LGV
 Language
+Laziness
+Lazy
 Stacks
 Sometimes
 So
@@ -6572,6 +6619,7 @@ Scripts
 Specifically
 Same
 SOP
+Simulating
 Notes
 NG
 NK
@@ -6934,6 +6982,7 @@ Pushes
 Parameterised
 Procedures
 PHP
+Pure
 Given
 Gp
 GGG
@@ -7379,6 +7428,7 @@ yKo
 yjrt
 yFf
 yWf
+yields
 KKKt
 KO
 Kw

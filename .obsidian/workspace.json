@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "b78a8339b5b8880f",
+        "id": "74f20809f24182e6",
         "type": "tabs",
         "children": [
           {
-            "id": "0563584a338bb31d",
+            "id": "e34eba66675517e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_security/Week 9/W9N4 - Cookie policies.md",
+                "file": "elements_of_programming_languages/Week 10/W10N1 - Evaluation order, call-by-value, and call-by-name.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "baf4dfc5a0ce3e23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "elements_of_programming_languages/Week 10/W10N2 - Call-by-need and pure functional programming.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_security/Week 9/W9N4 - Cookie policies.md",
+                "file": "elements_of_programming_languages/Week 10/W10N2 - Call-by-need and pure functional programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_security/Week 9/W9N4 - Cookie policies.md",
+                "file": "elements_of_programming_languages/Week 10/W10N2 - Call-by-need and pure functional programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_security/Week 9/W9N4 - Cookie policies.md"
+                "file": "elements_of_programming_languages/Week 10/W10N2 - Call-by-need and pure functional programming.md"
               }
             }
           },
@@ -165,13 +178,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "0563584a338bb31d",
+  "active": "baf4dfc5a0ce3e23",
   "lastOpenFiles": [
+    "elements_of_programming_languages/Week 10/W10N1 - Evaluation order, call-by-value, and call-by-name.md",
+    "elements_of_programming_languages/Week 10/W10N2 - Call-by-need and pure functional programming.md",
+    "elements_of_programming_languages/Week 10",
+    "computer_security/Week 8/W8N2 - Memory management.md",
+    "computer_security/Week 7/W7N3 - Privilege separation.md",
     "computer_security/Week 9/W9N4 - Cookie policies.md",
     "computer_security/Week 9/W9N2 - Web security goals.md",
     "computer_security/Week 9/W9N1 - Web basics.md",
     "computer_security/Week 9/W9N3 - Same origin policy.md",
-    "computer_security/Week 7/W7N3 - Privilege separation.md",
     "computer_security/Week 2/W2N3 - HTTP and DNS.md",
     "computer_security/images/w9n1HttpResponse.png",
     "computer_security/images/w9n1HttpRequest.png",
@@ -195,12 +212,9 @@
     "elements_of_programming_languages/Week 1/W1N2 - Abstract syntax.md",
     "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
     "elements_of_programming_languages/Week 9",
-    "computer_security/Week 8/W8N2 - Memory management.md",
     "computer_security/images/w8n3ControlHijacking.png",
     "elements_of_programming_languages/Week 7/W7N3 - Iterators and comprehensions.md",
     "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
-    "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
-    "elements_of_programming_languages/Week 5/W5N1 - Records, named variants, and pattern matching.md",
     "elements_of_programming_languages/Week 8",
     "computer_security/Week 8",
     "computer_security/images/w7n1VirtualMemory.png",
@@ -212,7 +226,6 @@
     "elements_of_programming_languages/Week 7",
     "computer_security/Week 6",
     "elements_of_programming_languages/Week 6",
-    "elements_of_programming_languages/Week 5",
-    "computer_security/Week 5"
+    "elements_of_programming_languages/Week 5"
   ]
 }
