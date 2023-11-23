@@ -248,6 +248,8 @@ interact
 inspecting
 iframe
 immediately
+interesting
+integration
 or
 of
 operations
@@ -688,6 +690,9 @@ tags
 tabs
 tricks
 termination
+thrown
+tearing
+think
 some
 smaller
 so
@@ -1093,6 +1098,8 @@ strategy
 save
 sill
 subexpressions
+shortcutting
+simplifies
 multiple
 matter
 many
@@ -1312,6 +1319,7 @@ mSK
 mU
 modifying
 memo
+mark
 eventually
 execute
 each
@@ -1576,6 +1584,12 @@ effort
 expiration
 enabled
 equational
+encapsulate
+effecting
+exceptions
+expressed
+eval
+employ
 bounded
 by
 below
@@ -1759,6 +1773,7 @@ buffers
 bugs
 bvQ
 benefits
+bar
 above
 asymptotically
 as
@@ -2060,6 +2075,7 @@ adjust
 abut
 adopt
 assumed
+arg
 no
 number
 not
@@ -2184,6 +2200,7 @@ nDC
 neither
 none
 notably
+normally
 what
 ways
 we
@@ -2639,6 +2656,9 @@ Cookies
 Cookie
 Computational
 Call
+Conditionals
+Continuations
+Combining
 consider
 compare
 cost
@@ -3033,6 +3053,11 @@ comments
 cart
 cookies
 cross
+clause
+catch
+circular
+continuation
+continuations
 larger
 lower
 likely
@@ -3346,6 +3371,10 @@ unsecured
 unnecessarily
 unify
 understanding
+unusual
+unhandled
+ultimately
+undecidable
 for
 focus
 from
@@ -3537,6 +3566,10 @@ fWWo
 forge
 flags
 forbid
+forbidden
+formalise
+finish
+flows
 There
 Typically
 The
@@ -3682,6 +3715,7 @@ TlQk
 TxQ
 TEV
 TY
+Tail
 possible
 purposes
 performed
@@ -3994,6 +4028,11 @@ personalised
 previously
 predictable
 predictably
+parallelise
+popular
+propagating
+prints
+practically
 various
 values
 value
@@ -4585,6 +4624,7 @@ dAe
 document
 description
 disable
+dealing
 how
 have
 halves
@@ -4734,6 +4774,7 @@ hUY
 hqen
 hs
 hostname
+highly
 runtime
 runtimes
 run
@@ -5026,6 +5067,9 @@ rendering
 restricts
 render
 rough
+raises
+raising
+raise
 Even
 Example
 Extensible
@@ -5153,6 +5197,8 @@ EHLEKW
 EUU
 EmjX
 Emulating
+Exceptions
+Exception
 An
 Asymptotic
 Any
@@ -5641,6 +5687,7 @@ globapril
 garbage
 gr
 ghbv
+goto
 Best
 Basically
 BP
@@ -5982,6 +6029,8 @@ Mutable
 Main
 Memory
 Markup
+Memoisation
+Modelling
 However
 How
 Heapify
@@ -6338,6 +6387,7 @@ FGC
 FM
 Forms
 Frames
+Failing
 Lists
 Linked
 Likewise
@@ -6620,6 +6670,7 @@ Specifically
 Same
 SOP
 Simulating
+Side
 Notes
 NG
 NK
@@ -6721,6 +6772,7 @@ NOP
 NOPs
 Nf
 Nn
+Notice
 Obsidian
 OOO
 OO

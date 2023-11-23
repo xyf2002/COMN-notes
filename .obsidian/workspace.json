@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "74f20809f24182e6",
+        "id": "c4efb8baed08e0de",
         "type": "tabs",
         "children": [
           {
-            "id": "e34eba66675517e4",
+            "id": "6cefc217e35b4c6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "elements_of_programming_languages/Week 10/W10N1 - Evaluation order, call-by-value, and call-by-name.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "baf4dfc5a0ce3e23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "elements_of_programming_languages/Week 10/W10N2 - Call-by-need and pure functional programming.md",
+                "file": "elements_of_programming_languages/Week 10/W10N3 - Exceptions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "TODO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "elements_of_programming_languages/Week 10/W10N2 - Call-by-need and pure functional programming.md",
+                "file": "elements_of_programming_languages/Week 10/W10N3 - Exceptions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "elements_of_programming_languages/Week 10/W10N2 - Call-by-need and pure functional programming.md",
+                "file": "elements_of_programming_languages/Week 10/W10N3 - Exceptions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "elements_of_programming_languages/Week 10/W10N2 - Call-by-need and pure functional programming.md"
+                "file": "elements_of_programming_languages/Week 10/W10N3 - Exceptions.md"
               }
             }
           },
@@ -178,10 +166,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "baf4dfc5a0ce3e23",
+  "active": "028fb1d5b7dc1823",
   "lastOpenFiles": [
-    "elements_of_programming_languages/Week 10/W10N1 - Evaluation order, call-by-value, and call-by-name.md",
+    "optional.md",
+    "elements_of_programming_languages/Week 10/W10N3 - Exceptions.md",
+    "elements_of_programming_languages/Week 10/W10N5 - Continuations.md",
+    "elements_of_programming_languages/Week 10/W10N4 - Tail call recursion.md",
+    "elements_of_programming_languages/Week 6/W6N2 - Type inference.md",
     "elements_of_programming_languages/Week 10/W10N2 - Call-by-need and pure functional programming.md",
+    "elements_of_programming_languages/Week 10/W10N1 - Evaluation order, call-by-value, and call-by-name.md",
     "elements_of_programming_languages/Week 10",
     "computer_security/Week 8/W8N2 - Memory management.md",
     "computer_security/Week 7/W7N3 - Privilege separation.md",
@@ -208,13 +201,8 @@
     "elements_of_programming_languages/Week 5/W5N3 - Subtyping.md",
     "elements_of_programming_languages/Week 3/W3N1 - Variables and substitution.md",
     "elements_of_programming_languages/Week 2/W2N2 - Booleans and conditionals.md",
-    "elements_of_programming_languages/Week 8/W8N1 - Imperative programming.md",
-    "elements_of_programming_languages/Week 1/W1N2 - Abstract syntax.md",
-    "elements_of_programming_languages/Week 2/W2N1 - Evaluation.md",
     "elements_of_programming_languages/Week 9",
     "computer_security/images/w8n3ControlHijacking.png",
-    "elements_of_programming_languages/Week 7/W7N3 - Iterators and comprehensions.md",
-    "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
     "elements_of_programming_languages/Week 8",
     "computer_security/Week 8",
     "computer_security/images/w7n1VirtualMemory.png",
