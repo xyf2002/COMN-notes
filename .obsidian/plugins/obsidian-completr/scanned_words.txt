@@ -693,6 +693,8 @@ termination
 thrown
 tearing
 think
+theft
+treats
 some
 smaller
 so
@@ -1100,6 +1102,10 @@ sill
 subexpressions
 shortcutting
 simplifies
+sniffed
+sanitise
+sanitised
+supplies
 multiple
 matter
 many
@@ -1590,6 +1596,8 @@ exceptions
 expressed
 eval
 employ
+elevating
+escape
 bounded
 by
 below
@@ -1774,6 +1782,7 @@ bugs
 bvQ
 benefits
 bar
+benign
 above
 asymptotically
 as
@@ -2076,6 +2085,8 @@ abut
 adopt
 assumed
 arg
+accident
+alert
 no
 number
 not
@@ -2340,6 +2351,8 @@ wY
 webserver
 windows
 writing
+whitelisting
+whitelist
 Defined
 Different
 Datastructures
@@ -2659,6 +2672,8 @@ Call
 Conditionals
 Continuations
 Combining
+CSS
+CSP
 consider
 compare
 cost
@@ -3058,6 +3073,9 @@ catch
 circular
 continuation
 continuations
+comment
+crafted
+cfda
 larger
 lower
 likely
@@ -3375,6 +3393,7 @@ unusual
 unhandled
 ultimately
 undecidable
+unauthenticated
 for
 focus
 from
@@ -3570,6 +3589,7 @@ forbidden
 formalise
 finish
 flows
+flag
 There
 Typically
 The
@@ -3716,6 +3736,7 @@ TxQ
 TEV
 TY
 Tail
+Token
 possible
 purposes
 performed
@@ -4033,6 +4054,7 @@ popular
 propagating
 prints
 practically
+permanently
 various
 values
 value
@@ -4162,6 +4184,8 @@ variance
 vectors
 validating
 viewed
+visitor
+validation
 kinds
 know
 keys
@@ -4625,6 +4649,7 @@ document
 description
 disable
 dealing
+defences
 how
 have
 halves
@@ -5070,6 +5095,9 @@ rough
 raises
 raising
 raise
+randomly
+reissued
+reflected
 Even
 Example
 Extensible
@@ -5199,6 +5227,7 @@ EmjX
 Emulating
 Exceptions
 Exception
+Escape
 An
 Asymptotic
 Any
@@ -5688,6 +5717,7 @@ garbage
 gr
 ghbv
 goto
+guessed
 Best
 Basically
 BP
@@ -6268,6 +6298,7 @@ RxAA
 Resources
 Rules
 Reasoning
+Reflected
 First
 Fixed
 Fast
@@ -6671,6 +6702,7 @@ Same
 SOP
 Simulating
 Side
+Stored
 Notes
 NG
 NK
@@ -7888,6 +7920,7 @@ Xis
 XN
 XRu
 XL
+XSS
 zo
 zjR
 zx

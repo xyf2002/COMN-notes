@@ -24,6 +24,6 @@ Then the following occurs:
 According to the SOP `foo.example.com` and `bar.example.com` should be viewed as different origins and isolated, while according to the cookie policy they are trusted to share cookies set with domain `example.com`.
 
 # Cookie flags
-- `HttpOnly` - if enabled then scripting languages cannot access or manipulate the cookie, e.g. to prevent an analytics service from accessing authentication cookies
-- `Secure` - prevents sharing cookies in the case of visiting a site using an unsecured protocol, e.g. if an attacker tricks a victim into visiting `http://bank.com` instead of `https://bank.com`, in which case they could listen in on the unsecured communication.
+- `HttpOnly` - if enabled then scripting languages cannot access or manipulate the cookie, e.g. to prevent an analytics service from accessing authentication cookies ^191115
+- `Secure` - prevents sharing cookies in the case of visiting a site using an unsecured protocol, e.g. if an attacker tricks a victim into visiting `http://bank.com` instead of `https://bank.com`, in which case they could listen in on the unsecured communication. ^a0cfda
 - `SameSite` - prevents sending a cookie with a domain to any other domain, even via a JS script.
