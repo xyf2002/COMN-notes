@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ec3b20e7e3e2e474",
+        "id": "2c9c6e032995c766",
         "type": "tabs",
         "children": [
           {
-            "id": "98dcd2741d52ebed",
+            "id": "b2b0dc07d7ef701b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_security/Week 10/W10N1 - Cross-site scripting (XSS).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_security/Week 10/W10N1 - Cross-site scripting (XSS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_security/Week 10/W10N1 - Cross-site scripting (XSS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "computer_security/Week 10/W10N1 - Cross-site scripting (XSS).md"
-              }
+              "state": {}
             }
           },
           {
@@ -165,42 +157,44 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "98dcd2741d52ebed",
+  "active": "b2b0dc07d7ef701b",
   "lastOpenFiles": [
-    "computer_security/Week 9/W9N4 - Cookie policies.md",
-    "computer_security/Week 10/W10N1 - Cross-site scripting (XSS).md",
+    "computer_security/Week 10/W10N2 - Cross-site request forgery (CSRF).md",
     "computer_security/Week 9/W9N1 - Web basics.md",
-    "computer_security/Week 10",
-    "elements_of_programming_languages/Week 10/W10N3 - Exceptions.md",
-    "optional.md",
-    "elements_of_programming_languages/Week 10/W10N5 - Continuations.md",
-    "elements_of_programming_languages/Week 10/W10N4 - Tail call recursion.md",
-    "elements_of_programming_languages/Week 6/W6N2 - Type inference.md",
-    "elements_of_programming_languages/Week 10/W10N2 - Call-by-need and pure functional programming.md",
-    "elements_of_programming_languages/Week 10/W10N1 - Evaluation order, call-by-value, and call-by-name.md",
-    "elements_of_programming_languages/Week 10",
-    "computer_security/Week 8/W8N2 - Memory management.md",
-    "computer_security/Week 7/W7N3 - Privilege separation.md",
     "computer_security/Week 9/W9N2 - Web security goals.md",
     "computer_security/Week 9/W9N3 - Same origin policy.md",
-    "computer_security/Week 2/W2N3 - HTTP and DNS.md",
+    "computer_security/Week 10/W10N1 - Cross-site scripting (XSS).md",
+    "elements_of_programming_languages/Week 7/W7N3 - Iterators and comprehensions.md",
+    "elements_of_programming_languages/Week 10/W10N2 - Call-by-need and pure functional programming.md",
+    "elements_of_programming_languages/Week 9/W9N5 - Resources.md",
+    "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md",
+    "elements_of_programming_languages/Week 9/W9N3 - Type soundness.md",
+    "elements_of_programming_languages/Week 9/W9N2 - Judgments and rules.md",
+    "elements_of_programming_languages/Week 9/W9N1 - Small-step semantics.md",
+    "elements_of_programming_languages/Week 8/W8N1 - Imperative programming.md",
+    "elements_of_programming_languages/Week 7/W7N2 - Object-oriented functional programming.md",
+    "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
+    "elements_of_programming_languages/Week 6/W6N4 - Modules and interfaces.md",
+    "elements_of_programming_languages/Week 6/W6N3 - Programs and namespaces.md",
+    "elements_of_programming_languages/Week 6/W6N2 - Type inference.md",
+    "elements_of_programming_languages/Week 6/W6N1 - Parametric polymorphism.md",
+    "elements_of_programming_languages/Week 5/W5N3 - Subtyping.md",
+    "elements_of_programming_languages/Week 5/W5N2 - Type abbreviations and definitions.md",
+    "elements_of_programming_languages/Week 5/W5N1 - Records, named variants, and pattern matching.md",
+    "elements_of_programming_languages/Week 4/W4N2 - Variant types.md",
+    "elements_of_programming_languages/Week 4/W4N1 - Pairs.md",
+    "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
+    "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
+    "elements_of_programming_languages/images/w2n1DerivedJudgement.png",
+    "elements_of_programming_languages/images/w1n2AbstractSyntaxTrees.png",
+    "computer_security/Week 10",
+    "elements_of_programming_languages/Week 10",
     "computer_security/images/w9n1HttpResponse.png",
     "computer_security/images/w9n1HttpRequest.png",
     "computer_security/Week 9",
-    "computer_security/Week 8/W8N3 - Buffer overruns.md",
-    "computer_security/Week 8/W8N5 - Buffer overrun defences.md",
     "computer_security/images/w8n5returnToLibc.png",
     "computer_security/images/w8n5StackCanary.png",
     "Untitled.canvas",
-    "2023-11-18.md",
-    "computer_security/Week 8/W8N4 - TLS Heartbleed.md",
-    "elements_of_programming_languages/Week 9/W9N5 - Resources.md",
-    "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md",
-    "elements_of_programming_languages/Week 9/W9N2 - Judgments and rules.md",
-    "elements_of_programming_languages/Week 9/W9N3 - Type soundness.md",
-    "elements_of_programming_languages/Week 9/W9N1 - Small-step semantics.md",
-    "elements_of_programming_languages/Week 5/W5N3 - Subtyping.md",
-    "elements_of_programming_languages/Week 3/W3N1 - Variables and substitution.md",
     "elements_of_programming_languages/Week 9",
     "computer_security/images/w8n3ControlHijacking.png",
     "elements_of_programming_languages/Week 8",
@@ -209,8 +203,6 @@
     "computer_security/images/w7n1ProcessMemoryLayout.png",
     "computer_security/images/w7n1UnixArchitecture.png",
     "computer_security/Week 7",
-    "computer_security/images/w6n2OnionRouting.png",
-    "computer_security/images/w6n2Crowd.png",
     "elements_of_programming_languages/Week 7",
     "computer_security/Week 6",
     "elements_of_programming_languages/Week 6"
