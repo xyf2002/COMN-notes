@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b2b0dc07d7ef701b",
+            "id": "a3c0c826b282aa18",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -157,8 +157,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b2b0dc07d7ef701b",
+  "active": "a3c0c826b282aa18",
   "lastOpenFiles": [
+    "computer_security/Week 10/W10N3 - Injection attacks.md",
     "computer_security/Week 10/W10N2 - Cross-site request forgery (CSRF).md",
     "computer_security/Week 9/W9N1 - Web basics.md",
     "computer_security/Week 9/W9N2 - Web security goals.md",
@@ -184,7 +185,6 @@
     "elements_of_programming_languages/Week 4/W4N2 - Variant types.md",
     "elements_of_programming_languages/Week 4/W4N1 - Pairs.md",
     "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
-    "elements_of_programming_languages/Week 3/W3N3 - Evaluation of let and variables.md",
     "elements_of_programming_languages/images/w2n1DerivedJudgement.png",
     "elements_of_programming_languages/images/w1n2AbstractSyntaxTrees.png",
     "computer_security/Week 10",

@@ -257,6 +257,8 @@ ijj
 iiicc
 ill
 insufficient
+invoked
+injections
 or
 of
 operations
@@ -1118,6 +1120,10 @@ sanitise
 sanitised
 supplies
 sp
+sever
+semicolon
+spawning
+sanitation
 multiple
 matter
 many
@@ -1341,6 +1347,7 @@ mark
 mCY
 mll
 mCCC
+marks
 eventually
 execute
 each
@@ -1616,6 +1623,8 @@ escape
 eL
 eue
 eIII
+escaping
+eve
 bounded
 by
 below
@@ -1804,6 +1813,11 @@ benign
 bzG
 bJW
 baa
+bash
+bizarre
+bios
+basics
+bob
 above
 asymptotically
 as
@@ -2115,6 +2129,10 @@ aM
 aC
 adverts
 attribute
+attacked
+alice
+admin
+assembled
 no
 number
 not
@@ -3120,6 +3138,12 @@ chr
 ccc
 cGQQ
 clicking
+compromising
+crafting
+commands
+confidential
+charlie
+condition
 larger
 lower
 likely
@@ -3305,6 +3329,8 @@ lihp
 lX
 leaked
 logs
+literally
+lowest
 upper
 use
 useful
@@ -3445,6 +3471,7 @@ ultimately
 undecidable
 unauthenticated
 utttrrB
+unintended
 for
 focus
 from
@@ -4724,6 +4751,7 @@ disable
 dealing
 defences
 dln
+deletes
 how
 have
 halves
@@ -5601,6 +5629,7 @@ IKMMNn
 IDATt
 IGG
 IAAAdd
+Injection
 Yes
 YY
 YYY
@@ -5812,6 +5841,7 @@ guessed
 gii
 gddpg
 gvvvUU
+gain
 Best
 Basically
 BP
@@ -6033,6 +6063,8 @@ qE
 qx
 qAo
 qYYYYY
+quirk
+quotes
 MergeSort
 Method
 Merge
@@ -6822,6 +6854,7 @@ SKk
 SYY
 STT
 SKS
+Sanitise
 Notes
 NG
 NK
@@ -7474,6 +7507,7 @@ UEl
 Uwc
 UCC
 UII
+UEFI
 QuickSort
 QeD
 Qq
