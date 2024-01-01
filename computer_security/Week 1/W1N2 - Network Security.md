@@ -23,7 +23,7 @@ The next 3 octets can be assigned by organisations as they wish, but must be uni
 A switch performs routing in a local area network
 - Operates at the link layer
 - Multiple interfaces, each connected to a computer or another switch/router
-- A switch will forward each incoming frame to its target frame, a hub forwards it to all devices connected
+- A switch will forward each incoming frame to its target device, a hub forwards it to all devices connected
 - On connection a computer will broadcast its MAC address to inform the switch what happens
 
 # Internet Protocol (IP)

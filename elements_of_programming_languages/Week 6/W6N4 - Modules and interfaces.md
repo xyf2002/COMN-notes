@@ -81,7 +81,7 @@ The trait hides information about the implementations of the operations, but we 
 ```scala
 type T // abstract!
 ```
-Now, we specify that `ListPQueue` implements `PQUEUE` using the `extends` keyword:
+Now, we specify that `ListPQueue` implements `PQueue` using the `extends` keyword:
 ```scala
 object ListPQueue extends PQueue {...}
 ```

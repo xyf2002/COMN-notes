@@ -1,7 +1,6 @@
 [[W8N3 - Buffer overruns|Buffer overruns]] are one of the most common cyberattack vectors. There are many ways to mitigate or prevent these kinds of attacks.
 # Memory safe languages
-Memory safe languages, e.g. Java, Python, Go, Rust, do things such as checking array bounds and pointer dereferences at compile time, while garbage collection/ownership models remove the programmer from the error-prone task of managing memory.
-Whenever possible, use a memory safe programming language for new projects.
+Memory safe languages, e.g. Java, Python, Go, Rust, do things such as checking array bounds and pointer dereferences at compile time, and/or use garbage collection/ownership models remove the programmer from the error-prone task of managing memory. Whenever possible, use a memory safe programming language for new projects.
 # Safe programming practices
 Unsafe languages can still be used safely, either by using safe libraries or by manually validating bounds on each buffer/pointer access.
 

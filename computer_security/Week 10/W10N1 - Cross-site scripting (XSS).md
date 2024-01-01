@@ -1,4 +1,4 @@
-When you have a [[W9N1 - Web basics#Cookies|session token]], it is possible for an adversary to hijack the session in a variety of ways:
+ZWhen you have a [[W9N1 - Web basics#Cookies|session token]], it is possible for an adversary to hijack the session in a variety of ways:
 - Token theft:
 	- If a token is predictable, then the token could be guessed, so tokens should be randomly generated
 	- If a token is sent over HTTP, then it can be sniffed off the network. This can also happen by accident if a site has a mix of HTTP and HTTPS pages, and the token is accidentally sent over HTTP. Cookies should always be sent with the [[W9N4 - Cookie policies#^a0cfda|Secure]] flag set, and a new cookie should always be reissued when elevating a user from unauthenticated to logged-in

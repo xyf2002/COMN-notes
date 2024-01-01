@@ -24,7 +24,7 @@ public class HelloWorld {
 
 SQL:
 ```SQL
-SELECT DISTINCT 'Hellow world!' AS new_value FROM AnyTableWithOneOrMoreRows WHERE 1 = 1;
+SELECT DISTINCT 'Hello world!' AS new_value FROM AnyTableWithOneOrMoreRows WHERE 1 = 1;
 ```
 
 # Why are there so many?
@@ -66,7 +66,7 @@ If we have a source language $L_S$, a target language $L_T$, and an implementati
 - An *interpreter* for $L_S$ is an $L_I$ program which executes $L_S$ programs
 	- When both $L_S$ and $L_I$ are low-level (e.g. $L_S$ = JVM, $L_I$ = x86) and interpreter for $L_S$ is called a *virtual machine*
 - A *translator* from $L_S$ to $L_T$ is an $L_I$ program that translates programs in $L_S$ to equivalent programs in $L_T$
-	- When $L_T$ is low-level, a translator to $L_T£ is called a *compiler*
+	- When $L_T$ is low-level, a translator to $L_T$ is called a *compiler*
 
 In this course we will use interpreters to explore different language features.
 

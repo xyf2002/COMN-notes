@@ -65,7 +65,7 @@ class Plus extends Expr {
 	}
 }
 
-class Times extends Expr{
+class Times extends Expr {
 	// similar
 }
 ```
@@ -180,7 +180,6 @@ $$
 Q(n)=\text{ for all $e$ with $size(e)<n$ we have } P(e)
 $$
 Since any expression $e$ has a finite size, $P(e)$ holds for any expression because $Q(size(e)+1)$ holds and implies $P(e)$.
-
 #### Proof
 We prove that $Q(n)$ holds for all $n$ by induction on $n$:
 - The base case $n=0$ is vacuous

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "2c9c6e032995c766",
+        "id": "1ef7f3b86f50e096",
         "type": "tabs",
         "children": [
           {
-            "id": "a3c0c826b282aa18",
+            "id": "b932a645beb85be6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "computer_security/Week 9/W9N3 - Same origin policy.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "login",
+                "query": "`",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 335.5
   },
   "right": {
     "id": "b2f267aedf74c740",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "computer_security/Week 9/W9N3 - Same origin policy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "computer_security/Week 9/W9N3 - Same origin policy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "computer_security/Week 9/W9N3 - Same origin policy.md"
+              }
             }
           },
           {
@@ -137,8 +145,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,36 +164,36 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a3c0c826b282aa18",
+  "active": "b932a645beb85be6",
   "lastOpenFiles": [
-    "computer_security/Week 10/W10N3 - Injection attacks.md",
-    "computer_security/Week 10/W10N2 - Cross-site request forgery (CSRF).md",
-    "computer_security/Week 9/W9N1 - Web basics.md",
-    "computer_security/Week 9/W9N2 - Web security goals.md",
+    "computer_security/Week 9/W9N4 - Cookie policies.md",
     "computer_security/Week 9/W9N3 - Same origin policy.md",
+    "computer_security/Week 8/W8N4 - TLS Heartbleed.md",
+    "computer_security/Week 8/W8N3 - Buffer overruns.md",
+    "computer_security/Week 8/W8N2 - Memory management.md",
+    "computer_security/Week 10/W10N2 - Cross-site request forgery (CSRF).md",
+    "computer_security/Week 10/W10N3 - Injection attacks.md",
     "computer_security/Week 10/W10N1 - Cross-site scripting (XSS).md",
-    "elements_of_programming_languages/Week 7/W7N3 - Iterators and comprehensions.md",
-    "elements_of_programming_languages/Week 10/W10N2 - Call-by-need and pure functional programming.md",
-    "elements_of_programming_languages/Week 9/W9N5 - Resources.md",
-    "elements_of_programming_languages/Week 9/W9N4 - References and Arrays.md",
-    "elements_of_programming_languages/Week 9/W9N3 - Type soundness.md",
-    "elements_of_programming_languages/Week 9/W9N2 - Judgments and rules.md",
-    "elements_of_programming_languages/Week 9/W9N1 - Small-step semantics.md",
-    "elements_of_programming_languages/Week 8/W8N1 - Imperative programming.md",
-    "elements_of_programming_languages/Week 7/W7N2 - Object-oriented functional programming.md",
-    "elements_of_programming_languages/Week 7/W7N1 - Objects and classes.md",
-    "elements_of_programming_languages/Week 6/W6N4 - Modules and interfaces.md",
-    "elements_of_programming_languages/Week 6/W6N3 - Programs and namespaces.md",
-    "elements_of_programming_languages/Week 6/W6N2 - Type inference.md",
-    "elements_of_programming_languages/Week 6/W6N1 - Parametric polymorphism.md",
-    "elements_of_programming_languages/Week 5/W5N3 - Subtyping.md",
-    "elements_of_programming_languages/Week 5/W5N2 - Type abbreviations and definitions.md",
-    "elements_of_programming_languages/Week 5/W5N1 - Records, named variants, and pattern matching.md",
-    "elements_of_programming_languages/Week 4/W4N2 - Variant types.md",
-    "elements_of_programming_languages/Week 4/W4N1 - Pairs.md",
-    "elements_of_programming_languages/Week 3/W3N4 - Functions.md",
-    "elements_of_programming_languages/images/w2n1DerivedJudgement.png",
+    "computer_security/Week 9/W9N2 - Web security goals.md",
+    "computer_security/Week 9/W9N1 - Web basics.md",
+    "computer_security/Week 8/W8N5 - Buffer overrun defences.md",
+    "computer_security/Week 8/W8N1 - Password authentication.md",
+    "computer_security/Week 7/W7N3 - Privilege separation.md",
+    "computer_security/Week 7/W7N2 - OS security principles.md",
+    "computer_security/Week 7/W7N1 - OS concepts.md",
+    "computer_security/Week 6/W6N3 - Internet censorship.md",
+    "computer_security/Week 6/W6N2 - Anonymous communications.md",
+    "computer_security/Week 6/W6N1 - TLS.md",
+    "computer_security/Week 5/W5N2 - Cryptographic protocols for secure communication.md",
+    "computer_security/Week 5/W5N1 - Public Key Infrastructure.md",
+    "computer_security/Week 2/W2N6 - Intrusion Detection Systems (IDS).md",
+    "computer_security/Week 2/W2N5 - Network Address Translation (NAT).md",
+    "computer_security/Week 2/W2N4 - Firewalls.md",
+    "computer_security/Week 2/W2N3 - HTTP and DNS.md",
+    "computer_security/Week 2/W2N2 - IP, UDP, and TCP.md",
+    "computer_security/Week 2/W2N1 - ARP.md",
     "elements_of_programming_languages/images/w1n2AbstractSyntaxTrees.png",
+    "elements_of_programming_languages/images/w2n1DerivedJudgement.png",
     "computer_security/Week 10",
     "elements_of_programming_languages/Week 10",
     "computer_security/images/w9n1HttpResponse.png",

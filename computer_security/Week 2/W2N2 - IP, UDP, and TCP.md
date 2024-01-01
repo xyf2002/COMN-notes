@@ -47,7 +47,7 @@ TCP keeps track of packet loss, network congestion, and flow control.
 
 # TCP attacks
 ## SYN Flooding
-By sending thousands of SYN packets without acknowledging and replies, a target's state table can run out of space and is unable to establish new connections.
+By sending thousands of SYN packets without acknowledging any replies, a target's state table can run out of space and is unable to establish new connections.
 
 ### Issues
 - If the attacker uses their own IP they can be easily traced after the fact.

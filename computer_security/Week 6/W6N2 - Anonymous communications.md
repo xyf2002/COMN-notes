@@ -9,8 +9,7 @@ There are 4 main methods:
 
 # 3 party dining cryptographers (3DC)
 The story goes:
-Three NSA cryptographers are having dinner. At the end of the dinner they are informed that the dinner has already been paid for. Now, either the NSA paid for the dinner, or one of the cryptographers did. They
-want to know if it is the NSA that paid, or one of them, **without** revealing the identity of the paying cryptographer.
+Three NSA cryptographers are having dinner. At the end of the dinner they are informed that the dinner has already been paid for. Now, either the NSA paid for the dinner, or one of the cryptographers did. They want to know if it is the NSA that paid, or one of them, **without** revealing the identity of the paying cryptographer.
 
 ## 3DC Protocol
 1. Each pair of cryptographers privately flip a coin, where heads = 1 and tails = 0
@@ -100,7 +99,7 @@ This means that the guard node knows who is connecting to it, the exit node know
 
 ## Attacks
 - **End to end correlation:** accessing any website will give a fairly unique series of packet timings based off of what needs to be downloaded. An adversary who controls both the entry and exit node is able to monitor this, and potentially determine what traffic is travelling between them
-	- As Tor uses [[W3N3 - Symmetric encryption systems#Advanced Encryption Standard (AES)|AES in counter mode]], which is [[W3N3 - Symmetric encryption systems#^b682f9|malleable]], so an attacker can XOR a bit or pattern into a packet at one end, and retrieve it at the other
+	- As Tor uses [[W3N3 - Symmetric encryption systems#Advanced Encryption Standard (AES)|AES in counter mode]], which is [[W3N3 - Symmetric encryption systems#^b682f9|malleable]], an attacker can XOR a bit or pattern into a packet at one end, and retrieve it at the other
 - **Selective DOS:** if a malicious guard is used, and there exists a malicious exit node, the guard can kill the connection every time it is established unless the exit node is finding some correlation. The client will reconnect on a new route, and this can repeat thousands or millions of times until the client gets a connection with the compromised exit node
 - **Website fingerprinting:** heuristics such as time between packets, number of packets send, and more can be used to create a semi-unique fingerprint for each website. This doesn't attack the Tor network at all, instead can just monitor local traffic before it reaches the guard node.
 	- The modern state of the art deep neural networks are able to reach high 90s% accuracy, however this falls off as the number of sites needing to be identified increases

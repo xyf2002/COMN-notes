@@ -19,6 +19,6 @@ The standard authentication mechanism is to require a username and corresponding
 		- **Captchas:** include a [captcha](https://en.wikipedia.org/wiki/CAPTCHA) to be solved along side a password entry, making it harder for an automated system to enter passwords
 - **Offline guessing attacks:** if a server's password database is leaked, then an attacker can simply look up a username and find their password
 	- This can be reduced by:
-		- **Salt and hash the passwords:** this is the easiest one, store passwords as a random salt value, as well as the hash of the salt ORed with their password. This means identical passwords do not have the same hash, preventing frequency analysis as well as using precomputed hash tables. This means every password must be independently brute-forced.
+		- **Salting and hashing the passwords:** store passwords and a random salt value, as well as the hash of the salt ORed with their password. This means identical passwords do not have the same hash, preventing frequency analysis as well as using precomputed hash tables. This means every password must be independently brute-forced.
 
 Additionally, using a password manager means that a user memorises one long, strong password and uses that to unlock the password manager, which is then able to generate unique strong passwords for each account the user holds.

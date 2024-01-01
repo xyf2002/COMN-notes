@@ -2,7 +2,7 @@ When setting a cookie with [[W9N1 - Web basics#Cookies|Set-Cookie]], the scope s
 
 E.g. a server host at `http://www.bar.example.com/` can set cookie domains on `bar.example.com` or `example.com`, but not on `foo.bar.example.com`.
 
-Cookies are sent back to the server by the browser if the HTTP request is in the URL's scope, i.e. a cookie with scope `domain` and `path` will be sent to all URLs of the form `http://*.domain.path/*`.
+Cookies are sent back to the server by the browser if the HTTP request is in the URL's scope, i.e. a cookie with scope `domain` and `path` will be sent to all URLs of the form `http://*.domain/path/*`.
 
 E.g. if there are 2 cookies set in a browser:
 `cookie1` is set for `(foo.example.com, /)`

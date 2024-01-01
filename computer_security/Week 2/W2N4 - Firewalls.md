@@ -1,7 +1,8 @@
 A **firewall** is a security measure designed to prevent unauthorised electronic access to a networked computer system.
 
 A firewall intends to prevent malicious actions from both the internet and the local network.
-![[w2n4firewallSections.png]]Here, it separates the internet from end user PCs, as well as both from existing servers. This means that an attack originating from any of the 3 regions are unable to affect anything outside of its own region.
+![[w2n4firewallSections.png]]
+Here, it separates the internet from end user PCs, as well as both from existing servers. This means that an attack originating from any of the 3 regions are unable to affect anything outside of its own region.
 
 A firewall applies a set of **policies**, which either allow or deny traffic. This generally consists of a blocklist - which allows everything that isn't explicitly blocked - or an allowlist - which denies everything that isn't explicitly allowed.
 

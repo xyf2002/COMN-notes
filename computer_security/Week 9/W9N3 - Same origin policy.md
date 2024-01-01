@@ -4,7 +4,6 @@ Similar to [[W7N3 - Privilege separation|OS access control]], we divide access i
 The SOP restricts how a document or script loaded from one origin (e.g. `www.evil.com`) can interact with a resource from another origin (e.g. `www.bank.com`). Each origin is kept sandboxed from the rest of the web.
 Windows and tabs have an origin derived from the URL of the webserver providing the content. The URL `protocol://host:port/path?args#statement` gives the origin `protocol://host:port`.
 E.g.
-If we have the URL `http://www.example.com/dir/page.html` has the same origin (`http://www.example.com`) as `http://www.example.com/dir2/other.html`, but not `http://www.example.com:443/dir/other.html` (as HTTP uses port 80 by default) or `https://www.example.com/dir/other.html` (uses a different protocol - which also means a different port).
 ## SOP and JavaScript
 A webpage can load a cross-origin script (i.e. from a different domain), and will run it in the current page's origin. The current page cannot inspect the source of the script, but can call functions defined within it. This means that if a webpage loads a malicious script, it gives it access to the current origin.
 ## SOP and images
