@@ -27,7 +27,7 @@ Application benefits:
 TODO
 
 # Hardware devices
-Every hardware device has a device controller, which
+Every hardware device has a device controller, which ^beb05c
 - may move data to main memory, like the CPU
 - run in parallel to the CPU
 - have buffers for data (each has local memory)
