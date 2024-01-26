@@ -18,7 +18,7 @@ There are two **modes of execution:**
 
 # Processes
 A process is an instance of a program which is currently executing. When a program is executed, it is loaded into RAM, and given a unique **process ID (PID)**. Each PID is then associated with its CPU time, memory usage, **user ID (UID)**, program name, etc.
-A process may control other processes, via forking, and child processes inherit context from their parents.
+A process may control other processes, via forking, and child processes inherit context from their parents. ^260d9e
 # x86 process memory layout
 ![[w7n1ProcessMemoryLayout.png]]
 The stack contains the variables of a process, the heap contains dynamically allocated memory, static data contains objects which last for the duration of the process such as global variables and static class members, and text contains the actual instructions that the process will execute.

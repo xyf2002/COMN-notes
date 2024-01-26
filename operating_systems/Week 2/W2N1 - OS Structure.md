@@ -30,10 +30,10 @@ Microkernels were popular in the 80s and 90s, and have recently had a resurgence
 ![[w2n1minix.png]]
 # Kernel functionality extension
 New functionality can be added to a kernel at compile time, by compiling in more components, or at execution time. This can be done by:
-1. Loadable kernel modules
+1. Loadable kernel modules ^dd02e9
 	- Microkernels load the code in user space
 	- Monolithic kernels load the code in kernel space
-2. Program injection
+2. Program injection ^5df907
 	- It is possible to load small amounts of code into the kernel on behalf of a process, e.g. WebAssembly
 
 ![[w2n1kernelModules.png]]
