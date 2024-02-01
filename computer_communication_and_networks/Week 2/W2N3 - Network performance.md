@@ -13,3 +13,21 @@ Once a bit is pushed into a link, it must propagate down it to the next router. 
 ## Overall delay
 If we let $d_{proc}$, $d_{queue}$, $d_{trans}$, $d_{prop}$ be the processing, queuing, transmission, and propagation delays respectively, then the total nodal delay
 $$d_{nodal}=d_{proc}+d_{queue}+d_{trans}+d_{prop}$$
+# Queuing delay in more detail
+Queuing delay is the most complex part of nodal delay, as it varies packet by packet. This means that we can't discuss absolute values but instead statistical measures of mean/median delays and their distributions, or in probabilities.
+If we have $R$ = transmission rate, $a$ = packets per second, and $L$ = packet size, then we can calculate the traffic intensity:
+$$
+\text{Traffic intensity }=\frac{La}{R}
+$$
+If $\frac{La}{R}>1$ then the average rate of bits arriving at the queue exceeds the rate at which they can be transmitted, resulting in the queue increasing forever and the queuing delay approaching infinity.
+In the case $\frac{La}{R}\leq1$ the nature of arriving traffic impacts the queuing delay. E.g. if one packet arrives exactly every $\frac{L}{R}$ seconds then each packet will arrive to an empty queue and the will be no queuing delay. If the packets arrive in periodic bursts, e.g. $N$ packets every $\frac{NL}{R}$ seconds, then the first packet will have no queuing delay, the second an $\frac{L}{R}$ second delay, third a $\frac{2L}{R}$ delay, and so on with the $n$th packet having a $\frac{(n-1)L}{R}$ delay.
+
+In practice, both of these are very uncommon, with traffic tending to be (nearly) random. In this case, the traffic intensity equation doesn't strictly hold but it is still a convenient way to think about queuing delays. In this case, as the traffic intensity is near 0 there is a low probability of a packet having to queue, and as it gets closer to 1 there will be more and more periods during which it is greater than 1 leading to queues building up and delays increasing.
+# Packet loss
+So far, we're assuming that a router can hold an unlimited number of packets. In practice, it can't, and instead if a packet arrives to a router with a full queue it is dropped. This means that the packet is lost, and will never arrive at its destination. Therefore, nodal performance is often measured in terms of both delay and probability of packet loss.
+# End to end delay
+End to end delay is measured simply by summing the nodal delay of every node along the route.
+# Other delays
+There are other sources of delay, e.g. in a shared medium like WiFi an end system may purposefully delay transmission to enable other devices to share the medium. In some applications, it takes time to gather and packetise the data before it is sent, this can be a source of delay in things like VoIP applications.
+# Throughput
+The end-to-end throughput of a route is determined by the minimum throughput link within that route. In the modern internet, the [[W2N1 - Network core|core]] has links that are so high speed they are rarely the bottleneck, with it instead being the access link of either the client or server. It is important to note that throughput is directly divided between all traffic using that route, so if there is one link in a route that has very high traffic it can significantly reduce throughput.
