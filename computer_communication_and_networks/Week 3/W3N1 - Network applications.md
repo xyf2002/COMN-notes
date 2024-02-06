@@ -1,0 +1,14 @@
+> [!abstract] Note
+> Application architecture is not the same as [[W2N4 - Protocol layering|network architecture]], application architecture is fully controlled by the developer and concerns how the application software components are distributed over various end systems
+
+There are 2 main application architectures:
+## Client-server architecture
+A **client-server architecture** consists of an always-on host, the **server**, which services requests from many other hosts, the **clients**. The server has a fixed, known address, so a client can always contact it by sending a packet to the server's IP address. 2 clients never talk to each other, but they may send requests to the server to store messages that other clients can then request. Examples of client-server architectures include the Web, FTP, and email.
+Often, a single server is not enough to service the volume of inbound requests. In this case, a **data centre** is often used, which houses large numbers of individual servers networked together to form vast virtual servers.
+## Peer-to-peer (P2P) architecture
+A **P2P architecture** has minimal to no reliance on central servers, instead using direct communication between pairs of intermittently connected hosts, called **peers**. Peers are not owned by the service, and are instead desktops and laptops controlled by users, with most peers residing in homes, universities, and offices. Many applications use P2P architectures, e.g. file sharing through BitTorrent, download acceleration, and video conferencing such as Skype. Some applications use hybrid architectures, where a central server tracks the IP addresses of users, but user-to-user communication is used for the actual data transfer.
+Note that although an instance of a P2P application can act as both a server and client, we still label one instance as the server and the other as the client, with the instance that initiates the connection being the client.
+# Sockets
+A socket is the interface between the [[W2N4 - Protocol layering|application and transport layers]], and involves the application passing the bytes it wishes to translate to the operating system over a socket, which has an open connection with another device. The OS then handles the rest of the network stack, and sends it out to the first [[W2N1 - Network core#Packet switching|router or switch]] along the path to the target host. (Sockets can also be used for communicating between processes on the same host, though that is a concern for [[W3N2 - Interprocess communication|OS]]). 
+# Ports
+In order for a device to know what application a packet is for, a host is identified by both an **IP address** (a 32 bit number used by the network layer to identify a host) and a **port number**, a 16 bit number which identifies an application. Each port can be used by only one application at a time. There are standard ports for many applications, such as port 80 for web servers or port 25 for STMP (a mail server).

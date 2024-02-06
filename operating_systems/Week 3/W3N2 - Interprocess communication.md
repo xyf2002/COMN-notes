@@ -26,5 +26,6 @@ Messages sent can reside in temporary buffers/queues of varying lengths:
 A pipe is a conduit that allows a parent and child process to communicate using a pair of file descriptors. A write to one FD outputs on the other process' corresponding FD.
 ## Sockets
 Sockets are endpoints for communication, and are identified by an IP address concatenated with a port number. Sockets can be used for communicating between networked machines.
+(Also see [[W3N1 - Network applications#Sockets|here]])
 ## Signals
 Signals are an OS mechanism used to notify a process (so are one way only). These can come either from the OS, e.g. division by 0 errors or timers, or from other processes, e.g. process management like `kill` or synchronisation such as POSIX RT signals

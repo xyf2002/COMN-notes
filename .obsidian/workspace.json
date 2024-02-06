@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_security/Week 9/W9N3 - Same origin policy.md",
-                "mode": "preview",
+                "file": "computer_security/Week 2/W2N4 - Firewalls.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_security/Week 9/W9N3 - Same origin policy.md",
+                "file": "computer_security/Week 2/W2N4 - Firewalls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_security/Week 9/W9N3 - Same origin policy.md",
+                "file": "computer_security/Week 2/W2N4 - Firewalls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_security/Week 9/W9N3 - Same origin policy.md"
+                "file": "computer_security/Week 2/W2N4 - Firewalls.md"
               }
             }
           },
@@ -166,8 +166,8 @@
   },
   "active": "b932a645beb85be6",
   "lastOpenFiles": [
-    "computer_security/Week 9/W9N4 - Cookie policies.md",
     "computer_security/Week 9/W9N3 - Same origin policy.md",
+    "computer_security/Week 9/W9N4 - Cookie policies.md",
     "computer_security/Week 8/W8N4 - TLS Heartbleed.md",
     "computer_security/Week 8/W8N3 - Buffer overruns.md",
     "computer_security/Week 8/W8N2 - Memory management.md",
