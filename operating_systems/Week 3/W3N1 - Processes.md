@@ -4,7 +4,7 @@ A process consists of:
 - A CPU state, consisting of a program counter (PC) which indicates the next instruction, a stack pointer which contains the current stack position, and other general purpose register values
 - A set of OS resources, such as open files, network connections, sound channels
 This is everything needed to run the program, or restart it if interrupted.
-Each process is identified by a unique (almost, cgroups etc. make this more complicated), global **process ID (PID)**.
+Each process is identified by a unique (almost, cgroups etc. make this more complicated), global **process ID (PID)**. ^956d06
 # Process representation in the OS
 The OS keeps track of all processes' states in the **process control block (PCB)**, with each process identified by its PID.
 The OS keeps all of a process' execution state in (or pointed to) the PCB - PC, SP, registers, etc. - when the process isn't running, and when it is running the state is spread between the PCB and the hardware CPU registers/memory.
