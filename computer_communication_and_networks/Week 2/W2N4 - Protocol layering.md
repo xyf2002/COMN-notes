@@ -2,8 +2,8 @@ The internet is incredibly complicated, with many types of end systems, packet s
 
 | Layer | Works with | Purpose | Examples |
 | :--: | :--: | ---- | ---- |
-| Application | Messages | Where applications and their protocols exist | HTTP, FTP, DNS |
-| Transport | Segments | Transports application layer messages between application endpoints | TCP/UDP |
+| [[W3N4 - Application layer protocols\|Application]] | Messages | Where applications and their protocols exist | HTTP, FTP, DNS |
+| [[W4N2 - Transport layer protocols\|Transport]] | Segments | Transports application layer messages between application endpoints | TCP/UDP |
 | Network | Datagrams | Transport transport layer segments from one host to another | IP |
 | Link | Frames | Transport network layer datagrams between nodes | Ethernet, WiFi |
 | Physical | Bits | Transport individual bits within link layer frames from one network level between network elements. This is dependent on the physical link medium |  |
