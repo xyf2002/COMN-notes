@@ -5,4 +5,21 @@ TCP perceives congestion occurring when there is a **loss event**: either a time
 The TCP congestion control algorithm consists of 3 parts:
 1. **Slow start**: initially, TCP ramps up `cwnd`, starting from 1 [[W5N2 - TCP#TCP data transfer|MSS]], and increases it by 1 MSS every time an ACK is received. If a loss event occurs, `cwnd` is set back to 1 MSS and the process repeats, except TCP also maintains a variable `ssthresh` (slow-start threshold), which is set to half the `cwnd` value at the time the loss event occurred. Once `cwnd` reaches `ssthresh`, slow start ends and enters congestion avoidance mode.
 2. **Congestion avoidance**: now, `cwnd` is around half the value at which congestion last occurred, so TCP must be more careful. Therefore, `cwnd` is increased by 1 MSS every RTT, usually by increasing the window by $MSS/\text{number of bytes in flight}$ for each ACK. If a timeout occurs, the response is the same as in slow start, `ssthresh` is set to half of `cwnd`, `cwnd` is set to 1 MSS, and slow start mode is reentered. If 3 duplicate ACKs are received, then `ssthresh` is set to `cwnd`, and `cwnd` is halved (+ 3 MSS for the duplicate ACKs received), and it enters fast recovery mode.
-3. **Fast recovery**:
+3. **Fast recovery**: in this mode, `cwnd` is increased by 1 MSS for every duplicate ACK received for the missing segment that caused fast recovery to start. Once that segment is ACKed, TCP returns to congestion avoidance with `cwnd` set to `ssthresh`, returning to the state it was in.
+
+![[w5n4tcpCongestionFsm.png]]
+
+![[w5n4aimd.png]]
+Here, we can see the "saw tooth" behaviour of the congestion window. This occurs as TCP's congestion control increases the window size linearly, while halving it when a mistransmission occurs. TCP congestion control is an example of **additive-increase, multiplicative decrease (AIMD)** congestion control.
+# Throughput
+In the big picture, we can determine the average throughput of a TCP connection. If $w$ is the window size, and if when a loss event occurs $w$ is halved to get $W$, then - assuming $W$ and RTT are relatively constant we get a minimum throughput of $\frac{W}{2\cdot RTT}$ and a maximum of $\frac{W}{RTT}$. As $w$ increases linearly between these two cases, we have
+$$
+\text{Average thoughput of a connection}=\frac{0.75\cdot W}{RTT}
+$$
+# Fairness
+If we have $K$ connections passing through a bottleneck link with bandwidth $R$ bps, then a congestion control mechanism is said to be **fair** if each connection's transmission rate is approximately $R/K$. The TCP AIMD algorithm does in fact tend to converge towards fairness.
+![[w5n4tcpFairness.png]]
+If we have two TCP connections passing through the same bottleneck link, and at a given point in time they realise a throughput at point A. Both connections will linearly increase their throughput until it is greater than $R$ (at point B). At this point, both will half their sending rate, moving to halfway along the vector from the origin and point B - indicated at point C. This repeats, and they will steadily move until they just oscillate along the equal bandwidth share line.
+Note that in this scenario we are assuming that both have the same RTT value, they are the only data traversing the bottleneck link, and that there is only one TCP connection for each host-destination pair. In practice these are not normally true, and bandwidths can be very unequally shared. This is especially true for differing RTTs, with sessions with a smaller RTT are able to claim the available bandwidth faster and will therefore be able to claim a larger portion of $R$ than sessions with higher RTTs. In addition, when an application uses multiple parallel TCP connections it can claim more of the available bandwidth.
+# Network-assisted congestion control
+TCP can also use congestion notifications from routers to control `cwnd`. There are 2 flag bits in the IP header. The **explicit congestion notification (ECN)** bit is used by a router to indicate it is experiencing congestion. When the recipient receives that bit it sets the **explicit congestion notification echo (ECE)** bit in the TCP ACK segment. When the sender receives the ECE bit it halves `cwnd`, just like if a loss event had occurred.
