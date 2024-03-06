@@ -1,4 +1,3 @@
-TODO
 # Working sets
 The **working set (WS)** of a process is the set of pages that the process currently "needs". We can define it as
 $$
@@ -19,4 +18,6 @@ We can determine the number of frames to be allocated to a program by establishi
 Thrashing occurs when the system is spending most of its time servicing page faults instead of doing useful work. This could be that there is enough memory but a poor replacement algorithm which is incompatible with program behaviour, or it could be that memory is over-committed, leading to the OS seeing the CPU is being poorly utilised and starts more programs, resulting in many active processes requesting memory.
 ![[w6n3thrashing.png]]
 # In Linux
-TODO
+In the kernel, memory is allocated using the "buddy system", which is a power of 2 allocator of physically contiguous pages, meaning that a request is rounded up to the nearest power of two, then the page is broken down into pairs until the appropriate quantity is available.
+![[w6n3buddySystem.png]]
+Once memory has been allocated using the buddy system, it can then be divided up into slabs. Slabs are used to enable fast allocation in frequently used sizes, and allows the kernel to immediately allocate memory if a free slab exists for that datastructure, e.g. there exists an inode slab that is divided into inode sized pieces.
