@@ -1,0 +1,31 @@
+The IPv4 datagram looks like this:
+![[w7n3ipv4Datagram.png]]
+and consists of:
+- a **version number**: which is used to determine the format of the following header
+- the **header length**: [[W5N2 - TCP#^9a869a|similarly to TCP]], IP headers may contain options, and if they do this will be larger than the minimum size of 20 bytes
+- **type-of-service (TOS) bits**, which allow different types of IP datagrams to be distinguished from each other. This is also where [[W5N4 - TCP congestion control#Network-assisted congestion control|the ECN bits are set]]
+- **datagram length**: the total number of bytes in the IP datagram (header + data). This is a 16 bit field, so theoretically the maximum IP datagram is 65,535 bytes long, but in practice datagrams are rarely larger than the [[W5N2 - TCP#^b004b7|Ethernet MTU]] of 1500 bytes
+- **identifier**, **flags**, and **fragmentation offset**: these allow for splitting and recombining IP datagrams if they traverse parts of the network with a lower MTU
+- **time to live (TTL)**: the number of hops that datagram can make before it's dropped. This is decremented by 1 each time a router processes the datagram, and prevents a datagram circulating endlessly (this could happen if there is a long-lived routing loop)
+- **protocol**: indicates which transport-layer protocol the data section should be passed to, e.g. a value of 17 means the data is for UDP, while a value of 6 means it should go to TCP. (This is the equivalent of the transport level [[W3N1 - Network applications#Ports|port number]])
+- **header checksum**: allows routers to detect bit errors in a received datagram header. This is recalculated at each router, as the TTL decreases and potentially options or flags change
+- **source and destination IP addresses**: the sending and receiving hosts
+- **options**: an assortment of rarely used options can be added to a IPv4 datagram (though these were dropped for IPv6)
+- **Data**: the payload of the datagram. In most cases this is a TCP/UDP segment, but it can carry other things, such as ICMP messages.
+# Datagram fragmentation
+The MTU of a physical link varies, e.g. Ethernet frames can carry 1500 bytes, while some kinds of wide area links are limited 576 bytes. This means that a datagram may have to be split up into smaller datagrams mid-journey. This is known as **fragmentation**. Fragments are only recombined at the destination host, as the datagrams may take different routes or have a significant delay in between them transiting the same router. Every fragment has the same identifier, and all but the last fragment has a flag set to 1, while the final fragment has it set to 0. This in combination with the fragment offset allows the host to only reassemble fragmented datagrams of which it has received every fragment.
+# Addressing
+Every interface (boundary between a physical link and a host/router) has an IP address that is unique across the entire internet. An IP address is 32 bits long, allowing for a total of $2^{32}$ addresses, or around 4 billion. These addresses are typically written in dotted-decimal notation, where each byte is written in its decimal form and separated by a dot, e.g. 192.168.0.1, which represents the binary 11000000 10101000 00000000 00000001.
+A network is divided into **subnets**, by splitting it along every router:
+![[w7n3subnets.png]]
+Every interface in the same subnet has the same subnet mask (prefix), e.g. the leftmost subnet above has the mask 223.1.1.0/24, meaning the first 24 bits are equal for all of them. An organisation will typically be assigned a contiguous block of IPs, which form a subnet. The remaining bits then identify hosts within that subnet. This simplifies routing, as outside the subnet all that needs to be considered is what subnet a datagram needs to be routed to, and inside the subnet only the latter part of the address needs to be considered.
+
+IP addresses are managed by the **Internet Corporation for Assigned Names and Numbers (ICANN)**, a nonprofit which allocates IP addresses, manages the DNS root servers, assigns domain names, and resolves domain name disputes. ICANN allocates addresses to regional Internet registries, who then handle address allocation within their region.
+# Dynamic host configuration protocol (DHCP)
+A sysadmin can manually configure host addresses, or the **dynamic host configuration protocol (DHCP)** can be used, which automatically assigns an IP address to each host when it connects to the network. The DHCP address assignment protocol occurs in four steps:
+1. **DHCP server discovery**: when a new host connects, it first must find a DHCP server. It does this by sending a UDP packet to port 67 of the IP broadcast address (255.255.255.255), and sets the source address to 0.0.0.0.
+2. **DHCP server offer(s)**: when a DHCP server receives a packet on port 67, it then responds with an offer of an IP address, network mask, and a duration for that IP address to remain valid, again sent to the broadcast address this time on port 68.
+3. **DHCP request**: the client selects one of the offered IP addresses, and responds to the broadcast address with that IP, as well as echoing back the configuration parameters
+4. **DHCP ACK**: the server responds with an ACK message confirming the parameters
+# Network address translation
+It is difficult for an ISP to determine how many IP addresses should be allocated to e.g. a new business or home joining their network. In addition, with more than 4 billion internet connected devices, we don't have enough 32 bit IPv4 addresses for all of them. We can resolve both these issues using **network address translation (NAT)**. A NAT enabled router presents itself to the outside network as though it is only one device, and each request being sent from a device within the internal network gets assigned an arbitrary port and its sender address changed to be the router's address. When responses arrive, the router uses the destination port to map that message to an internal IP, and sends the packet on to there. A device behind a NAT router will have an internal IP of 10.0.0.x, which is a reserved IP block for internal addresses.

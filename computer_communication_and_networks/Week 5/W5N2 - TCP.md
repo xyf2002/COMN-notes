@@ -5,14 +5,14 @@ TCP is:
 - **full-duplex**: a single TCP connection between processes A and B can send data from A to B and B to A
 - **point-to-point**: a TCP connection is between a single sender and receiver
 # TCP data transfer
-When an application passes data to TCP to send, TCP stores it in its **send buffer**, and then can "send that data in segments at its own convenience" (from the TCP specification, RFC 793). TCP then creates a segment from that data that is limited by the **maximum segment size (MSS)**, which is determined so that the TCP segment when encapsulated in an IP datagram can fit within the largest link-layer frame that can be sent by the sending host. Ethernet has a **maximum transmission unit (MTU)** of 1500 bytes, and the TCP+IP headers are usually 40 bytes, so the MSS is typically 1460 bytes. (Note that confusingly the MSS is the maximum body of a segment, not the maximum segment size overall)
+When an application passes data to TCP to send, TCP stores it in its **send buffer**, and then can "send that data in segments at its own convenience" (from the TCP specification, RFC 793). TCP then creates a segment from that data that is limited by the **maximum segment size (MSS)**, which is determined so that the TCP segment when encapsulated in an IP datagram can fit within the largest link-layer frame that can be sent by the sending host. Ethernet has a **maximum transmission unit (MTU)** of 1500 bytes, and the TCP+IP headers are usually 40 bytes, so the MSS is typically 1460 bytes. (Note that confusingly the MSS is the maximum body of a segment, not the maximum segment size overall) ^b004b7
 # TCP segment structure
 ![[w5n2tcpSegmentStructure.png]]
 - Similarly to [[W4N3 - UDP|UDP]], TCP has a source and destination port for [[W4N2 - Transport layer protocols#Transport layer multiplexing|multi- and demultiplexing]], along with a checksum
 - The 32 bit sequence number and acknowledgement numbers are used for ensuring reliable data transfer
 - The 16 bit receive window number is for flow control, and represents the number of bytes the receiver is willing to accept
 - The optional options field is usually empty, but is used when a sender and receiver negotiate the MSS as a window scaling factor for use in high speed options, or for timestamping
-- The 4-bit header length field specifies the length of the header in 32-bit words. The header is usually 20 bytes (header length = 5), but is more when there are options present
+- The 4-bit header length field specifies the length of the header in 32-bit words. The header is usually 20 bytes (header length = 5), but is more when there are options present ^9a869a
 - The flag field consists of 8 bits:
 	- CWR and ECE are used in congestion notifications
 	- URG indicates that there is data in the segment that is marked as urgent by the sending application, and the last byte of that data is indicated using the 16 bit urgent data pointer
