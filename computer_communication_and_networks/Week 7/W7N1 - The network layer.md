@@ -1,6 +1,6 @@
 As we have seen, the transport layer provides process to process communication using the host to host communication provided by the network layer. We will now look at how the network layer achieves this.
 # Overview
-Unlike the above [[W2N4 - Protocol layering|layers]], the network layer is running on every host and every router between any two hosts on the same network. The network layer is divided into two components: the data plane and the control plane.
+Unlike the above [[W2N4 - Protocol layering|layers]], the network layer is running on every host and every router between any two hosts on the same network. The network layer is divided into two components: the [[W7N2 - Routers|data plane]] and the [[W8N1 - Control plane|control plane]].
 
 The primary role of the network layer is simple - it moves packets from a sending host to a receiving host. This requires two important functions to be performed:
 1. **Forwarding**: a router must move each packet on its input links to the appropriate output link
