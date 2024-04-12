@@ -1,0 +1,8 @@
+So far, we have viewed the network as a collection of interconnected routers where all routers execute the same routing algorithm. In reality, there are hundreds of millions of routers connected to the internet, and it is infeasible to store routing information for all possible destinations at each router. In addition, the internet is a network of ISPs, each managing a network of routers, and ideally each organisation should be able to operate its network as it pleases e.g. by running any routing algorithm or hiding parts of its internal organisation from the outside world.
+Both of these problems can be solved by organising routers into **autonomous systems (ASes)** - within which every router runs the same routing algorithm and have information about every other network. An **intra-autonomous system routing protocol** is a routing algorithm which runs within an AS.
+# Open shortest path first (OSPF)
+OSPF is an intra-AS routing system which uses [[W8N1 - Control plane#The link-state routing algorithm|link-state]] information flooding and Dijkstra's algorithm. Each router constructs a complete map of the entire AS, then uses Djikstra to determine the shortest path tree to all subnets, with itself as the root node. Individual link costs must be configured by the system administrator, giving them control over the behaviour of routed flows.
+Advantages of OSPF include:
+- **security**: link state updates may be authenticated, ensuring that only trusted routers can participate in the OSPF protocol
+- **multiple same-cost paths**: when multiple paths to a destination have the same cost, then both may be used
+- **hierarchy within ASes**: an OSPF AS can be broken down into smaller hierarchical areas, with each running its own OSPF link-state algorithm

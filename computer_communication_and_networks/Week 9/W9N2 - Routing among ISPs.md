@@ -1,0 +1,1 @@
+After dividing the internet into [[W9N1 - Large scale routing|autonomous systems]] we must then route packets between multiple ASes. Since an inter-AS routing algorithm involves multiple ASes, all ASes which want to communicate must run the same inter-AS algorithm. On the internet, all ASes run the same protocol, called the **Border Gateway Protocol (BGP)**. 
