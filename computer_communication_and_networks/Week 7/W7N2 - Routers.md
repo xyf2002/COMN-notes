@@ -12,7 +12,7 @@ There are several approaches to switching packets from an input port to an outpu
   ![[w7n2memorySwitching.png]]
 - **Switching via a bus**: here, the input port prepends an internal routing label to the packet indicating the correct output link. This is then written to a bus connecting all inputs to all outputs, and only the indicated output stores the packet. Here, the switching speed of the router is limited by the bus speed.
   ![[w7n2busSwitching.png]]
-- **Switching via an interconnection network**: by connecting a network of busses with toggleable connections at each intersection multiple packets can be routed in parallel. In the example below, a packet arriving at $B$ or $C$ could be routed to outputs $X$ or $Z$
+- **Switching via an interconnection network**: by connecting a network of busses with toggleable connections at each intersection multiple packets can be routed in parallel. In the example below, a packet arriving at $B$ or $C$ could be simultaneously routed to outputs $X$ or $Z$, alongside the current $A\rightarrow Y$ routing occurring
   ![[w7n2interconnectSwitching.png]]
 # Queuing
 Queuing occurs before switching and before transmission, and packets may be [[W2N3 - Network performance#Packet loss|dropped]] at either.
