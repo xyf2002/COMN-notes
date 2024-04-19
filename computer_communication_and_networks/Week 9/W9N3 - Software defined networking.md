@@ -1,0 +1,9 @@
+![[w9n3sdn.png]]
+**Software defined networking (SDN)** allows for much more fine-grained control over the routing of packets, which can involve complex actions (such as rewriting header fields) or use complex matching patterns (such as inspecting many different nested headers to determine the correct action). This is achieved using **packet switches** - level 2 switches extended with the ability to consider higher level protocols - and a **remote controller** running on a remote server.
+OpenFlow is a common standard for match-plus-action SDN. The OpenFlow 1.0 standard allows matching on 11 packet-header fields, along with the ingress port the packet arrived at: specifically `SrcMAC, DstMac, EthType, VlanId, VlanPri, IpSrc, IpDst, IpProto, IpTos, TcpUdpSrcPort, TcpUdpDstPort` are available fields for flow tables to match on. More recent OpenFlow versions have expanded the list to include 41 header fields.
+Each flow table entry additionally has a priority, with the highest priority match taking precedence, and some counters, which track values such as how many packets have been matched by that rule, or how long since a rule was last modified.
+## Actions
+Each flow table entry has a list of zero or more actions that determine what is done with a packet matching that entry. Among the most important are:
+- **forwarding**: a packet may be forwarded to a specific port, or broadcast to all ports other than the one it arrived on. The packet may be forwarded to the controller, which may take some action on that packet or update flow tables, and may return the packet to the device to be forwarded following some new rules
+- **dropping**: an entry with no actions drops all matching packets
+- **modify-field**: 10 of the packet-header fields (all bar `IpProto`) may be rewritten before the resulting packet is forwarded to a port
