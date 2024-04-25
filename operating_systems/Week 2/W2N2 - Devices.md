@@ -5,7 +5,7 @@
 	  - IO instructions are [[W1N3 - Syscalls#Privileged instructions|privileged]], so can only be called by the kernel.
 	  - IO ports have a separate address space to memory
 	    ![[w2n2ioPorts.png]]
-  - **Memory mapped IO:** instead of having separate IO and memory spaces, we can map buffers into the address space. Each buffer/register has a unique address, which has *no actual RAM memory for that address*. Such addresses are often at the top of the physical address space.
+  - **Memory mapped IO:** instead of having separate IO and memory spaces, we can map buffers into the address space. Each buffer/register has a unique address, which has *no physical RAM for that address*. Such addresses are often at the top of the physical address space.
     ![[w2n2memoryMapping.png]]
 # Direct memory access (DMA)
 The CPU can request data from an IO controller one byte at a time. This is fine for small data transfers, but wastes a lot of time for large transfers. This is fixed using a **DMA controller** which can transfer data for the CPU, either between memory and an IO device, or between 2 IO devices.

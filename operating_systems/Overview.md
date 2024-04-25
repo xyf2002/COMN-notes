@@ -1,0 +1,27 @@
+- [[W2N1 - OS Structure|Types of OS]]
+	- [[W2N1 - OS Structure#Monolithic OS|Monolithic]]: all OS operations occur within one kernel. Pros: low cost as no overhead from switching between components. Cons: difficult to maintain or modify. Used widely. Can be extended using kernel modules, which are compiled in or loaded at execution time.
+	- [[W2N1 - OS Structure#Layered OS|Layered]]: many layers, each presenting an interface to the layer above. Pros: each layer can be independently verified. Cons: The hierarchical structure doesn't hold, crossing layers has a cost. Most OSes uses a hardware abstraction layer, otherwise sees little use.
+	- [[W2N1 - OS Structure#Microkernel OS|Microkernel]]: kernel contains only the very basics: virtual memory, security, communication. Everything else is run in userspace. Pros: components are isolated, easy to extend or customise. Cons: worse performance as kernel boundary is crossed more frequently.
+- [[W2N2 - Devices|Devices]] are every peripheral that isn't the CPU or main memory
+	- Can use **IO ports** which need privileged instructions to interact
+	- Or **memory mapping**, where each register or buffer on that device has its own memory address that is not backed by RAM
+	- **Direct memory access (DMA) controllers** allow the CPU to transfer a large amount of data from a device directly into memory without passing through the CPU, which wastes cycles
+- [[W3N1 - Processes|Processes]] are an abstraction for execution and contain all the information required to resume a program that is executing
+	- Linux stores that information in the [[W3N1 - Processes#The PCB in Linux|process control block (PCB)]].
+	- Processes execute until they are stopped by an interrupt or they issue a system call. At this point a **context switch** occurs, and the OS takes over execution, performs an action, and returns control to a program.
+	- A process is either running, ready to run, or blocked waiting for an event to occur. The OS stores the list of processes in each of these states in state queues, one for each state, and one for each type of wait.
+	- [[W3N1 - Processes|UNIX creates processes]] when a parent calls the `fork` syscall, which makes a copy of the parent address space. The fork will usually then [[W3N1 - Processes#Fork and exec|exec]] another program, replacing the current process with the new program.
+	- [[W3N2 - Interprocess communication|Processes communicate]] between each other in one of two ways:
+		- **Shared memory**: a section of both processes address spaces are shared. Pros: fast access as the OS isn't involved past setting up the shared space. Cons: requires the application programmer to fully manage data transfer.
+		- **Message passing**: the processes use syscalls to send messages via OS provided syscalls. Pros: simpler. Cons: slower, less flexibility.
+			- Pipes allow a parent and child process to communicate using a pair of file descriptors. Writing to one can be read from the other.
+			- Sockets are endpoints for network/internal communications.
+			- Signals are one way notifications that come from the OS from errors or timers, or from other processes.
+	- [[W4N1 - Threads|Threads]] exist within processes, and have a private stack and registers, but share an address space and OS resources. This allows for easier communication between related threads.
+		- A process may contain 1 or more threads, but a thread is part of exactly one process. Threads are the unit of scheduling.
+		- [[W4N2 - Managing threads#Kernel-level threading|Kernel-level threading]] gives the kernel control over individual threads, with thread information is stored in the [[W4N1 - Threads#Thread control block (TCB)|Thread control block (TCB)]]. Pros: the OS can schedule threads individually, and not schedule them when they are blocked for IO. Cons: expensive due to context switching.
+		- [[W4N2 - Managing threads#User-level threading|User-level threading]] uses a userspace library to manage threads. Pros: can be 10-100x faster than kernel-level threading, gives precise control to the application program. Cons: The kernel doesn't know that multiple threads are running, and may block the whole process if any of those threads are waiting for IO.
+	- [[W4N3 - Scheduling basics|Scheduling]] is the process of deciding which thread runs next. Threads tend to consist of cycles of CPU bursts and IO bursts, so a thread doesn't need to be scheduled when its waiting for IO.
+		- There are 3 classes of schedulers: batch schedulers aim to maximise throughput or utilisation, interactive schedulers aim to minimise response times, real time schedulers must be ensure processes have below maximum latencies or response times.
+		- **Preemptive scheduling** can interrupt processes involuntarily, **non-preemptive scheduling** waits for a process to complete, voluntarily yield, or make a blocking call.
+		- 

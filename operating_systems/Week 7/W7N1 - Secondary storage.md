@@ -6,7 +6,7 @@ Secondary storage is:
 - **cheap**, often below £0.035/GB
 - **slow**, ms or us
 - **persistent**, so data is not lost when power is lost
-- **fail rarely**, hard drives often have a **mean time between failure (MTBF)** of many years (if you have a lot of drives there are still regular failures, e.g. 100,000 drives with a MTBF of 3 years results in 1 failure every 15 minutes)
+- **rare to fail**, hard drives often have a **mean time between failure (MTBF)** of many years (if you have a lot of drives there are still regular failures, e.g. 100,000 drives with a MTBF of 3 years results in 1 failure every 15 minutes)
 # Hard disk drives
 ![[w7n1hddPhysicalStructure.png]]
 A HDD consists a number of spinning platters, divided into tracks, which are then divided into sectors. Sectors are then read and written using a head, of which there is one per platter. Historically, to read a sector from disk, the OS would request a certain head, track, and sector to be read, but this requires the OS to keep track of a lot to locate a sector. Instead, we can use a **logical block address (LBA)**, which is mapped onto all sectors of the disk sequentially.
@@ -29,7 +29,7 @@ When the OS uses the disk, it tries to minimise these costs, using a number of a
 - Prefetching blocks before they are requested hides slow disk accesses, but has a risk of loading unneeded files into memory
 - Block scheduling
 ### Block scheduling
-As applications request data accesses from the OS, the OS maintains request queues, from which it generates transfer commands to/from the disks. The OS can modify the order of those block requests being satisfied, to minimise wait times, or ensure fairness. There are many approaches, including [[W4N4 - Scheduling algorithms#First-come first-served (FCFS)|FCFS]], or prioritising the request with the shortest seek time from the current location (**shortest seek time first (SSTF)**), or by scanning from one edge of the platter to the other and repeating (**SCAN** or **C-SCAN**).
+As applications request data accesses from the OS, the OS maintains request queues, from which it generates transfer commands to/from the disks. The OS can modify the order of those block requests being satisfied, to minimise wait times, or ensure fairness. There are many approaches, including [[W4N4 - Scheduling algorithms#First-come first-served (FCFS)|FCFS]], or prioritising the request with the shortest seek time from the current location (**shortest seek time first (SSTF)**), or by scanning from one edge of the platter to the other and repeating (**SCAN** - travel from left to right, then right to left, servicing requests in both directions - or **C-SCAN** - travel both directions, but only service requests when travelling rightward).
 #### Selecting a scheduling algorithm
 When there is only one pending request at a time, all algorithms behave like FCFS. SCAN and C-SCAN perform better for systems with heavy loads on disks, as they reduce the chance of a program starving due to a delayed disk access.
 #### In Linux

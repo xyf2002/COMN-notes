@@ -4,19 +4,19 @@ When designing an operating system, first we must define goals and specification
 It is important to separate policy (what will be done), and mechanism (how that is done).
 # Monolithic OS
 A **monolithic OS** has the entire operating system running within the kernel.
-![[w2n1monolithicKernel.png]]
+![[w2n1monolithickernel.png]]
 This has the major advantage that subsystem interactions have a low cost as there is no overhead from switching between components, however monolithic OSes tend to be hard to understand, modify, and maintain.
 # Layered OS
 A **layered OS** creates a series of layers, with each presenting an enhanced "virtual machine" to the layer above, e.g.
 
-| Layer | Name | Task |
-| ---- | ---- | ---- |
-| 5 | Job managers | Executes users programs |
-| 4 | Device manages | Handles devices and provides buffering |
-| 3 | Console manager | Implements virtual consoles |
-| 2 | Page manager | Implements virtual memories for each process |
-| 1 | Kernel | Implements a virtual processor for each process |
-| 0 | Hardware |  |
+| Layer | Name            | Task                                            |
+| ----- | --------------- | ----------------------------------------------- |
+| 5     | Job managers    | Executes users programs                         |
+| 4     | Device manages  | Handles devices and provides buffering          |
+| 3     | Console manager | Implements virtual consoles                     |
+| 2     | Page manager    | Implements virtual memories for each process    |
+| 1     | Kernel          | Implements a virtual processor for each process |
+| 0     | Hardware        |                                                 |
 This means that every layer can be tested and verified independently, but it also has many problems:
 1. It imposes a hierarchical structure which doesn't hold in reality
 	- e.g. file the file system requires virtual memory services, but virtual memory would also like to use files for its backing store
