@@ -13,7 +13,7 @@ typedef struct {
     lock_t lock;
 } semaphore_t;
 
-void wait(semaphore *S) {
+void wait(semaphore_t *S) {
 	lock(S->lock);
 	S->value--;
 	if (S->value < 0) {
@@ -25,7 +25,7 @@ void wait(semaphore *S) {
 	}
 }
 
-void signal(semaphore *S) {
+void signal(semaphore_t *S) {
 	lock(S->lock);
 	S->value++;
 	if (S->value <= 0) {

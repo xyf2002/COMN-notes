@@ -12,7 +12,7 @@ This is done using the **filesystem**, which maintains files - data - and direct
 # Files
 A file is an abstraction for disk resources, similar to [[W3N1 - Processes|processes]] for the CPU, or [[W6N2 - Virtual memory|virtual memory]] for physical memory.
 A file consists of:
-- Metadata, such as an owner, protection size, last access times, etc.
+- Metadata, such as an owner, protection, size, last access time, etc.
 - Data
 There are many types of files, some specific to the file system, such as directories, symlinks, and devices, and some to be used by other parts of the OS, or in libraries or applications, such as programs or alphanumeric/binary data. File types are either encoded in the name or content, Windows uses file extensions to the name (`.exe`, `.txt`, etc.), while Linux deducts the file type from the content, using a "magic number" in the header.
 ## Basic operations
