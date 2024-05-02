@@ -1,6 +1,6 @@
 - [[W2N1 - OS Structure|Types of OS]]
 	- [[W2N1 - OS Structure#Monolithic OS|Monolithic]]: all OS operations occur within one kernel. Pros: low cost as no overhead from switching between components. Cons: difficult to maintain or modify. Used widely. Can be extended using kernel modules, which are compiled in or loaded at execution time.
-	- [[W2N1 - OS Structure#Layered OS|Layered]]: many layers, each presenting an interface to the layer above. Pros: each layer can be independently verified. Cons: The hierarchical structure doesn't hold, crossing layers has a cost. Most OSes uses a hardware abstraction layer, otherwise sees little use.
+	- [[W2N1 - OS Structure#Layered OS|Layered]]: many layers, each presenting an interface to the layer above. Pros: each layer can be independently verified. Cons: The hierarchical structure doesn't hold, and crossing layers has a cost. Most OSes uses a hardware abstraction layer, otherwise sees little use.
 	- [[W2N1 - OS Structure#Microkernel OS|Microkernel]]: kernel contains only the very basics: virtual memory, security, communication. Everything else is run in userspace. Pros: components are isolated, easy to extend or customise. Cons: worse performance as kernel boundary is crossed more frequently.
 - [[W2N2 - Devices|Devices]] are every peripheral that isn't the CPU or main memory
 	- Can use **IO ports** which need privileged instructions to interact
@@ -22,7 +22,7 @@
 		- [[W4N2 - Managing threads#Kernel-level threading|Kernel-level threading]] gives the kernel control over individual threads, with thread information is stored in the [[W4N1 - Threads#Thread control block (TCB)|Thread control block (TCB)]]. Pros: the OS can schedule threads individually, and not schedule them when they are blocked for IO. Cons: expensive due to context switching.
 		- [[W4N2 - Managing threads#User-level threading|User-level threading]] uses a userspace library to manage threads. Pros: can be 10-100x faster than kernel-level threading, gives precise control to the application program. Cons: The kernel doesn't know that multiple threads are running, and may block the whole process if any of those threads are waiting for IO.
 	- [[W4N3 - Scheduling basics|Scheduling]] is the process of deciding which thread runs next. Threads tend to consist of cycles of CPU bursts and IO bursts, so a thread doesn't need to be scheduled when its waiting for IO.
-		- There are 3 classes of schedulers: batch schedulers aim to maximise throughput or utilisation, interactive schedulers aim to minimise response times, real time schedulers must be ensure processes have below maximum latencies or response times.
+		- There are 3 classes of schedulers: batch schedulers aim to maximise throughput or utilisation, interactive schedulers aim to minimise response times, real time schedulers must guarantee processes have below maximum latencies or response times.
 		- **Preemptive scheduling** can interrupt processes involuntarily, **non-preemptive scheduling** waits for a process to complete, voluntarily yield, or make a blocking call.
 		- There are many scheduling algorithms, including:
 			- [[W4N4 - Scheduling algorithms#First-come first-served (FCFS)|FCFS]]: processes run in the order they arrive
@@ -30,7 +30,7 @@
 			- [[W4N4 - Scheduling algorithms#Round robin (RR)|RR]]: each job runs for a preset amount of time called a quantum. After the quantum elapses the job is preempted, and the next process gets to run.
 			- [[W4N4 - Scheduling algorithms#Priority (PRIO)|PRIO]]: each process has a priority, and the highest priority runs first. This can be static (each process is assigned a priority by the developer or OS when it starts) or dynamic (calculated at runtime, e.g. based on the ratio of execution to waiting that process does, so IO bound processes take priority)
 			- [[W4N4 - Scheduling algorithms#Multiple queues (MQ)|MQ]]: a separate ready queue is maintained for each priority, with each priority queue being run in RR fashion.
-			- [[W4N4 - Scheduling algorithms#Multilevel feedback queue (MLFQ)|MLFQ]]: like MQ except each queue has a different quantum (lower prio get higher quantums) and processes start with the highest priority, and get moved to lower queues when they exceed their quantum. A process is moved to a higher priority when it becomes interactive
+			- [[W4N4 - Scheduling algorithms#Multilevel feedback queue (MLFQ)|MLFQ]]: like MQ except each queue has a different quantum (lower priority get higher quantas) and processes start with the highest priority, and get moved to lower queues when they exceed their quantum. A process is moved to a higher priority when it becomes interactive
 - [[W8N2 - Memory management|Memory management]] is the process of assigning specific parts of memory to different processes
 	- Memory is accessed by processes with a [[W6N2 - Virtual memory|virtual address]], which is translated to the corresponding physical address on RAM.
 	- Virtual memory is divided into equal size [[W6N1 - Non-contiguous memory allocation#Paging|pages]], and physical memory is divided into equal size frames.
