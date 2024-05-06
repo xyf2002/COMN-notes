@@ -24,11 +24,11 @@ Reusing the same setup as before, but this time with a peer to peer server, we n
 - The total upload capacity of the system as a whole is equal to the upload rate of the server plus the upload rates of each individual peer ($u_{total}=u_s+u_1+...+u_N$), so the system must upload $F$ bits to each of the $N$ peers, which cannot be done faster than $\frac{NF}{u_s+\sum^{N}_{i=1}u_i}$.
 We can then say the lower bound on distribution time for P2P, $D_{P2P}$ is:
 $$
-D_{P2P}\geq\left\{\frac{F}{u_s},\frac{F}{d_\min},\frac{NF}{u_s+\sum^{N}_{i=1}u_i}\right\}
+D_{P2P}\geq\max\left\{\frac{F}{u_s},\frac{F}{d_\min},\frac{NF}{u_s+\sum^{N}_{i=1}u_i}\right\}
 $$
 Again, we have a strategy to distribute a file at this lower bound, by the server sending 1 bit to each client, so:
 $$
-D_{P2P}=\left\{\frac{F}{u_s},\frac{F}{d_\min},\frac{NF}{u_s+\sum^{N}_{i=1}u_i}\right\}
+D_{P2P}=\max\left\{\frac{F}{u_s},\frac{F}{d_\min},\frac{NF}{u_s+\sum^{N}_{i=1}u_i}\right\}
 $$
 
 Again, in practice this isn't feasible as chunks of files are redistributed instead of single bits, but the lower bound is still a good approximation.

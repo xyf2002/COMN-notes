@@ -1,0 +1,77 @@
+- A **network** is a collection of **hosts**, **switches**, and **routers** all connected using **links**.
+	- A network has two parts:
+		- The [[W1N2 - Network edge|edge]]: hosts connected to the network.
+		- The [[W2N1 - Network core|core]]: all the connecting infrastructure that allows hosts to communicate with each other.
+	- Links use many [[W1N2 - Network edge#Physical media|different media]]
+	- The core has two jobs:
+		- **Forward** packets from each individual router's input links to the appropriate output link.
+		- Find the appropriate source destination **routes** for packets.
+	- A packet switch stores an entire packet, then forwards it once its been fully received.
+		- Each of these switches have a buffer on each input link that arriving packets are stored in. If that buffer fills up future arriving packets are **dropped**.
+	- A link is often shared between multiple devices, so it must be divided between them. There are two approaches:
+		- **Packet switching**: data is divided into packets, and at each router each packet is inspected and sent to the correct output link to continue its journey. This is complex but efficiently utilises the network.
+		- [[W2N1 - Network core#Circuit switching|Circuit switching]]: before data is sent a complete electronic circuit is completed between the start and end points of that communication. This guarantees good performance, but utilises links inefficiently.
+	- Usage of a link can be divided using [[W2N1 - Network core#Frequency division multiplexing (FDM)|frequency division multiplexing (FDM)]] or [[W2N1 - Network core#Time division multiplexing (TDM)|time division multiplexing (TDM)]].
+	- A [[W2N3 - Network performance|network's performance]] is based on a number of delays:
+		- **Processing delay** is the time it takes a router/switch to determine where a packet is meant to be going.
+		- **Queuing delay** is the time a packet waits in a queue to be transmitted.
+		- **Transmission delay** is the physical time taken to transmit a packet onto a link.
+		- **Propagation delay** is the time taken for a packet to propagate down a link to the next router.
+		- The **overall delay** is the sum of all of these parts.
+		- **Throughput** is the number of bits per second that can pass through a route. This is decided by the link with the lowest throughput divided by number of concurrent connections in a route.
+- The **internet** is the global network that connects much of our daily lives
+	- The internet is a "[[W2N2 - Internet structure|network of networks]]"
+		- Tier 1 ISPs provide national and international coverage
+		- Content provider networks connect datacenters to each other and to the internet
+		- Regional/access ISPs run small local networks or resell access to tier 1 ISPs
+		- **Internet exchange points (IXPs)** connect ISPs together
+- The internet is built out of [[W2N4 - Protocol layering|layered protocols]].
+	- The [[W3N4 - Application layer protocols|application layer]] contains user developed programs that connect to the internet.
+		- There are two main application architectures:
+			- [[W3N1 - Network applications#Client-server architecture|Client-server]]: an always on server responds to requests from many clients.
+			- [[W3N1 - Network applications#Peer-to-peer (P2P) architecture|Peer-to-peer (P2P)]]: pairs of intermittently connected hosts directly talk to each other.
+		- The interfaces between the application and transport layer are sockets.
+		- A host is identified by an IP address and a [[W3N1 - Network applications#Ports|port]], a 16 bit number which identifies an application.
+	- The [[W4N2 - Transport layer protocols|transport layer]] provides logical communication between processes running on different hosts.
+		- There are two main transportation services used in the internet:
+			- [[W3N3 - Transportation services#Transmission control protocol (TCP)|Transmission control protocol (TCP)]]: a reliable, stateful connection which guarantees all messages sent will be delivered and attempts to make fair use of the network.
+			- [[W3N3 - Transportation services#User datagram protocol (UDP)|User datagram protocol (UDP)]]: provides no guarantees and simply sends data as fast as the underlying network can take it.
+	- The [[W7N1 - The network layer|network layer]] provides logical communication between hosts.
+	- The [[W10N1 - Link layer|link layer]] provides logical communication over individual links.
+	- The physical layer is the physical link that carries each bit.
+- The [[W3N5 - The Web and HTTP|web]] is the collection of protocols and applications that enables the access and modification of websites. It includes web browsers and webservers.
+	- [[W3N5 - The Web and HTTP#HyperText transfer protocol (HTTP)|HyperText transfer protocol (HTTP)]] is the application layer protocol used for the web, and uses TCP as its transport protocol. It defines how a client requests a web page from the server, and what actions each can perform.
+		- An [[W3N5 - The Web and HTTP#HTTP request|HTTP request]] requests an object from the server, or modifies an object on the server.
+		- An [[W3N5 - The Web and HTTP#HTTP response|HTTP response]] is sent from the server after it receives a request, with a response code indicating the success of the operation and the data requested.
+		- HTTP is stateless, so if we want to track a session we must use [[W3N5 - The Web and HTTP#Cookies|cookies]].
+- [[W3N6 - E-mail|Email]] is an electronic messaging service. It consists of:
+	- [[W3N6 - E-mail#Mail servers|Mail servers]]: which store inbound emails for users to read, and processes and sends outbound emails.
+	- The [[W3N6 - E-mail#Simple mail transfer protocol (STMP)|simple mail transfer protocol (STMP)]]: the application layer protocol for internet email. It uses TCP, and has a client and server process running on each mail server.
+	- **User agents**: clients running on users' local machines, which communicate with mail servers using [[W3N6 - E-mail#Mail access protocols|mail access protocols]] to send emails or read delivered ones.
+- [[W3N7 - DNS|Domain name system (DNS)]] translates hostnames to IP addresses.
+	- It also allows for aliasing hostnames and mail servers, and rotating accesses to one hostname across a number of physical machines.
+	- DNS servers are organised in a [[W3N7 - DNS#DNS server hierarchy|hierarchy]], with each level providing the IP addresses of more specialised DNS servers, until one knows the full IP of the hostname.
+	- Requests can be resolved both **iteratively** (making a series of requests for larger and larger fragments of an address) and **recursively** (making a single request to which the server then requests another larger fragment).
+	- DNS requests are typically cached on a host, its local DNS server, and other DNS servers in the hierarchy, meaning that requests very rarely make it to a root server.
+	- [[W3N7 - DNS#DNS messages|DNS message format]]
+- [[W4N1 - Peer-to-peer file distribution|Peer-to-peer file distribution]] is an efficient way to transfer large files between many hosts.
+	- A traditional client-server setup has a [[W4N1 - Peer-to-peer file distribution#Client-server distribution time|lower bound]] on a data transfer of $$
+	D_{CS}\geq\max\left\{\frac{NF}{u_s},\frac{F}{d_\min}\right\}
+	$$
+	- A peer-to-peer system has a [[W4N1 - Peer-to-peer file distribution#P2P distribution time|lower bound]] of$$
+D_{P2P}\geq\max\left\{\frac{F}{u_s},\frac{F}{d_\min},\frac{NF}{u_s+\sum^{N}_{i=1}u_i}\right\}
+$$
+	- P2P will be [[W4N1 - Peer-to-peer file distribution#Comparing distribution time|much faster]] than client-server for any significant number of users attempting to download a file.
+	- [[W4N1 - Peer-to-peer file distribution#BitTorrent|BitTorrent]] is the most popular P2P file distribution protocol.
+- [[W4N2 - Transport layer protocols|Transport layer protocols]] transport **segments** between processes on different hosts.
+	- [[W4N3 - UDP|UDP]] is a simple, unreliable, stateless protocol.
+		- UDP is fast, gives control to the application, and has a [[W4N3 - UDP#UDP segment structure|small header]] consisting only of source and destination ports, segment length, and a checksum.
+		- It is used for streaming video or audio, internet calling, and DNS (among other things)
+	- [[W5N2 - TCP|TCP]] is a stateful, [[W5N1 - Principles of reliable data transfer|reliable]] protocol.
+		- [[W5N2 - TCP#TCP segment structure|TCP segment structure]].
+		- TCP [[W5N2 - TCP#Retransmission timers|sets a timeout based on estimated RTTs]].
+		- TCP uses a [[W5N2 - TCP#Setup|3-way handshake]] to initialise a connection.
+		- It also performs [[W5N3 - Principles of congestion control|congestion control]], to maximise the total shared utilisation of a link. There are 3 parts to the [[W5N4 - TCP congestion control|TCP congestion control]] algorithm:
+			1. **Slow start**: the congestion window increases by 1 MSS each time an ACK is received. When a loss occurs, the window is reset and the process repeats, but once it reaches half of the original congestion window it enters congestion avoidance mode.
+			2. **Congestion avoidance**: the congestion window is increased by 1 MSS each RTT. If a timeout occurs, slow start is reentered, but if 3 duplicate ACKs are received then the window is halved and fast recovery mode is entered.
+			3. **Fast recovery**: the congestion window is increased by 1 MSS each time a duplicate ACK is received for the missing segment. Once that segment is ACKed, TCP returns to congestion avoidance with the original congestion window set.
