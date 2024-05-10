@@ -75,3 +75,30 @@ $$
 			1. **Slow start**: the congestion window increases by 1 MSS each time an ACK is received. When a loss occurs, the window is reset and the process repeats, but once it reaches half of the original congestion window it enters congestion avoidance mode.
 			2. **Congestion avoidance**: the congestion window is increased by 1 MSS each RTT. If a timeout occurs, slow start is reentered, but if 3 duplicate ACKs are received then the window is halved and fast recovery mode is entered.
 			3. **Fast recovery**: the congestion window is increased by 1 MSS each time a duplicate ACK is received for the missing segment. Once that segment is ACKed, TCP returns to congestion avoidance with the original congestion window set.
+- [[W7N1 - The network layer|Network layer protocols]] move **datagrams** between different hosts.
+	- The network layer is running on every host and every router in a network.
+	- The internet's network layer uses the **Internet Protocol (IP)**, with two versions:
+		- [[W7N3 - IPv4|IPv4]] has 32 bit addressing, which has been pretty much exhausted, and can fragment messages if the MSS of a link decreases.
+			- To get around the address exhaustion, routers can use [[W7N3 - IPv4#Network address translation|network address translation (NAT)]], where it presents itself as a single device and remaps traffic through it to be addressed to the correct IPs.
+		- [[W7N4 - IPv6|IPv6]] has 128 bit addressing, and can [[W7N4 - IPv6#Transitioning from IPv4 to IPv6|tunnel]] IPv6 data over IPv4 to ease the transition.
+	- A network is divided into subnets by splitting it at every router. All interfaces in a subnet have the same subnet mask, e.g. 223.1.1.0/24, meaning the first 24 bits are the same for all of them.
+	- A [[W7N3 - IPv4#Dynamic host configuration protocol (DHCP)|DHCP server]] can be used to dynamically assign IP addresses to hosts when they connect to a network.
+	- It is divided into two components:
+		- The [[W7N2 - Routers|data plane]] [[W7N2 - Routers#Switching|forwards]] datagrams between input links and output links.
+		- The [[W8N1 - Control plane|control plane]] determines what routes should be used to move datagrams across networks using [[W8N1 - Control plane#Routing algorithms|routing algorithms]].
+			- The [[W8N1 - Control plane#The link-state routing algorithm|link-state routing algorithm]] has every router broadcast all its current link costs to every other router on the network, which then use that information to determine shortest paths.
+			- The [[W8N1 - Control plane#The distance-vector routing algorithm|distance-vector routing algorithm]] has each router only talk to its neighbours about its current distance vectors, and the network gradually converges on good routes.
+	- The internet is divided into [[W9N1 - Large scale routing|autonomous systems]], and each AS can run its own internal routing algorithm, while all inter-AS routes go through the [[W9N2 - Routing among ISPs|border gateway protocol]]
+	- [[W9N3 - Software defined networking|SDN]] allows for fine-grained programmatic control over packet routing by separating the control plane onto remote servers. Each router is then programmed with a number of [[W9N3 - Software defined networking#Actions|actions]] it should perform on matching packets.
+- [[W10N1 - Link layer|Link layer protocols]] transmit **frames** across individual links.
+	- [[W11N1 - Switched local networks#Ethernet|Ethernet]] is a common link layer protocol.
+	- The link layer provides [[W10N1 - Link layer#Error detection and correction|error detection and correction]].
+	- Links may have [[W10N2 - Multiple access links|several nodes all trying to send and receive at the same time]], and can use many algorithms to determine who's turn it is.
+		- [[W10N2 - Multiple access links#Channel partitioning protocols|Channel partitioning protocols]] divide links into slots and statically allocates each device a number of the slots. It is inefficient on its own.
+		- [[W10N2 - Multiple access links#Random access protocols|Random access protocols]] have each node transmit as it wants, but when a collision occurs the colliding nodes wait a random amount of time before trying again.
+		- [[W10N2 - Multiple access links#Taking turns protocols|Taking turns protocols]] use a central server or special messages to grant individual devices a period of time during which they have full usage of the link.
+		- In reality, all of these approaches are used simultaneously, such as [[W10N2 - Multiple access links#Carrier sense multiple access with collision detection (CMSA/CD)|CMSA/CD]] for Ethernet or [[W10N2 - Multiple access links#DOCSIS|DOCSIS]] for cable internet.
+	- The [[W11N1 - Switched local networks#Address resolution protocol (ARP)|ARP]] is used to map IP addresses to MAC addresses.
+	- [[W11N1 - Switched local networks|Switches]] operate at the link layer, and are invisible to the network.
+		- The [[W11N1 - Switched local networks#Switch table|switch table]] determines what interface a switch formats each frame to. It is dynamically built based on traffic passing through it.
+		- Switches are often used to make star networks, which prevent collisions, and can be used to allow multiple different links to be used in the same LAN.
